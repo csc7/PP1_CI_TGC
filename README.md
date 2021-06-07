@@ -1,1 +1,1 @@
-# milestone-project-1
+# TGC - The Green Company
