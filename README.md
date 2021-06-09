@@ -108,7 +108,12 @@ EXPLAIN
 * Balsamiq Wireframes: I have used it to create all the wireframes.
 * ...
 * Font Awesome:
-    * Logo of "The Green Company": downloaded June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i>
+    * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i>
+    * ...
+* Bootstrap:
+    * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    * "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
+
 # Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * Code Institute, for providing knowledge, guide and tools.
