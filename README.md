@@ -57,7 +57,8 @@ EXPLAIN
 # Colors
 EXPLAIN
 # Fonts
-EXPLAIN
+Google fonts, https://fonts.google.com/, were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.\
+Arial font is used as a back-up in case the previous fonts cannot be loaded.
 # Structure
 Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
 
@@ -105,6 +106,7 @@ EXPLAIN
 EXPLAIN
 # Credit
 * Code Institute: I have used the learning material in the course as a guide and reference.
+* Love Running - Essentials Project, from Code Institute, as main guide and source of design concepts and code for this project.
 * Balsamiq Wireframes: I have used it to create all the wireframes.
 * ...
 * Font Awesome:
@@ -113,6 +115,8 @@ EXPLAIN
 * Bootstrap:
     * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
     * "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
+* Google:
+    * Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
 
 # Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
