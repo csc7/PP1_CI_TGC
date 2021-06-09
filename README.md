@@ -52,6 +52,8 @@ EXPLAIN
 # Fonts
 EXPLAIN
 # Structure
+Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
+
 In order to achive the goals related to easiness and/or simplicity, a navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
 
 This "quick" button, whose name is "Request Service", pops up a modal form where the user is able to contract specific services.
