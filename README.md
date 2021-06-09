@@ -37,13 +37,20 @@ Specifically, the goals are the following ones:
 * To show another page with a brief description of the company.
 * To show another page with the services that the company is able to offer.
 * To provide a simple contact form where the client feels that privacy is respected.
-* To offer a quick option, through a button, to contract services.
+* To offer a quick call to action, through a button, to contract services.
 
 # User Requirements and Expectations
 * To find a website that summarises as many geophysical services as possible.
 * To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing communications.
 * To be able to easily contact services if needed.
 * To easily find basic information, location, contact details, and social media information of the company.
+
+UX:\
+STRATEGY\
+SCOPE\
+STRUCTURE\
+SKELETON\
+SURFACE\
 
 # Design Choices
 EXPLAIN
@@ -59,7 +66,7 @@ In order to achive the goals related to easiness and/or simplicity, a navigation
 This "quick" button, whose name is "Request Service", pops up a modal form where the user is able to contract specific services.
 
 The body of the pages are structured as follows for each of the pages:
-* Home: it contains a typical picture of a geophysical service with a brief introduction of what the company is able to offer.\
+* Home: it contains hero image with a typical picture of a geophysical service with a brief introduction of what the company is able to offer.\
 To keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
 * About Us: it has an upper section, divided in three subsections, where a picture, title and text for the following items are allocated: Mission, Values and Vision. In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
 This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the projects of the company.\
@@ -100,6 +107,8 @@ EXPLAIN
 * Code Institute: I have used the learning material in the course as a guide and reference.
 * Balsamiq Wireframes: I have used it to create all the wireframes.
 * ...
+* Font Awesome:
+    * Logo of "The Green Company": downloaded June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i>
 # Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * Code Institute, for providing knowledge, guide and tools.
