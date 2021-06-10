@@ -13,7 +13,7 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: azure;
+    background-color: rgb(188, 231, 177);
 }
 
 /* headings */
@@ -24,6 +24,10 @@ h1, h2 {
 }
 
 /* header */
+
+header {
+    background-color: rgb(160, 224, 160);
+}
 
 .fas {
     color: #00cc00;
@@ -78,6 +82,13 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-bottom: 1px solid #00cc00;
 }
 
+/* section separator */
+.video-separator {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(160, 224, 160);
+}
+
 /* backround video in home page */
 #background-video {
     width: 100%;
@@ -110,7 +121,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* footer */
 
 footer {
-    height: 10px;
+    height: 100px;
 }
 
 .social-contact-links {
