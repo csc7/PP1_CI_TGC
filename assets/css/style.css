@@ -31,14 +31,20 @@ h1, h2 {
     color: #00cc00;
 }
 
-#company-logo h1{
+#company-logo{
+    float: left;
     font-size: 300%;
-    color:  #276609;
+    color:  #73ac3e;
 }
 
+/* CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from
+https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #nav-menu {
     float: right;
     font-size: 150%;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: reverse;
 }
 
 #nav-menu a {
@@ -47,39 +53,25 @@ h1, h2 {
 }
 
 #nav-menu li {
-    float: right;
+    float: left;
+    margin:0 auto;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 50px;
 }
 
-/* Reverse list items,
-code adapted from Stackoverflow on June 10th, 2021, 03:50, from
-https://stackoverflow.com/questions/25695000/how-to-display-a-reverse-ordered-list-in-html
-*/
-header > nav > ul {
-    transform: rotate(180deg);
-}
-
-header > nav > ul > li {
-    transform: rotate(-180deg);
-}
-/* end of reverse list items */
 
 .btn {
     font-family: 'Baloo Tammudu 2';
     background-color:  #135f13;
 }
 
-header > button {
-    float: right;
-    font-size: 150%;
-}
-
-#nav-menu, #company-logo h1, .btn {
+#nav-menu, #company-logo {
     line-height: 50px;
 }
 
 .active-page {
-    color: #00cc00;
+    /*color: #00cc00;*/
+    color: red;
 }
 
