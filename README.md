@@ -71,7 +71,7 @@ In order to achive the goals related to easiness and/or simplicity, a navigation
 This "quick" button, whose name is "Request Service", pops up a modal form where the user is able to contract specific services.
 
 The body of the pages are structured as follows for each of the pages:
-* Home: it contains hero image with a typical picture of a geophysical service with a brief introduction of what the company is able to offer.\
+* Home: it contains an environmental-friendly background video with a slogan of the company and the services it offers.\
 To keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
 * About Us: it has an upper section, divided in three subsections, where a picture, title and text for the following items are allocated: Mission, Values and Vision. In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
 This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the projects of the company.\
@@ -115,6 +115,7 @@ EXPLAIN
 * ...
 * Font Awesome:
     * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i>
+    * Icos for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2
     * ...
 * Bootstrap:
     * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/

@@ -106,3 +106,24 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 .content p {
     color: #00cc00;
 }
+
+/* footer */
+
+footer {
+    height: 10px;
+}
+
+.social-contact-links {
+    text-align: center;
+}
+
+.social-contact-links > li {
+    display: inline;
+}
+
+.social-contact-links i {
+    font-size: 300%;
+    padding: 1%;
+    color: cadetblue;
+    
+}
