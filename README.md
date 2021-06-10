@@ -125,6 +125,7 @@ EXPLAIN
     * References for coding.
     * Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp
     * CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
+    * Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 * Stackoverflow:
 
 

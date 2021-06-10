@@ -20,8 +20,7 @@ body {
 
 h1, h2 {
     font-family: 'Baloo Tammudu 2';
-    /*color: #276609;*/
-    color: red;
+    color: #276609;
 }
 
 /* header */
@@ -60,6 +59,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin-left: 25px;
 }
 
+/* modal button */
 .btn {
     font-family: 'Baloo Tammudu 2';
     font-size: 110%;
@@ -78,4 +78,31 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-bottom: 1px solid #00cc00;
 }
 
+/* backround video in home page */
+#background-video {
+    width: 100%;
+    height: 700px;
+    clip-path: inset(0 400 100 0);
+    overflow:hidden;
+}
+/* text content in video */
+.content {
+    text-align: left;
+    position: absolute;
+    top: 150px;
+    height: 20%;
+    width: 40%;
+    padding: 50px 50px 50px 50px;
+}
 
+.content h1 {
+    color: #00cc00;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content p {
+    color: #00cc00;
+}
