@@ -55,10 +55,14 @@ SURFACE\
 # Design Choices
 EXPLAIN
 # Colors
-EXPLAIN
+Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
+The background color is azure in order to have contrast with the content of the website while keeping the green-color tendency of the design.
 # Fonts
 Google fonts, https://fonts.google.com/, were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.\
-Arial font is used as a back-up in case the previous fonts cannot be loaded.
+Arial font is used as a back-up in case the previous fonts cannot be loaded.\
+Color #003300 (dark green) was selected for the body in order to have strong contrast with the white background of the body.\
+To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected; while #276609 is selected to highlight all headings.\
+The name of the company in the logo uses #276609 to have a unique color.
 # Structure
 Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
 
@@ -117,6 +121,12 @@ EXPLAIN
     * "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
 * Google:
     * Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
+* W3Schools:
+    * References for coding.
+    * Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp
+* Stackoverflow_
+    * Help for reversing list items, code adapted from Stackoverflow on June 10th, 2021, 03:50, from
+https://stackoverflow.com/questions/25695000/how-to-display-a-reverse-ordered-list-in-html
 
 # Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:

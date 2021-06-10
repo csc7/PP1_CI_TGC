@@ -11,5 +11,75 @@ from https://fonts.google.com/ */
 }
 
 body {
-    font-family: 'Baloo Tammudu 2', Arial;
+    font-family: 'Roboto', Arial;
+    font-weight: 500;
+    color: #003300;
+    background-color: azure;
 }
+
+/* headings */
+
+h1, h2 {
+    font-family: 'Baloo Tammudu 2';
+    /*color: #276609;*/
+    color: red;
+}
+
+/* header */
+
+.fas {
+    color: #00cc00;
+}
+
+#company-logo h1{
+    font-size: 300%;
+    color:  #276609;
+}
+
+#nav-menu {
+    float: right;
+    font-size: 150%;
+}
+
+#nav-menu a {
+    font-family: 'Baloo Tammudu 2';
+    color: #135f13;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+/* Reverse list items,
+code adapted from Stackoverflow on June 10th, 2021, 03:50, from
+https://stackoverflow.com/questions/25695000/how-to-display-a-reverse-ordered-list-in-html
+*/
+header > nav > ul {
+    transform: rotate(180deg);
+}
+
+header > nav > ul > li {
+    transform: rotate(-180deg);
+}
+/* end of reverse list items */
+
+.btn {
+    font-family: 'Baloo Tammudu 2';
+    background-color:  #135f13;
+}
+
+header > button {
+    float: right;
+    font-size: 150%;
+}
+
+#nav-menu, #company-logo h1, .btn {
+    line-height: 50px;
+}
+
+.active-page {
+    color: #00cc00;
+}
+
