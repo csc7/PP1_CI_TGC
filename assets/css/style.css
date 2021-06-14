@@ -25,29 +25,39 @@ h1, h2 {
 
 /* header */
 
-header {
-    background-color: rgb(160, 224, 160);
+#header-common {
+    /*background-color: rgb(160, 224, 160);*/
+    background-color: rgb(160, 95, 140);
 }
 
 .fas {
     color: #00cc00;
+    background-color: rgb(160, 95, 140);
 }
 
 #company-logo{
     float: left;
+    width: 25%;
+    height: 150px;
     font-size: 600%;
     font-weight: bold;
     color:  #73ac3e;
-    margin: 10px 10px 0px 10px;
+    padding: 10px 0px 0px 10px;
+    /*margin-bottom: 0px;*/
+    background-color: rgb(160, 95, 140);
 }
 
 /* CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from
 https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #nav-menu {
-    float: right;
+    /*float: right;*/
+    width: 75%;
+    height: 150px;
     font-size: 150%;
+    padding: 10px 0px 0px 0px;
     display: flex;
     flex-direction: reverse;
+    background-color: rgb(160, 95, 140);
 }
 
 #nav-menu a {
@@ -116,6 +126,85 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 .content p {
     color: #00cc00;
+}
+
+/* About Us page */
+#mission-values-vision-columns {
+    height: 100%;
+}
+
+#mision-column {
+    width: 33%;  
+    float: left;
+    height: 200px;
+    background-color: green;
+}
+
+#values-column {
+    width: 34%;
+    float: left;
+    height: 200px;
+    background-color: blue;
+}
+
+#vision-column {
+    width: 33%;
+    float: right;
+    height: 200px;
+    background-color: silver;
+}
+
+#values-list {
+    list-style-type:  none;
+}
+
+.about-us-page-images {
+    height: 100px;
+    width: 100%;
+}
+
+.about-us-page-headings {
+
+}
+
+#projects-table {
+     style="width:100%"
+}
+
+/* Our Services page */
+#services-columns {
+    height: 1236px;
+
+}
+  
+#left-column {
+    width: 33%;  
+    float: left;
+    height: 100%;
+    background-color: green;
+}
+
+#middle-column {
+    width: 34%;
+    float: left;
+    height: 100%;
+    background-color: blue;
+}
+
+#right-column {
+    width: 33%;
+    float: right;
+    height: 100%;
+    background-color: silver;
+}
+
+.our-services-image {
+    height: 100px;
+    width: 100%;
+}
+
+.our-services-heading {
+
 }
 
 /* footer */
