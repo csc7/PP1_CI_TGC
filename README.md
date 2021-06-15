@@ -1,7 +1,7 @@
 # TGC - The Green Company
 This repository belongs to my first milestone project in the Full-stack Development course at Code Institute, covering HTML and CSS along with Git version control and other design tools.
 
-The live link for this projects is [this one](http://www)
+The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/)
 
 # Project Goals
 The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the curren energy transition towards greener energies and less CO2 emissions.
