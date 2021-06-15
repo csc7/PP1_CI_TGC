@@ -13,7 +13,7 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: rgb(204, 226, 218)
+    background-color: rgb(171, 238, 213)
     /* for a general margin all over the website*/
     /*padding: 20px 20px 20px 20px;*/
 }
@@ -182,6 +182,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    background-color: rgb(206, 245, 194);
 }
 
 #projects-table th{
@@ -205,6 +206,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    background-color: rgb(206, 245, 194);
 }
 
 #departments-table th{
@@ -223,37 +225,54 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* Our Services page */
 
 #services-columns {
-    height: 1236px;
-}
-  
-#left-column {
-    width: 33%;  
-    float: left;
-    height: 100%;
-    background-color: green;
+    height: 1100px;
 }
 
-#middle-column {
-    width: 34%;
+#left-column {
+    margin-left: 5%;
+    width: 30%;  
     float: left;
     height: 100%;
-    background-color: blue;
+    color: white;
+    text-align: center;
+ }
+
+#middle-column {
+    width: 30%;
+    float: left;
+    height: 100%;
+    color: white;
+    text-align: center;
 }
 
 #right-column {
-    width: 33%;
-    float: right;
+    margin-right: 5%;
+    width: 30%;
+    float: left;
     height: 100%;
-    background-color: silver;
+    color: white;
+    text-align: center;
+    
 }
 
-.our-services-image {
-    height: 100px;
-    width: 100%;
+.our-services-page-images {
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 5% 2% 5%;
 }
 
-.our-services-heading {
+.our-services-headings {
+    font-family: 'Baloo Tammudu 2';
+    font-size: 150%;
+    color: white;
+}
 
+.our-services-headings ~ p {
+    font-family: 'Roboto', Arial;
+    font-size: 125%;
+    color: #135f13;
 }
 
 /* footer */
