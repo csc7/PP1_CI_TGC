@@ -13,7 +13,9 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: rgb(206, 245, 194);
+    background-color: rgb(204, 226, 218)
+    /* for a general margin all over the website*/
+    /*padding: 20px 20px 20px 20px;*/
 }
 
 /* headings */
@@ -25,14 +27,8 @@ h1, h2 {
 
 /* header */
 
-#header-common {
-    /*background-color: rgb(160, 224, 160);*/
-    background-color: rgb(160, 95, 140);
-}
-
 .fas {
     color: #00cc00;
-    background-color: rgb(160, 95, 140);
 }
 
 #company-logo{
@@ -43,21 +39,19 @@ h1, h2 {
     font-weight: bold;
     color:  #73ac3e;
     padding: 10px 0px 0px 10px;
-    /*margin-bottom: 0px;*/
-    background-color: rgb(160, 95, 140);
+    background-color: rgb(206, 245, 194);
 }
 
 /* CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from
 https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #nav-menu {
-    /*float: right;*/
     width: 75%;
     height: 150px;
     font-size: 150%;
     padding: 10px 0px 0px 0px;
     display: flex;
-    flex-direction: reverse;
-    background-color: rgb(160, 95, 140);
+    /*flex-direction: reverse;*/
+    background-color: rgb(206, 245, 194);
 }
 
 #nav-menu a {
@@ -67,19 +61,19 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 #nav-menu li {
     float: left;
-    margin:0 auto;
     list-style-type: none;
     margin-right: 25px;
     margin-left: 25px;
 }
 
 /* modal button */
+
 .btn {
     font-family: 'Baloo Tammudu 2';
-    font-size: 110%;
+    font-size: 100%;
     background-color:  #135f13;
     margin: 25px 25px 50px 25px;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px -10px 10px;
     border: 3px solid #00cc00;
 }
 
@@ -92,20 +86,21 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-bottom: 1px solid #00cc00;
 }
 
-/* section separator */
-.video-separator {
-    height: 5px;
-    width: 100%;
-    background-color: rgb(160, 224, 160);
-}
-
 /* backround video in home page */
 #background-video {
     width: 100%;
     height: 700px;
-    clip-path: inset(0 400 100 0);
-    overflow:hidden;
+    clip-path: inset(0 498 100 0);
+    overflow: hidden;
 }
+
+/* section separator */
+.section-separator {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(160, 224, 160);
+}
+
 /* text content in video */
 .content {
     text-align: left;
@@ -129,52 +124,106 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 }
 
 /* About Us page */
-#mission-values-vision-columns {
-    height: 100%;
-}
 
 #mision-column {
-    width: 33%;  
+    width: 33%;
     float: left;
-    height: 200px;
-    background-color: green;
+    height: 700px;
 }
 
 #values-column {
     width: 34%;
     float: left;
-    height: 200px;
-    background-color: blue;
+    height: 700px;
 }
 
 #vision-column {
     width: 33%;
     float: right;
-    height: 200px;
-    background-color: silver;
+    height: 700px;
 }
 
 #values-list {
     list-style-type:  none;
+    text-align: center;
 }
 
-.about-us-page-images {
-    height: 100px;
+#mission-values-vision, #values-list > li {
+    font-family: 'Baloo Tammudu 2';
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+
+.about-us-images {
+    height: 100%;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 5% 5% 5%;
 }
 
-.about-us-page-headings {
+.about-us-section {
+}
 
+.about-us-divs {
+}
+
+.about-us-headings {
+    color: #00cc00;
+    text-align: center;
 }
 
 #projects-table {
-     style="width:100%"
+    width: 50%;
+    text-align: center;
+    border: 10px solid rgb(160, 224, 160);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#projects-table th{
+    background-color: rgb(160, 224, 160);
+    font-family: 'Baloo Tammudu 2';
+    font-size: 150%;
+    color: white;
+}
+
+#projects-table tr {
+    font-family: 'Roboto', Arial;
+    font-size: 125%;
+    color: #135f13;
+}
+
+#departments-table {
+    width: 30%;
+    text-align: center;
+    border: 10px solid rgb(160, 224, 160);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#departments-table th{
+    background-color: rgb(160, 224, 160);
+    font-family: 'Baloo Tammudu 2';
+    font-size: 150%;
+    color: white;
+}
+
+#departments-table tr {
+    font-family: 'Roboto', Arial;
+    font-size: 125%;
+    color: #135f13;
 }
 
 /* Our Services page */
+
 #services-columns {
     height: 1236px;
-
 }
   
 #left-column {
@@ -211,19 +260,22 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 footer {
     height: 100px;
+    background-color: rgb(206, 245, 194);
 }
 
 .social-contact-links {
     text-align: center;
+    background-color: rgb(206, 245, 194);
 }
 
 .social-contact-links > li {
     display: inline;
+    background-color: rgb(206, 245, 194);
 }
 
 .social-contact-links i {
     font-size: 300%;
     padding: 1%;
     color: cadetblue;
-    
+    background-color: rgb(206, 245, 194);
 }
