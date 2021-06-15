@@ -303,6 +303,12 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     background-color: greenyellow; 
 }
 
+/* Leaflet */
+#map-location {
+    width: 250px;
+    height: 250px;
+}
+
 /* footer */
 
 footer {
