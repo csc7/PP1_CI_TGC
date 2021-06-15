@@ -275,6 +275,34 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     color: #135f13;
 }
 
+/* Contact Us page */
+
+#contact-us-columns {
+    height: 700px;
+}
+
+#contact-us-left-column {
+    float: left;
+    margin-left: 5%;
+    width: 45%;
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    background-color: aqua;
+}
+
+#contact-us-right-column {
+    margin-right: 5%;
+    width: 45%;
+    height: 100%;
+    float: right;
+    color: white;
+    text-align: center;  
+    float: right;
+    background-color: greenyellow; 
+}
+
 /* footer */
 
 footer {
