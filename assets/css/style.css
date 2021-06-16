@@ -157,11 +157,14 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 }
 
 .about-us-images {
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+    /*margin-left: auto;
     margin-right: auto;
-    padding: 5% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;*/
+    border: 5px solid #135f13;
+   
 }
 
 .about-us-section {
@@ -178,11 +181,11 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #projects-table {
     width: 50%;
     text-align: center;
-    border: 10px solid rgb(160, 224, 160);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     background-color: rgb(206, 245, 194);
+    border: 5px solid #135f13;
 }
 
 #projects-table th{
@@ -201,8 +204,8 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #departments-table {
     width: 30%;
     text-align: center;
-    border: 10px solid rgb(160, 224, 160);
-    margin-top: auto;
+    border: 5px solid #135f13;
+     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -288,7 +291,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     height: 100%;
     color: white;
     text-align: center;
-    background-color: aqua;
 }
 
 #contact-us-right-column {
