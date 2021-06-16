@@ -151,48 +151,76 @@
         </div>
         <div id="contact-us-right-column">
             <form id="contact-us-form" action="https://" method="POST">
-                <div>
-                    <label for="name-field">Name</label>
-                    <input id="name-field" type="text" name="name" placeholder="Your name">
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="name-field">Name</label>
+                    </div>
+                    <div class="form-row-input">
+                        <input id="name-field" type="text" name="name" placeholder="Your name">
+                    </div>
                 </div>
-                <div>
-                    <label for="surname-field">Surname</label>
-                    <input id="surname-field" type="text" name="surname" placeholder="Your surname">
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="surname-field">Surname</label>
+                    </div>
+                    <div class="form-row-input">
+                        <input id="surname-field" type="text" name="surname" placeholder="Your surname">
+                    </div>
                 </div>
-                <div>
-                    <label for="city-field">Surname</label>
-                    <input id="city-field" type="text" name="city" placeholder="Your city">
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="city-field">Surname</label>
+                    </div>
+                    <div class="form-row-input">
+                        <input id="city-field" type="text" name="city" placeholder="Your city">
+                    </div>
                 </div>          
-                    <div>
+                <div class="form-row">
+                    <div class="form-row-label">
                         <label for="telephone">Telephone</label>
+                    </div>
+                    <div id="form-row-input-telephone">
                         <input id="telephone" type="tel" name="telephone" placeholder="Your telephone">
                     </div>
+                </div>
+                <div>
                     <div>
                         <input id="telephone-checkbox" type="checkbox" name="telephone-checkbox">
+                    </div>
+                    <div>
                         <label for="telephone-checkbox">Can we call you?</label>
                     </div>
-                <div>
+                </div>
+                <div class="form-row">
+                    <div class="form-row-label">
                         <label for="email-field">Email</label>
+                    </div>
+                    <div class="form-row-input">
                         <input id="email-field" type="email" name="email" placeholder="Your email">
+                    </div>
                 </div>
-                <div>
-                    <label for="department-list">Department to Contact</label>
-                    <select id="department-list" name="department-list">
-                        <option value="Acquisition">Acquisition</option>
-                        <option value="Processing">Processing</option>
-                        <option value="Imaging">Imaging</option>
-                        <option value="Geothermal">Geothermal</option>
-                        <option value="Solar">Solar</option>
-                        <option value="Wind">Wind</option>
-                        <option value="CCS">CCS</option>
-                        <option value="Site Survey">Site Survey</option>
-                        <option value="Modelling">Modelling</option>
-                        <option value="Feasibility">Feasibility</option>
-                        <option value="Well Data">Well Data</option>
-                        <option value="Supervision">Supervision</option>
-                    </select>
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="department-list">Department to Contact</label>
+                    </div>
+                    <div class="form-row-input">
+                        <select id="department-list" name="department-list">
+                            <option value="Acquisition">Acquisition</option>
+                            <option value="Processing">Processing</option>
+                            <option value="Imaging">Imaging</option>
+                            <option value="Geothermal">Geothermal</option>
+                            <option value="Solar">Solar</option>
+                            <option value="Wind">Wind</option>
+                            <option value="CCS">CCS</option>
+                            <option value="Site Survey">Site Survey</option>
+                            <option value="Modelling">Modelling</option>
+                            <option value="Feasibility">Feasibility</option>
+                            <option value="Well Data">Well Data</option>
+                            <option value="Supervision">Supervision</option>
+                        </select>
+                    </div>
                 </div>
-                <div>
+                <div class="form-row">
                     <div>
                         <input type="radio" id="commercial" name="commercial">
                         <label for="commercial">Commercial</label>
@@ -202,12 +230,17 @@
                         <label for="technical">Technical</label>
                     </div>
                 </div>  
-                <div>
-                    <label for="description">Description</label>
-                    <br>
-                    <textarea id="description" rows="10" cols="40" name="description" placeholder="Describe your consultation"></textarea>
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="description">Description</label>
+                    </div>
+                    <div class="form-row-input">
+                        <textarea id="description" rows="10" cols="40" name="description" placeholder="Describe your consultation"></textarea>
+                    </div>
                 </div>
-                <input type="submit" value="Send">
+                <div class="form-row">
+                    <input type="submit" value="Send">
+                </div>
             </form>
         </div>
     </section>

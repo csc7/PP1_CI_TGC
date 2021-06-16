@@ -328,11 +328,50 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-radius: 3%;  
 }
 
+
+
 #contact-us-form {
-    margin: auto;
-    padding: 5%;
+    margin-top: 5%;
+    font-family: 'Roboto', Arial;
+    font-size: 125%;
+    color: #135f13;
+    border: 5px solid #135f13;
+    border-radius: 3%; 
+    background-color: rgb(206, 245, 194);
+    padding: 0px;
+}
+  
+.form-row-label {
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+}
+  
+.form-row-input {
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: 2px solid #135f13;
+}
+  
+#form-row-input-telephone {
+    text-align: left;
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    padding-left: 0px;
+    border: 2px solid #135f13;  
+    display: inline;  
 }
 
+#telephone-checkbox {
+    float: left;
+    display: inline;  
+}
 
 /* footer */
 
