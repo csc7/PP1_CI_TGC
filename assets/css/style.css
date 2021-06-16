@@ -385,7 +385,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin-left: 300px;
 }
 
-input[type=submit] {
+#submit-form-button {
     font-family: 'Baloo Tammudu 2';
     font-size: 125%;
     background-color:  #135f13;
