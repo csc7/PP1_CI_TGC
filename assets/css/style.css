@@ -167,11 +167,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
    
 }
 
-.about-us-section {
-}
-
-.about-us-divs {
-}
 
 .about-us-headings {
     color: #00cc00;
@@ -300,7 +295,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     height: 100%;
     color: white;
     text-align: center;  
-    background-color: greenyellow; 
 }
 
 #office-image {
@@ -390,6 +384,20 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #commercial {
     margin-left: 300px;
 }
+
+input[type=submit] {
+    font-family: 'Baloo Tammudu 2';
+    font-size: 125%;
+    background-color:  #135f13;
+    color: white;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid #00cc00;
+}
+
+
 
 /* footer */
 
