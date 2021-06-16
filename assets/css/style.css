@@ -278,7 +278,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* Contact Us page */
 
 #contact-us-columns {
-    height: 700px;
+    height: 800px;
 }
 
 #contact-us-left-column {
@@ -286,27 +286,35 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin-left: 5%;
     width: 45%;
     height: 100%;
-    float: left;
     color: white;
     text-align: center;
     background-color: aqua;
 }
 
 #contact-us-right-column {
+    float: right;
     margin-right: 5%;
     width: 45%;
     height: 100%;
-    float: right;
     color: white;
     text-align: center;  
-    float: right;
     background-color: greenyellow; 
 }
 
-/* Leaflet */
+#office-image {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    padding: 5%;
+    
+}
+
+/* Google Map */
 #map-location {
-    width: 250px;
-    height: 250px;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    
 }
 
 /* footer */
