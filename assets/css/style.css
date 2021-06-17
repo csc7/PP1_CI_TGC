@@ -237,55 +237,9 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 /* Our Services page */
 
-#services-columns {
-    height: 1100px;
-}
-
-#left-column {
-    margin-left: 5%;
-    width: 30%;  
-    float: left;
-    height: 100%;
-    color: white;
-    text-align: center;
- }
-
-#middle-column {
-    width: 30%;
-    float: left;
-    height: 100%;
-    color: white;
-    text-align: center;
-}
-
-#right-column {
-    margin-right: 5%;
-    width: 30%;
-    float: left;
-    height: 100%;
-    color: white;
-    text-align: center;
-    
-}
-
-.our-services-page-images {
-    height: 50%;
+#carouselExampleIndicators {
+    margin: auto;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 5% 2% 5%;
-}
-
-.our-services-headings {
-    font-family: 'Baloo Tammudu 2';
-    font-size: 150%;
-    color: white;
-}
-
-.our-services-headings ~ p {
-    font-family: 'Roboto', Arial;
-    font-size: 125%;
-    color: #135f13;
 }
 
 /* Contact Us page */
