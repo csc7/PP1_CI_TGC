@@ -129,7 +129,15 @@
                     <div class="form-row-input">
                         <input id="city-field" type="text" name="city" placeholder="Your city">
                     </div>
-                </div>          
+                </div>
+                <div class="form-row">
+                    <div class="form-row-label">
+                        <label for="email-field">Email</label>
+                    </div>
+                    <div class="form-row-input">
+                        <input id="email-field" type="email" name="email" placeholder="Your e-mail">
+                    </div>
+                </div>     
                 <div id="form-row">
                     <div class="form-row-label">
                         <label for="telephone">Telephone</label>
@@ -142,17 +150,10 @@
                         <label for="telephone-checkbox">Can we call you?</label>
                     </div>
                 </div>
+
                 <div class="form-row">
                     <div class="form-row-label">
-                        <label for="email-field">Email</label>
-                    </div>
-                    <div class="form-row-input">
-                        <input id="email-field" type="email" name="email" placeholder="Your email">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-row-label">
-                        <label for="department-list">Department to Contact</label>
+                        <label for="department-list">Department</label>
                     </div>
                     <div class="form-row-input">
                         <select id="department-list" name="department-list">
@@ -172,13 +173,20 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div>
-                        <input type="radio" id="commercial" name="commercial">
-                        <label for="commercial">Commercial</label>
+                    <div class="radio-label">
+                        <p>Type</p>
                     </div>
-                    <div>
-                        <input type="radio" id="technical" name="technical">
-                        <label for="technical">Technical</label>
+                    <div class="radio-input">
+                        <input name="consultation-type" value="commercial" type="radio">
+                    </div>
+                    <div class="radio-label">
+                        <label for="value">Commercial</label>
+                    </div>
+                    <div class="radio-input">
+                        <input name="consultation-type" value="technical" type="radio">
+                    </div>
+                    <div class="radio-label">
+                        <label for="value">Technical</label>
                     </div>
                 </div>  
                 <div class="form-row">
@@ -186,7 +194,7 @@
                         <label for="description">Description</label>
                     </div>
                     <div class="form-row-input">
-                        <textarea id="description" rows="10" cols="40" name="description" placeholder="Describe your consultation"></textarea>
+                        <textarea id="description" rows="5" cols="20" name="description" placeholder="Describe your consultation"></textarea>
                     </div>
                 </div>
                 <div class="form-row">

@@ -13,7 +13,7 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: rgb(171, 238, 213)
+    background-color: rgb(171, 238, 213);
     /* for a general margin all over the website*/
     /*padding: 20px 20px 20px 20px;*/
 }
@@ -317,8 +317,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 60%;
     height: 25%;
     border: 5px solid #135f13;
-    border-radius: 3%;
-    
 }
 
 /* Google Map */
@@ -327,7 +325,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 60%;
     height: 40%;
     border: 5px solid #135f13;
-    border-radius: 3%;
 }
 
 #map {
@@ -337,23 +334,21 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-radius: 3%;  
 }
 
-
+/* Contact Form */
 
 #contact-us-form {
-    margin-top: 5%;
+    margin-top: 5%; 
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;
     border: 5px solid #135f13;
-    border-radius: 3%; 
     background-color: rgb(206, 245, 194);
     padding: 0px;
 }
 
-
 .form-row-label {
     text-align: right;
-    margin-right: 10px;
+    margin: 10px;
     float: left;
     width: 25%;
     margin-top: 10px;
@@ -363,41 +358,54 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     text-align: left;
     float: left;
     width: 50%;
-    margin-top: 10px;
-    padding-left: 5px;
-    border: 2px solid #135f13;
+    margin: 10px;
+    padding: 0;
+    /*border: 2px solid #135f13;*/
+    /*background-color: rgb(171, 238, 213);*/
 }
   
 .form-row-input-telephone {
     text-align: left;
     float: left;
     width: 25%;
-    margin-top: 10px;
-    padding-left: 5px;
-    border: 2px solid #135f13;  
+    margin: 10px;
+    padding: 0;
+    border: 2px solid #135f13;
+}
 
+.radio-label {
+    text-align: left;
+    margin: 10px;
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.radio-label > p{
+    text-align: right;
+}
+
+.radio-input {
+    text-align: left;
+    float: left;
+    width: 5%;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+
+#name-field, #surname-field, #city-field,
+#telephone, #email-field, #department-list,
+#description {
+    background-color: rgb(171, 238, 213);
+    outline: 2px solid #135f13;
+    width: 100%;
+    padding-left: 5px;
 }
 
 #telephone-checkbox ~ label {
-    margin-top: 10px;
-    margin-right: 20%;
-}
-
-
-#technical ~ label, #commercial ~ label {
-    padding-left: 10px;
-    padding-right: 0px;
-}
-
-
-#commercial, #technical {
-    margin-left: 25px;
-    margin-top: 20px;
-    padding-left: 10px;
-}
-
-#commercial {
-    margin-left: 300px;
+    padding: 15px;
+    margin-right: 10%;
 }
 
 #submit-form-button {
@@ -411,8 +419,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     padding: 10px 10px 10px 10px;
     border: 3px solid #00cc00;
 }
-
-
 
 /* footer */
 
