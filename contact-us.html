@@ -58,75 +58,30 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLongTitle">Request Service</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
                             <form action="https://" method="POST">
-                                <div>
-                                    <label for="name-field">Name</label>
-                                    <input id="name-field" type="text" name="name" placeholder="Your name">
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="recipient-name">
                                 </div>
-                                <div>
-                                    <label for="surname-field">Surname</label>
-                                    <input id="surname-field" type="text" name="surname" placeholder="Your surname">
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="recipient-name">
                                 </div>
-                                <div>
-                                    <label for="city-field">Surname</label>
-                                    <input id="city-field" type="text" name="city" placeholder="Your city">
-                                </div>          
-                                    <div>
-                                        <label for="telephone">Telephone</label>
-                                        <input id="telephone" type="tel" name="telephone" placeholder="Your telephone">
-                                    </div>
-                                    <div>
-                                        <input id="telephone-checkbox" type="checkbox" name="telephone-checkbox">
-                                        <label for="telephone-checkbox">Can we call you?</label>
-                                    </div>
-                                <div>
-                                        <label for="email-field">Email</label>
-                                        <input id="email-field" type="email" name="email" placeholder="Your email">
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Pick a Date</label>
+                                    <input type="datetime-local" class="form-control" id="recipient-name">
                                 </div>
-                                <div>
-                                    <label for="department-list">Department to Contact</label>
-                                    <select id="department-list" name="department-list">
-                                        <option value="Acquisition">Acquisition</option>
-                                        <option value="Processing">Processing</option>
-                                        <option value="Imaging">Imaging</option>
-                                        <option value="Geothermal">Geothermal</option>
-                                        <option value="Solar">Solar</option>
-                                        <option value="Wind">Wind</option>
-                                        <option value="CCS">CCS</option>
-                                        <option value="Site Survey">Site Survey</option>
-                                        <option value="Modelling">Modelling</option>
-                                        <option value="Feasibility">Feasibility</option>
-                                        <option value="Well Data">Well Data</option>
-                                        <option value="Supervision">Supervision</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <div>
-                                        <input type="radio" id="commercial" name="commercial">
-                                        <label for="commercial">Commercial</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id="technical" name="technical">
-                                        <label for="technical">Technical</label>
-                                    </div>
-                                </div>  
-                                <div>
-                                    <label for="description">Description</label>
-                                    <br>
-                                    <textarea id="description" rows="10" cols="40" name="description" placeholder="Describe your consultation"></textarea>
-                                </div>
-                                <input type="submit" value="Send">
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary">Request Service</button>
                         </div>
                     </div>
                 </div>
