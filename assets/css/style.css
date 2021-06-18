@@ -217,25 +217,25 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* About Us page */
 
 #mission-values-vision-columns {
-    height: 600px;
+    height: 700px;
 }
 
 #mision-column {
     width: 33%;
     float: left;
-    height: 600px;
+    height: 700px;
 }
 
 #values-column {
     width: 34%;
     float: left;
-    height: 600px;
+    height: 700px;
 }
 
 #vision-column {
     width: 33%;
     float: right;
-    height: 600px;
+    height: 700px;
 }
 
 #values-list {
@@ -254,7 +254,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 .about-us-images {
     height: 80%;
     width: 80%;
-    margin: 5%;
+    margin: 10%;
     border: 5px solid #135f13;
    
 }
