@@ -173,7 +173,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 #latest-news > a > h2 {
     color: white;
-    padding-top: 2%;
+    padding-top: 0%;
     padding-left: 25px;
 }
 
@@ -206,10 +206,11 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #news-carousel-left-tilte,
 #news-carousel-middle-title,
 #news-carousel-right-title {
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 }
 
 .carousel-item > p {
+    padding-top: 5%;
     color: #00cc00;
     font-size: 150%;
     text-align: center;
@@ -313,6 +314,10 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 }
 
 /* Our Services page */
+
+#our-services-video-background {
+    background-color: turquoise;
+}
 
 #carouselExampleIndicators {
     margin: auto;
