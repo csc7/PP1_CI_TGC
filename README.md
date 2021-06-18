@@ -151,6 +151,15 @@ EXPLAIN
         * Mission: target-3535310_640.jpg, downloaded on June 15th, 2021, at 2:37, from https://pixabay.com/photos/target-business-idea-growth-3535310/
         * Values: paper-3213924_640.jpg, downloaded on June 15th, 2021, at 2:51, from https://pixabay.com/photos/paper-business-finance-document-3213924/
         * Vision: vision-2372177_640.jpg, downloaded on June 15th, 2021, at 2:19, from https://pixabay.com/photos/vision-mission-goal-target-2372177/
+    * Our Services page:
+        * pexels-kalina-ost-2865025.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-del-paisaje-del-molino-de-viento-blanco-2865025/
+        * pexels-kelly-lacy-2800832.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-de-vista-superior-de-paneles-solares-2800832/
+        * pexels-kelly-lacy-4320473.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/naturaleza-campo-construccion-industria-4320473/
+        * pexels-kelly-lacy-4320481.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/tierra-campo-verano-construccion-4320481/
+    * Contact Us page:
+        * stockvault-office-building236904.jpg, downloaded on June 16th, 2021, 2:09, from https://www.stockvault.net/photo/236904/office-building
+        
+
 * Maps in Contact Us page:
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
     * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/
