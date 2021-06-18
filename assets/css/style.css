@@ -317,6 +317,10 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 50%;
 }
 
+#our-services-description {
+    height: 400px;
+}
+
 #services-column-left {
     padding-top: 25px;
     padding-left: 25px;
@@ -340,7 +344,40 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     text-align: center;
 }
 
+.services-column-left-box {
+    width: 100%;
+    height: 150px;
+    float: right;
+    margin-bottom: 50px;
+    color: white;
+}
 
+.services-column-right-box {
+    width: 100%;
+    height: 150px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.services-column-middle-box {
+    width: 100%;
+    height: 150px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.services-column-left-box > h2,
+.services-column-middle-box > h2,
+.services-column-right-box > h2 {
+    color: white;
+}
+
+.services-column-left-box > p,
+.services-column-middle-box > p,
+.services-column-right-box > p {
+    color: #00cc00;
+    font-size: 125%;
+}
 
 
 /* Contact Us page */
