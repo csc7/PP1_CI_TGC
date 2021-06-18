@@ -103,7 +103,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 .modal-body {
     font-family: 'Baloo Tammudu 2';
     font-size: 100%;
-    
 }
 
 /* backround video in home page */
@@ -267,6 +266,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 .about-us-headings {
     color: #00cc00;
     text-align: center;
+    margin-top: 2%;
 }
 
 #projects-table {
@@ -323,29 +323,32 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 50%;
 }
 
-
 #our-services-description {
     height: 450px;
 }
 
+.carousel-item > div > p {
+    color:  #00cc00;
+}
+
 #services-column-left {
-    padding-top: 25px;
-    padding-left: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
     width: 30%;
     float: left;
     text-align: left;
 }
 
 #services-column-right {
-    padding-top: 25px;
-    padding-right: 25px;
+    padding-top: 50px;
+    padding-right: 50px;
     width: 30%;
     float: right;
     text-align: right;
 }
 
 #services-column-middle {
-    padding-top: 25px;
+    padding-top: 50px;
     width: 30%;
     margin: 0 auto;
     text-align: center;
@@ -429,7 +432,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 100%;
     height: 100%;
     border: 5px solid #135f13;
-    border-radius: 3%;  
 }
 
 /* Contact Form */
