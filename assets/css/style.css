@@ -25,6 +25,13 @@ h1, h2, h3 {
     color: #276609;
 }
 
+/* section separator */
+.section-separator {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(160, 224, 160);
+}
+
 /* header */
 
 .fas {
@@ -107,12 +114,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     overflow: hidden;
 }
 
-/* section separator */
-.section-separator {
-    height: 10px;
-    width: 100%;
-    background-color: rgb(160, 224, 160);
-}
+
 
 /* text content in video */
 .content {
@@ -214,22 +216,26 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 /* About Us page */
 
+#mission-values-vision-columns {
+    height: 600px;
+}
+
 #mision-column {
     width: 33%;
     float: left;
-    height: 700px;
+    height: 600px;
 }
 
 #values-column {
     width: 34%;
     float: left;
-    height: 700px;
+    height: 600px;
 }
 
 #vision-column {
     width: 33%;
     float: right;
-    height: 700px;
+    height: 600px;
 }
 
 #values-list {
@@ -249,13 +255,9 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     height: 80%;
     width: 80%;
     margin: 5%;
-    /*margin-left: auto;
-    margin-right: auto;
-    padding: 5% 5% 5% 5%;*/
     border: 5px solid #135f13;
    
 }
-
 
 .about-us-headings {
     color: #00cc00;
