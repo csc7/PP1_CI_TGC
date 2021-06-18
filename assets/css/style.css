@@ -204,9 +204,15 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     float: right;
 }
 
-.carousel-item {
-    top: 25%;
+#news-carousel-left-tilte,
+#news-carousel-middle-title,
+#news-carousel-right-title {
+    padding-bottom: 2%;
 }
+
+/*.carousel-item {
+    top: 25%;
+}*/
 
 .carousel-item > p {
     color: #00cc00;
@@ -316,6 +322,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin: auto;
     width: 50%;
 }
+
 
 #our-services-description {
     height: 450px;
