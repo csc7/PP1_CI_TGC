@@ -256,7 +256,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     width: 80%;
     margin: 10%;
     border: 5px solid #135f13;
-   
 }
 
 .about-us-headings {
@@ -317,6 +316,32 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin: auto;
     width: 50%;
 }
+
+#services-column-left {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+#services-column-right {
+    padding-top: 25px;
+    padding-right: 25px;
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+#services-column-middle {
+    padding-top: 25px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
 
 /* Contact Us page */
 
