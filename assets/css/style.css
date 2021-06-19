@@ -109,6 +109,10 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 }
 
+/* Solution for modal windown appearing below elements, in the background:
+Copied on June 19th, 2021, at 3:17, from Stack Overflow:
+https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background
+*/
 .modal-backdrop {
     z-index: -1;
 }
@@ -421,40 +425,68 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* Contact Us page */
 
 #contact-us-columns {
-    padding-top: 150px;
-    height: 900px;
+    padding-top: 160px;
+    height: 1060px;
+    background-color: blue;
 }
 
 #contact-us-left-column {
+    
+    
     float: left;
     margin-left: 5%;
     width: 45%;
     height: 100%;
     color: white;
     text-align: center;
+    background-color: rgb(221, 131, 131);
 }
 
 #contact-us-right-column {
+
+    position: relative;
+
     float: right;
     margin-right: 5%;
     width: 45%;
     height: 100%;
     color: white;
     text-align: center;  
+    background-color: red;
+}
+
+#office-image-box {
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+    background-color: burlywood;
 }
 
 #office-image {
-    margin: 5%;
-    width: 60%;
-    height: 25%;
+    float: left;
+    width: 80%;
     border: 5px solid #135f13;
+}
+
+#contact-us-title {
+    float: left;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#contact-us-title > h1 {
+    float: left;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Google Map */
 #location-map {
-    margin: auto;
-    width: 60%;
-    height: 40%;
+    float: left;
+    width: 80%;
+    height: 30%;
     border: 5px solid #135f13;
 }
 
@@ -467,13 +499,15 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 /* Contact Form */
 
 #contact-us-form {
-    margin-top: 5%; 
+    width: 90%;
+    height: 90%;
+    margin: 5% 5%; 
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;
     border: 5px solid #135f13;
     background-color: rgb(206, 245, 194);
-    padding: 0px;
+    padding: 10px;
 }
 
 .form-row-label {
@@ -544,8 +578,6 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     background-color:  #135f13;
     color: white;
     margin: auto;
-    margin-top: 35px;
-    margin-bottom: 35px;
     padding: 10px 10px 10px 10px;
     border: 3px solid #00cc00;
 }
