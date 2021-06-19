@@ -30,6 +30,7 @@ h1, h2, h3 {
     height: 10px;
     width: 100%;
     background-color: rgb(160, 224, 160);
+    float: left;
 }
 
 /* header */
@@ -46,9 +47,17 @@ header {
     color: #00cc00;
 }
 
-#company-logo{
+#company-logo-box {
     float: left;
     width: 25%;
+    height: 150px;
+
+    background-color: rgb(206, 245, 194);    
+}
+
+#company-logo{
+    float: left;
+    /*width: 25%;*/
     height: 150px;
     font-size: 600%;
     font-weight: bold;
@@ -58,10 +67,26 @@ header {
 
 }
 
+
+
 /* CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from
 https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 #nav-menu {
-    width: 75%;
+    float: left;
+    width: 50%;
+    height: 150px;
+    font-size: 150%;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    /*flex-direction: reverse;*/
+    background-color: rgb(206, 245, 194);
+    
+}
+
+
+#nav-modal-btn {
+    float: right;
+    width: 25%;
     height: 150px;
     font-size: 150%;
     padding: 10px 0px 0px 0px;
@@ -71,10 +96,17 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 }
 
+
+
 #nav-menu a {
     font-family: 'Baloo Tammudu 2';
     color: #135f13;
+    
 
+}
+
+#nav-menu ul {
+    align-items: center;
 }
 
 #nav-menu li {
@@ -82,7 +114,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     list-style-type: none;
     margin-right: 25px;
     margin-left: 25px;
-
+    
 }
 
 #nav-menu, #company-logo {
@@ -606,7 +638,42 @@ footer {
 /* Media Queries */
 
 @media screen and (max-width: 1250px) {
-    #nav-menu {
-        background-color: blue;
+
+    header {
+        height: 300px;
+
     }
+
+    #company-logo-box {
+        width: 50%;
+        float: left;
+        
+        background-color: blue;
+
+    }
+
+    #nav-modal-btn {
+        width: 50%;
+        float: left;
+        background-color:red;
+    }
+
+    #nav-menu {
+        width: 100%;
+        float: left;
+        background-color: blueviolet;
+    }
+
+    #nav-menu ul {
+        margin: auto;
+    }
+
+    /* contact-us page */
+    
+    #contact-us-columns {
+        padding-top: 320px;
+        /*height: 1060px;*/
+    }
+   
+    
 }
