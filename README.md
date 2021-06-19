@@ -109,6 +109,8 @@ The following errors were found and solved:
         * Error: stray start tag script. It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag.
         * Warning: Use h1 element as a top-level heading only. Change headings of text above background videos from h1 and h2 to h2 and h3.
 
+        modal in background
+
 https://validator.w3.org/ was used to validate the HTML file.
 
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
