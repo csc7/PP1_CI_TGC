@@ -659,25 +659,62 @@ footer {
     #company-logo-box {
         width: 50%;
         float: left;
+        margin-bottom: 0;
+        height: 130px;
+    }
 
+
+
+
+    #nav-menu {
+        width: 100%;
+        float: left;
+        height: 80px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+
+    #nav-menu li {
+        margin: 0 25px 0 25px;
+        padding: 0;
+        height: 50px;
+    }
+
+    #nav-menu ul {
+        margin: 0 auto;
+        padding: 0;
+        height: 50px;
     }
 
     #nav-modal-btn {
         width: 50%;
         float: left;
-
+        height: 130px;
+        
+        
+    }
+    
+    #nav-menu > ul > li > a {
+        margin-bottom: 0 auto;
+        padding-bottom: 0 auto;
+        position:relative;
+        top:-50px;
     }
 
-    #nav-menu {
-        width: 100%;
-        float: left;
+    .btn {
+        /*position: sticky;
+        left: 1700px;
+        font-family: 'Baloo Tammudu 2';
+        font-size: 100%;
+        background-color:  #135f13;*/
+        margin: 25px 25px 30px 25px;
+        padding: 10px 10px -30px 10px;
+        /*border: 3px solid #00cc00;*/
 
+    
     }
-
-    #nav-menu ul {
-        margin: auto;
-    }
-
     
     /* Home Page */
 
