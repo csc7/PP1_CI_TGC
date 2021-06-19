@@ -161,6 +161,19 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-size: 100%;
 }
 
+.modal-footer {
+    background-color: #00cc00;
+}
+
+.modal-footer .btn-primary {
+    position: absolute;
+    left: 15px;
+}
+
+
+
+/* Home Page */
+
 /* backround video in home page */
 #background-video {
     padding-top: 160px;
