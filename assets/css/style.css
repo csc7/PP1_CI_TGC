@@ -109,8 +109,8 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 }
 
-.modal-header {
-    z-index: 20;
+.modal-backdrop {
+    z-index: -1;
 }
 
 .modal-title {
