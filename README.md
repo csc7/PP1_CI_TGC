@@ -115,6 +115,8 @@ The following errors were found and solved:
 
         inverted right left columns in contact us page to have a better responsive experience (user experience)
 
+        responsive multiply heith by 2 for tablet
+
 https://validator.w3.org/ was used to validate the HTML file.
 
 # Testing of User Stories(Feature-Action-Expected result-Actual result)

@@ -641,39 +641,79 @@ footer {
 
     header {
         height: 300px;
-
     }
 
     #company-logo-box {
         width: 50%;
         float: left;
-        
-        background-color: blue;
 
     }
 
     #nav-modal-btn {
         width: 50%;
         float: left;
-        background-color:red;
+
     }
 
     #nav-menu {
         width: 100%;
         float: left;
-        background-color: blueviolet;
+
     }
 
     #nav-menu ul {
         margin: auto;
     }
 
-    /* contact-us page */
     
+    /* Home Page */
+
+    /* backround video in home page */
+    #background-video {
+        padding-top: 300px;
+    }
+
+     /* text content in video */
+    .content {
+        text-align: left;
+        position: absolute;
+        top: 300px;
+        height: 20%;
+        width: 40%;
+        /*padding: 50px 50px 50px 50px;
+        z-index: 2;*/
+    }
+
+    /* About Us page */
+
+    /* Padding height multiplied by 2 */
+    #mission-values-vision-columns {
+        padding-top: 300px;
+        height: 900px;
+    }
+
+    /* Our Services */
+
+    #our-services-video-background {
+       padding-top: 300px;
+    }
+    
+    #carouselExampleIndicators {
+        margin: auto;
+        width: 75%;
+    }
+
+    /* contact-us page */
+
     #contact-us-columns {
-        padding-top: 320px;
+        padding-top: 300px;
         /*height: 1060px;*/
     }
    
-    
+
+
+
+
+
+
 }
