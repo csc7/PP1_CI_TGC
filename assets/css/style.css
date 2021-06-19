@@ -463,13 +463,13 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #office-image {
-    float: left;
+    float: right;
     width: 80%;
     border: 5px solid #135f13;
 }
 
 #contact-us-title {
-    float: left;
+    float: right;
     width: 100%;
     background-color: chartreuse;
     margin: 0 auto;
@@ -477,14 +477,14 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #contact-us-title > h1 {
-    float: left;
+    float: right;
     margin: 0 auto;
     text-align: center;
 }
 
 /* Google Map */
 #location-map {
-    float: left;
+    float: right;
     width: 80%;
     height: 30%;
     border: 5px solid #135f13;
@@ -501,7 +501,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 #contact-us-form {
     width: 90%;
     height: 90%;
-    margin: 5% 5%; 
+    margin-top: 5%; 
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;

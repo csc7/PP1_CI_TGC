@@ -113,6 +113,8 @@ The following errors were found and solved:
 
         positioning errors of contact form, etc.
 
+        inverted right left columns in contact us page to have a better responsive experience (user experience)
+
 https://validator.w3.org/ was used to validate the HTML file.
 
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
