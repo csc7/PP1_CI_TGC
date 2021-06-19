@@ -250,7 +250,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 #mission-values-vision-columns {
     padding-top: 160px;
-    height: 700px;
+    height: 900px;
 }
 
 #mision-column {
@@ -427,19 +427,15 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 #contact-us-columns {
     padding-top: 160px;
     height: 1060px;
-    background-color: blue;
 }
 
 #contact-us-left-column {
-    
-    
     float: left;
     margin-left: 5%;
     width: 45%;
     height: 100%;
     color: white;
     text-align: center;
-    background-color: rgb(221, 131, 131);
 }
 
 #contact-us-right-column {
@@ -452,14 +448,12 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     height: 100%;
     color: white;
     text-align: center;  
-    background-color: red;
 }
 
 #office-image-box {
     float: left;
     margin-top: 5%;
     width: 100%;
-    background-color: burlywood;
 }
 
 #office-image {
@@ -471,7 +465,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 #contact-us-title {
     float: right;
     width: 100%;
-    background-color: chartreuse;
     margin: 0 auto;
     padding-top: 10px;
 }
