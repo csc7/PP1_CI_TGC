@@ -129,8 +129,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-size: 100%;
 }
 
-
-
 /* backround video in home page */
 #background-video {
     padding-top: 160px;
@@ -139,8 +137,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     clip-path: inset(0 498 100 0);
     overflow: hidden;
 }
-
-
 
 /* text content in video */
 .content {
@@ -152,8 +148,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     padding: 50px 50px 50px 50px;
     z-index: 2;
 }
-
-
 
 .content h1 {
     color: #00cc00;
@@ -175,7 +169,8 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 #latest-news > h1 {
     margin: 2%;
     text-align: center;
-    color: #00cc00;
+    color: turquoise;
+    font-size: 400%;
     margin-bottom: 0;
     padding-left: 25px;
 }
