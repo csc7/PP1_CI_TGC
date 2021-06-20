@@ -552,13 +552,11 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     color: #135f13;
     border: 5px solid #135f13;
     background-color: rgb(206, 245, 194);
-    background-color: rebeccapurple;
     padding: 10px;
 }
 
 .form-row {
     width: 100%;
-    background-color: red;
 }
 
 .form-row-label {
@@ -575,8 +573,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     width: 50%;
     margin: 10px;
     padding: 0;
-    /*border: 2px solid #135f13;*/
-    /*background-color: rgb(171, 238, 213);*/
 }
   
 .form-row-input-telephone {
@@ -585,8 +581,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     width: 25%;
     margin: 10px;
     padding: 0;
-    /*border: 2px solid #135f13;*/
-    background-color: rgb(175, 24, 24);
 }
 
 #telephone-checkbox {
@@ -596,7 +590,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .telephone-checkbox-can-we-call-you {
     width: 35%;
-    background-color: rgb(175, 24, 24);
     margin: 10px;
 }
 
@@ -716,7 +709,6 @@ of consultation (commercial or technical below a width of 1750px */
         width: 50%;
 
     }
-
 
 }
 
