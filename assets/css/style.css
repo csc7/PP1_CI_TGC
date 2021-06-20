@@ -229,75 +229,78 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 #latest-news {
     margin-top: 2.5%;
-    height: 250px;
+    height: 200px;
 
 }
 
-#news-carousel-left-title {
+/*#latest-news > a > h2 {
     width: 33%;
-    height: 25px;
-    float: left;
-    text-align: center;
-}
-
-#news-carousel-middle-title {
-    width: 34%;
-    height: 25px;
-    float: left;
-    text-align: center;
-}
-
-#news-carousel-right-title {
-    width: 33%;
-    height: 25px;
-    float: right;
-    text-align: center;
-}
-
-#latest-news > a > h2 {
     color: white;
-    padding-top: 0%;
+    padding-top: 0;
     padding-left: 25px;
-}
+}*/
 
 #latest-news > a > h2:hover {
     color: white;
     text-decoration: underline;
 }
 
+/*#carouselExampleSlidesOnly_right > div > div p{
+    padding-top: 0px;
+}*/
+
+#news-carousel-left-title, #news-carousel-middle-title, #news-carousel-right-title {
+    color: white;
+    text-align: center;
+    
+}
+
 #news-carousel-left {
     width: 33%;
-    height: 200px;
+    height: 175px;
     padding-left: 25px;
     float: left;
 }
+
+
+
 
 #news-carousel-middle {
     width: 34%;
-    height: 200px;
+    height: 175px;
     padding-left: 25px;
     float: left;
 }
 
+
+
 #news-carousel-right {
     width: 33%;
-    height: 200px;
+    height: 175px;
     padding-left: 25px;
     float: right;
 }
 
-#news-carousel-left-tilte,
+/*#news-carousel-left-tilte,
 #news-carousel-middle-title,
 #news-carousel-right-title {
     padding-bottom: 0;
+}*/
+
+.carousel-item {
+    position: relative;
+    height: 0px;
 }
 
 .carousel-item > p {
-    padding-top: 5%;
+    height: 200px;
+    padding-top: 25px;
     color: #00cc00;
     font-size: 150%;
     text-align: center;
 }
+
+
 
 /* About Us page */
 
