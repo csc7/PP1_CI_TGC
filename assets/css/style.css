@@ -21,9 +21,6 @@ body {
 #body-contact-us {
     background-image: url("/assets/images/stockvault-office-building236904.jpg");
     background-repeat: no-repeat;
-
-
-
 }    
 
 /* headings */
@@ -413,7 +410,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #our-services-description {
-    height: 450px;
+    height: 525px;
 }
 
 .carousel-item > div > p {
@@ -445,7 +442,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .services-column-left-box {
     width: 100%;
-    height: 150px;
+    height: 200px;
     float: right;
     margin-bottom: 50px;
     color: white;
@@ -453,14 +450,14 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .services-column-right-box {
     width: 100%;
-    height: 150px;
+    height: 200px;
     float: right;
     margin-bottom: 50px;
 }
 
 .services-column-middle-box {
     width: 100%;
-    height: 150px;
+    height: 200px;
     float: right;
     margin-bottom: 50px;
 }
@@ -555,7 +552,13 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     color: #135f13;
     border: 5px solid #135f13;
     background-color: rgb(206, 245, 194);
+    background-color: rebeccapurple;
     padding: 10px;
+}
+
+.form-row {
+    width: 100%;
+    background-color: red;
 }
 
 .form-row-label {
@@ -582,7 +585,19 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     width: 25%;
     margin: 10px;
     padding: 0;
-    border: 2px solid #135f13;
+    /*border: 2px solid #135f13;*/
+    background-color: rgb(175, 24, 24);
+}
+
+#telephone-checkbox {
+    width: 5%;
+    margin: 10px;
+}
+
+.telephone-checkbox-can-we-call-you {
+    width: 35%;
+    background-color: rgb(175, 24, 24);
+    margin: 10px;
 }
 
 .radio-label {
@@ -602,7 +617,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     float: left;
     width: 5%;
     margin: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -615,10 +630,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     padding-left: 5px;
 }
 
-#telephone-checkbox ~ label {
-    padding: 15px;
-    margin-right: 10%;
-}
 
 #submit-form-button {
     font-family: 'Baloo Tammudu 2';
@@ -658,6 +669,58 @@ footer {
 
 
 /* Media Queries */
+
+/* The form requires responsive behaviour below a width of 1700px */
+@media screen and (max-width: 1700px) {
+
+    .form-row-input-telephone {
+        width: 50%;
+    }
+
+    #telephone-checkbox {
+        float: left;
+        width: 25%;
+    }
+
+    #telephone-checkbox-can-we-call-you {
+
+        width: 75%;
+    }
+
+    #telephone-checkbox-can-we-call-you > p {
+        text-align: center;
+    }
+
+    #radio-label-title {
+        width: 100%;
+    }
+
+    #radio-label-title > p {
+        text-align: center;
+    }
+
+    #radio-input-commercial {
+        padding-left: 30%;
+        float: left;
+        width: 10%;
+    }
+
+    #radio-label-commercial {
+        width: 50%;
+    }
+
+    #radio-input-technical {
+        padding-left: 30%;
+        float: left;
+        width: 10%;
+    }
+
+    #radio-label-technical {
+        float: left;
+        width: 50%;
+    }
+
+}
 
 @media screen and (max-width: 1250px) {
 
@@ -818,6 +881,8 @@ footer {
         padding-top: 180px;
         /*height: 1060px;*/
     }
+
+
    
 
 

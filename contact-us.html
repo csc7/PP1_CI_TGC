@@ -98,6 +98,7 @@
     
     <section id="contact-us-columns">
         <div id="contact-us-left-column">
+
             <form id="contact-us-form" action="https://" method="POST">
                 <div class="form-row">
                     <div class="form-row-label">
@@ -131,16 +132,16 @@
                         <input id="email-field" type="email" name="email" placeholder="Your e-mail">
                     </div>
                 </div>     
-                <div id="form-row">
+                <div class="form-row">
                     <div class="form-row-label">
                         <label for="telephone">Telephone</label>
                     </div>
                     <div class="form-row-input-telephone">
                         <input id="telephone" type="tel" name="telephone" placeholder="Your telephone">
                     </div>
-                    <div>
+                    <div class="telephone-checkbox-can-we-call-you">
                         <input id="telephone-checkbox" type="checkbox" name="telephone-checkbox">
-                        <label for="telephone-checkbox">Can we call you?</label>
+                        <label id="telephone-checkbox-label"for="telephone-checkbox">Can we call you?</label>
                     </div>
                 </div>
 
@@ -166,19 +167,19 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="radio-label">
+                    <div class="radio-label" id="radio-label-title">
                         <p>Type</p>
                     </div>
-                    <div class="radio-input">
+                    <div class="radio-input" id="radio-input-commercial">
                         <input name="consultation-type" value="commercial" type="radio">
                     </div>
-                    <div class="radio-label">
+                    <div class="radio-label" id="radio-label-commercial">
                         <label for="value">Commercial</label>
                     </div>
-                    <div class="radio-input">
+                    <div class="radio-input" id="radio-input-technical">
                         <input name="consultation-type" value="technical" type="radio">
                     </div>
-                    <div class="radio-label">
+                    <div class="radio-label" id="radio-label-technical">
                         <label for="value">Technical</label>
                     </div>
                 </div>  
@@ -187,13 +188,14 @@
                         <label for="description">Description</label>
                     </div>
                     <div class="form-row-input">
-                        <textarea id="description" rows="5" cols="20" name="description" placeholder="Describe your consultation"></textarea>
+                        <textarea id="description" rows="3" cols="20" name="description" placeholder="Describe your consultation"></textarea>
                     </div>
                 </div>
                 <div class="form-row">
                     <input type="submit" value="Send" id="submit-form-button">
                 </div>
             </form>
+
         </div>
 
         <div id="contact-us-right-column">
