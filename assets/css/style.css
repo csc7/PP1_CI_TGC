@@ -181,7 +181,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 /* backround video in home page */
 #background-video {
-    padding-top: 160px;
+    padding-top: 0px;
     width: 100%;
     height: 900px;
     clip-path: inset(0 498 100 0);
@@ -233,21 +233,14 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 }
 
-/*#latest-news > a > h2 {
-    width: 33%;
-    color: white;
-    padding-top: 0;
-    padding-left: 25px;
-}*/
+
 
 #latest-news > a > h2:hover {
     color: white;
     text-decoration: underline;
 }
 
-/*#carouselExampleSlidesOnly_right > div > div p{
-    padding-top: 0px;
-}*/
+
 
 #news-carousel-left-title, #news-carousel-middle-title, #news-carousel-right-title {
     color: white;
@@ -771,7 +764,7 @@ of consultation (commercial or technical below a width of 1750px */
 
     /* backround video in home page */
     #background-video {
-        padding-top: 180px;
+        padding-top: 0px;
     }
 
     /* text content in video */
@@ -787,7 +780,7 @@ of consultation (commercial or technical below a width of 1750px */
 
     /* Padding height multiplied by 2 */
     #mission-values-vision-columns {
-        padding-top: 180px;
+        padding-top: 190px;
         height: 700px;
     }
 
@@ -904,29 +897,14 @@ of consultation (commercial or technical below a width of 1750px */
         header {
             /*width: 100%;
             position: fixed;*/
-            height: 120px;
+            height: 135px;
             /*background-color: rgb(206, 245, 194);
             z-index: 5;*/
         }
 
-        /*#company-logo {
-            width: 50%;
-            margin: 0 auto;
-            padding: 2%;
-            font-size: 200%;
-            text-align: center;
-        }*/
-
-        /*#company-logo > a {
-            width: 100%;
-            font-size: 50%;
-        }*/
-
-
     
         #company-logo-box {
             width: 50%;
-            
             float: left;
             margin-bottom: 0;
             height: 100px;
@@ -960,10 +938,6 @@ of consultation (commercial or technical below a width of 1750px */
             height: 50px;
         }
 
-        /*#exampleModalCenter > div > div > div.modal-footer > button.btn.btn-primary {
-            font-size: 50%;
-        }
-        */
     
         #nav-menu {
             width: 100%;
@@ -991,8 +965,8 @@ of consultation (commercial or technical below a width of 1750px */
             margin-bottom: 0 auto;
             padding-bottom: 0 auto;
             position:relative;
-            top:-60px;
-            font-size: 75%;
+            top: -60px;
+            font-size: 70%;
         }*/
     
 
@@ -1002,7 +976,7 @@ of consultation (commercial or technical below a width of 1750px */
 
 
         #background-video {
-            padding-top: 180px;
+            padding-top: -135px;
         }
     
         /* text content in video */
@@ -1026,20 +1000,19 @@ of consultation (commercial or technical below a width of 1750px */
             font-size: 125%;
         }
 
-    /* backround video in home page */
-    /*#background-video {
-        padding-top: 160px;
-        width: 100%;
-        height: 900px;
-        clip-path: inset(0 498 100 0);
-        overflow: hidden;
-    }*/
+        #latest-news {
+            height: 550px;
+        
+        }
 
-    /*    #latest-news a {
+        #latest-news-title {
+            margin-top: 10%;
             width: 100%;
-            float: left;
-        }*/
-
+            text-align: center;
+            background-color: turquoise;
+            font-size: 400%;
+        }
+        
         #news-carousel-left {
             margin: 0;
             padding: 0 2.5% 0 2.5%;
@@ -1091,6 +1064,106 @@ of consultation (commercial or technical below a width of 1750px */
             width: 100%;
 
         }
+
+        /* About Us Page */
+
+        #mission-values-vision-columns {
+            padding-top: 135px;
+            height: 1650px;
+        }
+
+        #mision-column {
+            width: 100%;
+            margin: 0 auto;
+ 
+        }
+        
+        #values-column {
+            width: 100%;
+            float: left;
+
+        }
+        
+        #vision-column {
+            width: 100%;
+            float: left;
+        }
+
+        /*#values-list {
+            list-style-type:  none;
+            text-align: center;
+        }*/
+        
+        #mission-values-vision, #values-list > li {
+            /*font-family: 'Baloo Tammudu 2';*/
+            font-size: 125%;
+            /*color: white;
+            text-align: center;
+            padding: 0px 25px 0px 25px;*/
+        }
+        
+        .about-us-images {
+            height: 50%;
+            width: 80%;
+            margin: 10% 10% 0 10%;
+            border: 5px solid #135f13;
+        }
+        /*
+        .about-us-headings {
+            color: #00cc00;
+            text-align: center;
+            margin-top: 2%;
+        }
+        
+        #projects-table {
+            width: 50%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            background-color: rgb(206, 245, 194);
+            border: 5px solid #135f13;
+        }
+        
+        #projects-table th{
+            background-color: rgb(160, 224, 160);
+            font-family: 'Baloo Tammudu 2';
+            font-size: 150%;
+            color: white;
+        }
+        
+        #projects-table tr {
+            font-family: 'Roboto', Arial;
+            font-size: 125%;
+            color: #135f13;
+        }
+        
+        #departments-table {
+            width: 30%;
+            text-align: center;
+            border: 5px solid #135f13;
+             margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            background-color: rgb(206, 245, 194);
+        }
+        
+        #departments-table th{
+            background-color: rgb(160, 224, 160);
+            font-family: 'Baloo Tammudu 2';
+            font-size: 150%;
+            color: white;
+        }
+        
+        #departments-table tr {
+            font-family: 'Roboto', Arial;
+            font-size: 125%;
+            color: #135f13;
+        }*/
+
+
+
     
     }
 
