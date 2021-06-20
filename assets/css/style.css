@@ -1022,6 +1022,72 @@ of consultation (commercial or technical below a width of 1750px */
         .content > p {
             font-size: 125%;
         }
+
+    /* backround video in home page */
+    /*#background-video {
+        padding-top: 160px;
+        width: 100%;
+        height: 900px;
+        clip-path: inset(0 498 100 0);
+        overflow: hidden;
+    }*/
+
+    /*    #latest-news a {
+            width: 100%;
+            float: left;
+        }*/
+
+        #news-carousel-left {
+            margin: 0;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            float: left;
+        }
+
+        #news-carousel-left-title {
+            width: 100%;
+            float: left;
+        }
+
+        #carouselExampleSlidesOnly_left {
+            width: 100%;
+            align-items: center;
+
+        }
+
+        #news-carousel-middle {
+            margin: 0;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            float: left;
+        }
+
+        #news-carousel-middle-title {
+            width: 100%;
+            float: left;
+        }
+
+        #carouselExampleSlidesOnly_middle {
+            width: 100%;
+
+        }
+
+        #news-carousel-right {
+            margin: 0;
+            padding: 0 2.5% 0 2.5%;
+            width: 100%;
+            float: left;
+        }
+
+        #news-carousel-right-title {
+            width: 100%;
+            float: left;
+        }
+
+        #carouselExampleSlidesOnly_3 {
+            width: 100%;
+
+        }
     
     }
 
