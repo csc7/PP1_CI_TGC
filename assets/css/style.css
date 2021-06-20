@@ -708,7 +708,14 @@ of consultation (commercial or technical below a width of 1750px */
 
 @media screen and (max-width: 1400px) {
 
-    
+    .telephone-checkbox-can-we-call-you {
+        width: 100%;
+    }
+
+    .form-row-input-telephone {
+        width: 50%;
+
+    }
 
 
 }
