@@ -215,14 +215,12 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-size: 150%;
 }
 
-
 #latest-news-title {
     margin-top: 5%;
     width: 100%;
     text-align: center;
     background-color: turquoise;
     font-size: 400%;
-
 }
 
 #latest-news-title > h1 {
@@ -237,8 +235,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     height: 250px;
 
 }
-
-
 
 #news-carousel-left-title {
     width: 33%;
@@ -310,25 +306,25 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 #mission-values-vision-columns {
     padding-top: 160px;
-    height: 900px;
+    height: 700px;
 }
 
 #mision-column {
     width: 33%;
     float: left;
-    height: 700px;
+    height: 500px;
 }
 
 #values-column {
     width: 34%;
     float: left;
-    height: 700px;
+    height: 500px;
 }
 
 #vision-column {
     width: 33%;
     float: right;
-    height: 700px;
+    height: 500px;
 }
 
 #values-list {
@@ -425,7 +421,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #services-column-left {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-left: 50px;
     width: 30%;
     float: left;
@@ -433,7 +429,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #services-column-right {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-right: 50px;
     width: 30%;
     float: right;
@@ -441,9 +437,9 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #services-column-middle {
-    padding-top: 50px;
+    padding-top: 25px;
     width: 30%;
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: center;
 }
 
@@ -755,8 +751,66 @@ footer {
     
     #carouselExampleIndicators {
         margin: auto;
-        width: 75%;
+        width: 90%;
     }
+
+    #our-services-description {
+        height: 825px;
+    }
+
+    
+    #services-column-left {
+        padding-bottom: 0px;
+    }
+    
+    #services-column-right {
+        padding-bottom: 0px;
+    }
+    
+    #services-column-middle {
+        padding-bottom: 0px;
+    }
+
+    .services-column-left-box {
+        height: 400px;
+        margin-bottom: 0;
+     }
+    
+    .services-column-right-box {
+        height: 400px;
+        margin-bottom: 0;
+    }
+    
+    .services-column-middle-box {
+        height: 400px;
+        margin-bottom: 0;
+    }
+    
+    #services-column-left > div:nth-child(1) > h2 {
+        height: 75px;
+        margin-bottom: 0;
+    }
+
+    #services-column-left > div:nth-child(2) > h2 {
+        height: 75px;
+    }
+
+    #services-column-middle > div:nth-child(1) > h2 {
+        height: 75px;
+    }
+
+    #services-column-middle > div:nth-child(2) > h2 {
+        height: 75px;
+    }
+
+    #services-column-right > div:nth-child(1) > h2 {
+        height: 75px;
+    }
+
+    #services-column-right > div:nth-child(2) > h2 {
+        height: 75px;
+    }
+
 
     /* contact-us page */
 
