@@ -670,28 +670,12 @@ footer {
 
 /* Media Queries */
 
-/* The form requires responsive behaviour below a width of 1700px */
-@media screen and (max-width: 1700px) {
-
-    .form-row-input-telephone {
-        width: 50%;
-    }
-
-    #telephone-checkbox {
-        float: left;
-        width: 25%;
-    }
-
-    #telephone-checkbox-can-we-call-you {
-
-        width: 75%;
-    }
-
-    #telephone-checkbox-can-we-call-you > p {
-        text-align: center;
-    }
+/* The form requires responsive behaviour for the type
+of consultation (commercial or technical below a width of 1750px */
+@media screen and (max-width: 1750px) {
 
     #radio-label-title {
+        margin: 0;
         width: 100%;
     }
 
@@ -700,25 +684,32 @@ footer {
     }
 
     #radio-input-commercial {
-        padding-left: 30%;
+        padding-left: 35%;
         float: left;
-        width: 10%;
+        width: 40%;
     }
 
     #radio-label-commercial {
-        width: 50%;
+        width: 40%;
     }
 
     #radio-input-technical {
-        padding-left: 30%;
+        padding-left: 35%;
         float: left;
-        width: 10%;
+        width: 40%;
     }
 
     #radio-label-technical {
         float: left;
-        width: 50%;
+        width: 40%;
     }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    
+
 
 }
 
