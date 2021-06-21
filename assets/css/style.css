@@ -1113,19 +1113,89 @@ of consultation (commercial or technical below a width of 1750px */
 
     /* Our Services Page */
 
-    #services-column-left {
+    #our-services-video-background {
+        padding-top: 135px;
+     }
+     
+     #carouselExampleIndicators {
+        margin: auto;
         width: 100%;
+     }
+ 
+     #our-services-description {
+        height: 100%;
+     }
+ 
+    #our-services-description {
+        height: 100%;
+    }
+
+    #services-column-left {
+        margin: 0;
+        padding: 2.5%;
+        width: 100%;
+        height: 33%;
         float: left;
+        background-color: rgb(171, 238, 213);
+
     }
 
     #services-column-middle {
+        margin: 0;
+        padding: 2.5%;
         width: 100%;
+        height: 33%;
         float: left;
+        background-color: rgb(171, 238, 213);
     }
 
     #services-column-right {
+        margin: 0;
+        padding: 2.5%;
         width: 100%;
+        height: 34%;
         float: left;
+        background-color: rgb(171, 238, 213);
     }
+
+    .services-column-left-box {
+        padding-bottom: 0;
+        height: 16%;
+        margin-bottom: 0;
+        text-align: center;
+        
+    }
+
+    .services-column-middle-box {
+
+        height: 16%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    .services-column-right-box {
+
+        height: 16%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    
+    .services-column-left-box > h2,
+    .services-column-middle-box > h2,
+    .services-column-right-box > h2 {
+        padding-top: 15%;
+        padding-bottom: 5%;
+        margin: 0;
+    }
+
+    .services-column-left-box > p,
+    .services-column-middle-box > p,
+    .services-column-right-box > p {
+        padding: 0;
+        margin: 0;
+    }
+    
+
 
 }
