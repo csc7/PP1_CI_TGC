@@ -117,6 +117,8 @@ The following errors were found and solved:
 
         responsive multiply heith by 2 for tablet
 
+        carousel-item class with text "jump", when setting heith to avoid jump, images in servicous carousel didn't wokr. So applied specificity in text carousel.
+
 https://validator.w3.org/ was used to validate the HTML file.
 
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
