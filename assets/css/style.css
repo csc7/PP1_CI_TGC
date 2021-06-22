@@ -369,6 +369,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #projects-table th{
+    padding-top: 2%;
     background-color: rgb(160, 224, 160);
     font-family: 'Baloo Tammudu 2';
     font-size: 150%;
@@ -379,6 +380,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;
+    border: 1px solid #135f13;
 }
 
 #departments-table {
@@ -393,6 +395,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 }
 
 #departments-table th{
+    padding-top: 4%;
     background-color: rgb(160, 224, 160);
     font-family: 'Baloo Tammudu 2';
     font-size: 150%;
@@ -403,6 +406,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;
+    border: 1px solid #135f13;
 }
 
 /* Our Services page */
@@ -1131,6 +1135,12 @@ of consultation (commercial or technical below a width of 1750px */
     
     #projects-table {
         font-size: 75%;
+        min-width: 300px;
+    }
+
+    #departments-table {
+        font-size: 75%;
+        min-width: 300px;
     }
 
     /* Our Services Page */
@@ -1252,45 +1262,3 @@ of consultation (commercial or technical below a width of 1750px */
 
 
 }
-
-
-
-/*
-
-#contact-us-form {
-    width: 90%;
-    height: 75%;
-    margin-top: 5%; 
-    font-family: 'Roboto', Arial;
-    font-size: 125%;
-    color: #135f13;
-    border: 5px solid #135f13;
-    background-color: rgb(206, 245, 194);
-    padding: 10px;
-}
-
-
-#contact-us-columns {
-    padding-top: 160px;
-    height: 1271px;
-}
-
-#contact-us-left-column {
-    float: left;
-    margin-left: 5%;
-    width: 45%;
-    height: 100%;
-    color: white;
-    text-align: center;
-}
-
-#contact-us-right-column {
-    float: right;
-    margin-right: 5%;
-    width: 45%;
-    height: 100%;
-    color: white;
-     
-}
-
-*/
