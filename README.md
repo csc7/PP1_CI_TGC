@@ -102,9 +102,11 @@ Mobile devices...
 * The footer
 # Validation
 The following errors were found and solved:
-* For HTML files:
-    * Home Page:
-        * Error: stray end tag i - Deleted extra closing i tag.
+1. For HTML files:
+1. * Home Page:
+    1.
+    1.
+    1.  * Error: stray end tag i - Deleted extra closing i tag.
         * Error: aria-labelledby attribute not pointing to an local element (in current document). Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter).
         * Error: stray start tag script. It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag.
         * Warning: Use h1 element as a top-level heading only. Change headings of text above background videos from h1 and h2 to h2 and h3.
