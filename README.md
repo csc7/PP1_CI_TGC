@@ -14,19 +14,22 @@ Specifically, the goals are the following ones:
 * To provide users a simple way of requesting services.
 * to provide users a simple way of contacting the company.
 
+___
+
 # User Goals
 * A website where navigation is easy and intuitive.
 * Capability of show the same information, in the same easy and intuitive way, in different devices and screen sizes.
 * Rather than a description of the service, a fast way of requesting the service.
 * A simple way of contacting the company.
-* An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. 
+* An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. \
 
+___
 # User Stories
 * "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
 * "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
 * "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
 * "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
-
+___
 # Site Owner Goals
 * To show all services that the company offers in a summarised way.
 * To offer a quick way to contract services (to add value when compared to other companies and to increase chances of capturing clients not fully decided).
@@ -38,7 +41,7 @@ Specifically, the goals are the following ones:
 * To show another page with the services that the company is able to offer.
 * To provide a simple contact form where the client feels that privacy is respected.
 * To offer a quick call to action, through a button, to contract services.
-
+___
 # User Requirements and Expectations
 * To find a website that summarises as many geophysical services as possible.
 * To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing communications.
@@ -52,18 +55,19 @@ STRUCTURE\
 SKELETON\
 SURFACE\
 
+___
 # Design Choices
 EXPLAIN
-# Colors
+## Colors
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
 The background color is azure in order to have contrast with the content of the website while keeping the green-color tendency of the design.
-# Fonts
+## Fonts
 Google fonts, https://fonts.google.com/, were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.\
 Arial font is used as a back-up in case the previous fonts cannot be loaded.\
 Color #003300 (dark green) was selected for the body in order to have strong contrast with the white background of the body.\
 To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected; while #276609 is selected to highlight all headings.\
 The name of the company in the logo uses #73ac3e to have a unique color.
-# Structure
+## Structure
 Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
 
 In order to achive the goals related to easiness and/or simplicity, a navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
@@ -82,16 +86,23 @@ For the desktop case, the desined is carried out for a screen size of 1024x1536 
 * Contact Us: on the left, it has a picture of the office (above) and a location map (below). On the right, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
 Similar to the home page, to keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
 
-The footer contains links for social media, office location and company's principal e-mail of contact.
+The footer contains links for social media, office location and company's principal e-mail of contact.\
+ 
+____
 # Wireframes
 Wireframes were developed at the beginning of the project with Balsamic Wireframes software. The first design was carried out for desktop devices, assuming a screen size of 1024x768 pixels.\
 
 Tablets...\
 
-Mobile devices...
+Mobile devices...\ 
+
+___
+
 # Technologies used
 * HTML
 * CSS
+
+___
 # Features
 * The header with the navigation is responsive...
 * The body changes to adapt to different devices as follows:
@@ -100,6 +111,8 @@ Mobile devices...
     * Our Services: ...
     * Contact Us: ...
 * The footer
+
+___
 # Validation
 The following errors were found and solved:
 1. For HTML files:
@@ -126,13 +139,17 @@ The following errors were found and solved:
 
 https://validator.w3.org/ was used to validate the HTML file.
 
+___
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
+___
 # Bugs
 EXPLAIN
 # Deployment
+___
 EXPLAIN
 # Credit
+___
 * Code Institute: I have used the learning material in the course as a guide and reference.
 * Love Running - Essentials Project, from Code Institute, as main guide and source of design concepts and code for this project.
 * Balsamiq Wireframes: I have used it to create all the wireframes.
@@ -181,7 +198,7 @@ EXPLAIN
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
     * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/
 
-
+___
 # Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * Code Institute, for providing knowledge, guide and tools.
