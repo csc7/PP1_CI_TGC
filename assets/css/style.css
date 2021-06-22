@@ -423,6 +423,11 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .carousel-item > div > p {
     color:  #00cc00;
+    font-size: 150%;
+}
+
+.carousel-item > div > h5 {
+    font-size: 200%;
 }
 
 #services-column-left {
