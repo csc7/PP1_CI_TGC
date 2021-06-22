@@ -2,8 +2,10 @@
 This repository belongs to my first milestone project in the Full-stack Development course at Code Institute, covering HTML and CSS along with Git version control and other design tools.
 
 The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/)
+<br><br><br>
 
-# Project Goals
+___
+# 1. Project Goals
 The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the curren energy transition towards greener energies and less CO2 emissions.
 
 Specifically, the goals are the following ones:
@@ -13,24 +15,30 @@ Specifically, the goals are the following ones:
 * To provide users a clear view of the services available.
 * To provide users a simple way of requesting services.
 * to provide users a simple way of contacting the company.
+<br><br><br>
 
 ___
+# 2. User Experience
 
-# User Goals
-* A website where navigation is easy and intuitive.
-* Capability of show the same information, in the same easy and intuitive way, in different devices and screen sizes.
-* Rather than a description of the service, a fast way of requesting the service.
-* A simple way of contacting the company.
-* An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. \
+UX has been addressed (and remains as a constant activity) around Jesse James Garrett's process, whose five planes involves the following matters:
+- STRATEGY: to build a website (product) for a company who wants to sell services.
+- SCOPE: the minimum viable product needs to include features that allow the user to know the following:
+    - Basic organisational information about the company.
+    - Which services it provides.
+    - How to contat the company.
+    - How to request services.
+    - Be informed about the lastest news.
+- STRUCTURE: the information is structured as follows:
+    - Basic organisational information about the company: in a separate page.
+    - Which services it provides: in a separate page.
+    - How to contat the company: both in a separate page and in a fixed button.
+    - How to request services: in a fixed button.
+    - Be informed about the lastest news: in the home page.
+- SKELETON: the information is accessed through a fixed navigation menu on top of the pages, which in addition has a button to request services.
+- SURFACE: the website is based on green colors (to be in line with the company activity and name), contains images and a video related to its activity, and will summarise information in tables as much as possible.
 
-___
-# User Stories
-* "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
-* "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
-* "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
-* "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
-___
-# Site Owner Goals
+
+## Organisation/Site Owner Goals
 * To show all services that the company offers in a summarised way.
 * To offer a quick way to contract services (to add value when compared to other companies and to increase chances of capturing clients not fully decided).
 * To receive consultations from potential clients.
@@ -41,22 +49,38 @@ ___
 * To show another page with the services that the company is able to offer.
 * To provide a simple contact form where the client feels that privacy is respected.
 * To offer a quick call to action, through a button, to contract services.
-___
-# User Requirements and Expectations
+
+## User Goals
+* A website where navigation is easy and intuitive.
+* Capability of show the same information, in the same easy and intuitive way, in different devices and screen sizes.
+* Rather than a description of the service, a fast way of requesting the service.
+* A simple way of contacting the company.
+* An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. \
+
+## User Interface
+
+## User Stories
+* "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
+* "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
+* "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
+* "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
+
+
+
+## User Requirements and Expectations
 * To find a website that summarises as many geophysical services as possible.
 * To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing communications.
 * To be able to easily contact services if needed.
 * To easily find basic information, location, contact details, and social media information of the company.
 
-UX:\
-STRATEGY\
-SCOPE\
-STRUCTURE\
-SKELETON\
-SURFACE\
+
+## User Experience Processes
+
+
+<br><br><br>
 
 ___
-# Design Choices
+# 3.  Design Choices
 EXPLAIN
 ## Colors
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
@@ -87,23 +111,25 @@ For the desktop case, the desined is carried out for a screen size of 1024x1536 
 Similar to the home page, to keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
 
 The footer contains links for social media, office location and company's principal e-mail of contact.\
- 
-____
-# Wireframes
+<br><br><br>
+
+___
+# 4. Wireframes
 Wireframes were developed at the beginning of the project with Balsamic Wireframes software. The first design was carried out for desktop devices, assuming a screen size of 1024x768 pixels.\
 
 Tablets...\
 
 Mobile devices...\ 
+<br><br><br>
 
 ___
-
-# Technologies used
+# 5. Technologies used
 * HTML
 * CSS
+<br><br><br>
 
 ___
-# Features
+# 6. Features
 * The header with the navigation is responsive...
 * The body changes to adapt to different devices as follows:
     * Home: ...
@@ -111,9 +137,10 @@ ___
     * Our Services: ...
     * Contact Us: ...
 * The footer
+<br><br><br>
 
 ___
-# Validation
+# 7. Validation
 The following errors were found and solved:
 1. For HTML files:
 1. * Home Page:
@@ -138,17 +165,24 @@ The following errors were found and solved:
         remove  d-none d-md-block class from carousel items
 
 https://validator.w3.org/ was used to validate the HTML file.
+<br><br><br>
 
 ___
-# Testing of User Stories(Feature-Action-Expected result-Actual result)
+# 8. Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
+<br><br><br>
+
 ___
-# Bugs
+# 9. Bugs
 EXPLAIN
-# Deployment
+# 10. Deployment
+<br><br><br>
+
 ___
 EXPLAIN
-# Credit
+# 11. Credit
+<br><br><br>
+
 ___
 * Code Institute: I have used the learning material in the course as a guide and reference.
 * Love Running - Essentials Project, from Code Institute, as main guide and source of design concepts and code for this project.
@@ -197,9 +231,10 @@ ___
 * Maps in Contact Us page:
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
     * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/
+<br><br><br>
 
 ___
-# Acknowledgements
+# 12. Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * Code Institute, for providing knowledge, guide and tools.
 * My mentor (CHECK IF I CAN PUBLISH HIS NAME), for helping with very valuable guide and support.
