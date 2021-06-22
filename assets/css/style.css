@@ -13,7 +13,7 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: rgb(120, 231, 190);
+    background-color: rgb(186, 233, 227);;
     /* for a general margin all over the website*/
     /*padding: 20px 20px 20px 20px;*/
 }
@@ -218,7 +218,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     margin-top: 5%;
     width: 100%;
     text-align: center;
-    background-color: turquoise;
+    background-color:  rgb(157, 233, 180);
     font-size: 400%;
 }
 
@@ -412,7 +412,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 /* Our Services page */
 
 #our-services-carousel-background {
-    background-color: turquoise;
+    background-color: rgb(186, 233, 227);
     padding-top: 160px;
 }
 
