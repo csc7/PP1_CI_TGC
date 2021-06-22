@@ -13,7 +13,7 @@ from https://fonts.google.com/ */
 body {
     font-family: 'Roboto', Arial;
     color: #003300;
-    background-color: rgb(171, 238, 213);
+    background-color: rgb(120, 231, 190);
     /* for a general margin all over the website*/
     /*padding: 20px 20px 20px 20px;*/
 }
@@ -411,14 +411,14 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 /* Our Services page */
 
-#our-services-video-background {
+#our-services-carousel-background {
     background-color: turquoise;
     padding-top: 160px;
 }
 
 #carouselExampleIndicators {
     margin: auto;
-    width: 50%;
+    width: 75%;
 }
 
 #our-services-description {
@@ -432,6 +432,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .carousel-item > div > h5 {
     font-size: 200%;
+
 }
 
 #services-column-left {
@@ -825,7 +826,7 @@ of consultation (commercial or technical below a width of 1750px */
 
     /* Our Services */
 
-    #our-services-video-background {
+    #our-services-carousel-background {
        padding-top: 180px;
     }
     
@@ -929,6 +930,8 @@ of consultation (commercial or technical below a width of 1750px */
 }
 
 
+
+
 @media screen and (max-width: 750px) {
 
     /* Header */
@@ -1021,6 +1024,7 @@ of consultation (commercial or technical below a width of 1750px */
     .content > h1 {
         font-size: 250%;
     }
+
     .content > h2 {
         font-size: 150%;
     }
@@ -1145,16 +1149,28 @@ of consultation (commercial or technical below a width of 1750px */
 
     /* Our Services Page */
 
-    #our-services-video-background {
+    .carousel-item > div > p {
+        font-size: 100%;
+    }
+    
+    .carousel-item > div > h5 {
+        font-size: 110%;
+    
+    }
+
+    
+
+    #our-services-carousel-background {
         padding-top: 135px;
-     }
+    }
+
      
-     #carouselExampleIndicators {
+    #carouselExampleIndicators {
         margin: auto;
         width: 100%;
-     }
+    }
  
-     #our-services-description {
+    #our-services-description {
         height: 100%;
      }
  
@@ -1259,6 +1275,28 @@ of consultation (commercial or technical below a width of 1750px */
         margin-right: 1%;
         width: 98%;
     }
+
+
+    /* Bigger font size is required for screen sizes between 500px and 750px */
+
+    @media screen and (min-width: 500px) and (max-width: 750px) {
+
+        .carousel-item > div > p {
+            color:  #00cc00;
+            font-size: 125%;
+        }
+
+        .carousel-item > div > h5 {
+            font-size: 150%;
+        
+        }
+
+
+    }
+
+
+
+
 
 
 }

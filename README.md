@@ -119,6 +119,9 @@ The following errors were found and solved:
 
         carousel-item class with text "jump", when setting heith to avoid jump, images in servicous carousel didn't wokr. So applied specificity in text carousel.
 
+        to solve text not showing in carousel for mobile: accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices
+        remove  d-none d-md-block class from carousel items
+
 https://validator.w3.org/ was used to validate the HTML file.
 
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
