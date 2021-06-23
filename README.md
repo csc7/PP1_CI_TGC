@@ -162,63 +162,219 @@ Mobile devices...\
 
 ___
 # 4. Technologies used
-* HTML
-* CSS
+- ## HTML ##
+- ## CSS ##
+- ## GitHub ##
+- ## Gitpod ##
 <br><br><br>
 
 ___
 # 5. Features
-* The header with the navigation is responsive...
-* The body changes to adapt to different devices as follows:
-    * Home: ...
-    * About Us: ...
-    * Our Services: ...
-    * Contact Us: ...
-* The footer
-<br><br><br>
+The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
+<br><br>
+
+- ## Fixed navigation menu
+
+It is located in the header, fixed on all pages to facilitate navigation, and responsive.
+![Fixed Menu for Desktop Image](docs/features/01_fixed_menu.PNG)
+![Fixed Menu for Tablets Image](docs/features/01_fixed_menu_tablets.PNG)
+![Fixed Menu for Mobiles Image](docs/features/01_fixed_menu_mobiles.PNG)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12; 27; 41
+<br><br>
+
+- ## Fixed Button to Request Services
+It is also located in the header, fixed to the right of the navigation menu, to keep it very accessible.
+![Fixed Request Button](docs/features/02_request_button.PNG)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+- ## Feature
+Description
+![Image](docs/features/)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+- ## Feature
+Description
+![Image](docs/features/)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+- ## Feature
+Description
+![Image](docs/features/)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+- ## Feature
+Description
+![Image](docs/features/)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+- ## Feature
+Description
+![Image](docs/features/)
+
+**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+<br><br>
+
+
 
 ___
-# 6. Validation
+# 6. Testing
+## Validation
 The following errors were found and solved:
-1. For HTML files:
-1. * Home Page:
-    1.
-    1.
-    1.  * Error: stray end tag i - Deleted extra closing i tag.
-        * Error: aria-labelledby attribute not pointing to an local element (in current document). Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter).
-        * Error: stray start tag script. It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag.
-        * Warning: Use h1 element as a top-level heading only. Change headings of text above background videos from h1 and h2 to h2 and h3.
+- ### **HTML files**
+    https://validator.w3.org/ was used to validate the HTML file.
+    - ## *Home Page*
+        | ERROR/WARNING | SOLUTION |
+        | --- | --- |
+        | stray end tag i | Deleted extra closing i tag. |
+        | aria-labelledby attribute not pointing to a local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). |
+        | Stray start tag script |  It was actually caused by the closing body tag placed before the end oF the HTML file, leaving some scripts tags outside the body tag. SoLved by moving the closing tag to the end, just before the closing html tag. |
+        | Warning: Use h1 element as a top-level heading only | Changed headings of text above background videos from h1 and h2 to h2 and h3. |
+        | Positioning errors of contact form | Solved by assigning proper margin values. |
+        | Poor performance of contact form (in Contact Us page) for different screen sizes | Inverted right and left columns in Contact Us page to have a better responsive experience. |
+         Poor performance of tables for tablet screen sizes | Multiplied height by 2 for tablet screen sizes. |
+        | carousel-item with text "jumps" when changing | Increased specificity to select proper height of carousel text elements |
+        <br><br><br>
 
-        modal in background
+    - ## *About Us Page*
+        | ERROR/WARNING | SOLUTION |
+        | --- | --- |    
+        | sdfsfs | asdfasdfasd |
+        <br><br><br>
 
-        positioning errors of contact form, etc.
+    - ## *Our services Page*
+        | ERROR/WARNING | SOLUTION |
+        | --- | --- |    
+        | Text not showing in carousel for mobile | Removed d-none and d-md-block classes from carousel items (accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices) | 
+        <br><br><br>
 
-        inverted right left columns in contact us page to have a better responsive experience (user experience)
+    - ## *Contact Us Page*
+        | ERROR/WARNING | SOLUTION |
+        | --- | --- |    
+        | sdfsfs | asdfasdfasd |
+        <br><br><br>
 
-        responsive multiply heith by 2 for tablet
+- ### **CSS file**
+    - 
+        | ERROR/WARNING | SOLUTION |
+        | --- | --- |
+        | asdfasdfs | asfsdfsd |
+        <br><br><br>
 
-        carousel-item class with text "jump", when setting heith to avoid jump, images in servicous carousel didn't wokr. So applied specificity in text carousel.
+## Testing of User Stories
+The following are testing procedures applied to User Stories, referenced by numbers:
+<br><br>
+- ### **User Goals**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 1 | A website where navigation is easy and intuitive. | sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs | ![Fixed Menu Image](docs/features/01_fixed_menu.PNG) |
+| 2 | Rather than a long description of the services, basic information with a fast method for requesting the service. | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 3 | To infer the size of the company at a glance. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 4 | To know what services can be provided by the company. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 5 | To know where the main office is located. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 6 | To be able to make consultations. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
 
-        to solve text not showing in carousel for mobile: accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices
-        remove  d-none d-md-block class from carousel items
+<br><br>
+- ### **User Requirements**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 7 | A simple way of contacting the company. | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 8 | An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 9 | A navigation menu that is always visible and able to provide access to all the website. | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 10 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 11 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
 
-https://validator.w3.org/ was used to validate the HTML file.
-<br><br><br>
+<br><br>
+- ### **User Expectations**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 12 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 13 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 14 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 15 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
 
-___
-# 7. Testing of User Stories(Feature-Action-Expected result-Actual result)
-EXPLAIN
+<br><br>
+- ### **User Feedback**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 16 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 17 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 18 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 19 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+<br><br>
+- ### **Organisation/Site Owner Goals**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 20 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 21 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 22 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 23 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 24 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 25 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 26 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 27 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 28 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 29 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+
+<br><br>
+- ### **Organisation/Site Owner Requirements**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 30 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 31 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 32 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 33 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 34 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 35 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+
+<br><br>
+- ### **Organisation/Site Owner Expectations**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 36 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 37 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 38 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 39 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 40 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+
+<br><br>
+- ### **User Interface**
+| N° | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| --- | --- | --- | --- | --- | --- |
+| 41 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | ![Request Button Image](docs/features/02_request_button.PNG) |
+| 42 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 43 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 44 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 45 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 46 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 47 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 48 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
+| 49 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT | IMAGE |
 <br><br><br>
 
 ___
 # 8. Bugs
 EXPLAIN
-# 10. Deployment
 <br><br><br>
 
+
 ___
-EXPLAIN
-# 9. Credits
+# 9. Deployment
+<br><br><br>
+
+
+___
+# 10. Credits
 
 * Code Institute: I have used the learning material in the course as a guide and reference.
 * Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
