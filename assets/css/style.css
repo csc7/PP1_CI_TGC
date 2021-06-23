@@ -932,7 +932,7 @@ of consultation (commercial or technical below a width of 1750px */
 
 
 
-@media screen and (max-width: 750px) {
+    @media screen and (max-width: 750px) {
 
     /* Header */
     header {
@@ -1295,6 +1295,13 @@ of consultation (commercial or technical below a width of 1750px */
     }
 
 
+    @media screen and (max-width: 340px) {
+        #nav-menu li {
+            margin: 0 2px 0 2px;
+            padding: 0;
+            height: 40px;
+        }
+    }
 
 
 
