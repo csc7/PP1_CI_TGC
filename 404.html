@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Code Institute Student Milestone Project 1">
+    <meta name="keywords" content="geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations, Code Institute, software development, student, full-stack course, milestone project">
+
+    <!--
+    Code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    Bootstrap CSS
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TGC | Home</title>
+</head>
+<body>
+    <header>
+        <div id="company-logo-box">
+            <a href="index.html">
+                <!--
+                Icon for logo:
+                Credit: Font Awesome
+                Downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid
+                -->
+                <h1 id="company-logo"><i class="fas fa-leaf"></i> TGC</h1>
+            </a>
+        </div>
+        <nav id="nav-modal-btn">
+               
+            <!--
+            Button trigger modal:
+            Credit: Bootstrap
+            Code copied on June 10th, 2021, 00:14 from
+            https://getbootstrap.com/docs/4.0/components/modal/
+            Changed aria-labelledby="exampleModalCenterTitle" to aria-labelledby="exampleModalCenter"
+            -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Request Service
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Request Service</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="https://" method="POST">
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Pick a Date</label>
+                                    <input type="datetime-local" class="form-control" id="recipient-name">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Request Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav id="nav-menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="active-page">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="our-services.html">Our Services</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="section-separator"></div>
+    </header>
+    
+    <div>
+        <p>404</p>
+    </div>
+
+    <footer>
+        <ul class="social-contact-links">
+            <li>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener"
+                    aria-label="Visit The Green Company LinkedIn page (it opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit The Green Company Facebook page (it opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit The Green Company Twitter page (it opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit The Green Company Instagram page (it opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://maps.google.com" target="_blank" rel="noopener"
+                    aria-label="See The Green Company office location in Google Maps (it opens in a new tab)"><i class="fas fa-map-marker-alt"></i></a>
+            </li>
+            <li>
+                <a href="https://email" target="_blank" rel="noopener"
+                    aria-label="Send us an e-mail (it opens in a new tab)"><i class="far fa-envelope"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/80e4621b26.js" crossorigin="anonymous"></script>
+</body>
+    
+    <!-- Code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
