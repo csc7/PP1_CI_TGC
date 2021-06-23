@@ -36,6 +36,7 @@
             Code copied on June 10th, 2021, 00:14 from
             https://getbootstrap.com/docs/4.0/components/modal/
             Changed aria-labelledby="exampleModalCenterTitle" to aria-labelledby="exampleModalCenter"
+            IDs/for attributes in label modified on June 23rd, 2021, 23:48.
             -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
             Request Service
@@ -54,20 +55,20 @@
                         <div class="modal-body">
                             <form action="https://formdump.codeinstitute.net/" method="POST">
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Full Name</label>
-                                    <input type="text" class="form-control" id="recipient-name">
+                                    <label for="recipient-name-full-name" class="col-form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="recipient-name-full-name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">E-mail</label>
-                                    <input type="email" class="form-control" id="recipient-name">
+                                    <label for="recipient-name-email" class="col-form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="recipient-name-email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Pick Date and Time</label>
-                                    <input type="datetime-local" class="form-control" id="recipient-name">
+                                    <label for="recipient-name-date-time" class="col-form-label">Pick Date and Time</label>
+                                    <input type="datetime-local" class="form-control" id="recipient-name-date-time">
                                 </div>
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label"></label>
-                                    <input type="submit" class="form-control" id="recipient-name">
+                                    <label for="recipient-name-submit" class="col-form-label"></label>
+                                    <input type="submit" class="form-control" id="recipient-name-submit">
                                 </div>
                             </form>
                         </div>
@@ -141,7 +142,7 @@
                     </div>
                     <div class="telephone-checkbox-can-we-call-you">
                         <input id="telephone-checkbox" type="checkbox" name="telephone-checkbox">
-                        <label id="telephone-checkbox-label"for="telephone-checkbox">Can we call you?</label>
+                        <label id="telephone-checkbox-label" for="telephone-checkbox">Can we call you?</label>
                     </div>
                 </div>
 
@@ -151,18 +152,12 @@
                     </div>
                     <div class="form-row-input">
                         <select id="department-list" name="department-list">
-                            <option value="Acquisition">Acquisition</option>
-                            <option value="Processing">Processing</option>
-                            <option value="Imaging">Imaging</option>
-                            <option value="Geothermal">Geothermal</option>
-                            <option value="Solar">Solar</option>
-                            <option value="Wind">Wind</option>
-                            <option value="CCS">CCS</option>
-                            <option value="Site Survey">Site Survey</option>
-                            <option value="Modelling">Modelling</option>
-                            <option value="Feasibility">Feasibility</option>
-                            <option value="Well Data">Well Data</option>
-                            <option value="Supervision">Supervision</option>
+                            <option value="Acquisition">Renewables</option>
+                            <option value="Processing">Beophysics</option>
+                            <option value="Imaging">Geology</option>
+                            <option value="Geothermal">Modelling</option>
+                            <option value="Solar">Project Management</option>
+                            <option value="Wind">Supervision</option>
                         </select>
                     </div>
                 </div>
@@ -171,16 +166,16 @@
                         <p>Type</p>
                     </div>
                     <div class="radio-input" id="radio-input-commercial">
-                        <input name="consultation-type" value="commercial" type="radio">
+                        <input name="consultation-type" id="commercial-radio" value="commercial" type="radio">
                     </div>
                     <div class="radio-label" id="radio-label-commercial">
-                        <label for="value">Commercial</label>
+                        <label for="commercial-radio">Commercial</label>
                     </div>
                     <div class="radio-input" id="radio-input-technical">
-                        <input name="consultation-type" value="technical" type="radio">
+                        <input name="consultation-type" id="technical-radio" value="technical" type="radio">
                     </div>
                     <div class="radio-label" id="radio-label-technical">
-                        <label for="value">Technical</label>
+                        <label for="technical-radio">Technical</label>
                     </div>
                 </div>  
                 <div class="form-row">
@@ -200,7 +195,7 @@
 
         <div id="contact-us-right-column">
             <div id="contact-us-title">
-                <h1>Contact Us!</h1>
+                <h2>Contact Us!</h2>
             </div>
             <div id="location-map">
                 <!-- Google Maps -->
@@ -239,8 +234,7 @@
                     aria-label="Visit The Green Company Instagram page (it opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="            <li>
-                    " target="_blank" rel="noopener"
+                <a href="mailto:information@fictitioustgcemail.com" target="_blank" rel="noopener"
                     aria-label="Send us an e-mail (it opens in a new tab)"><i class="far fa-envelope"></i></a>
             </li>
         </ul>
@@ -248,12 +242,13 @@
 
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/80e4621b26.js" crossorigin="anonymous"></script>
-</body>
+
     
     <!-- Code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
     Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
+  
+</body>
 </html>
