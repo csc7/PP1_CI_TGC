@@ -103,7 +103,12 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 }
 
-
+#exampleModalCenter > div > div > div.modal-body > form > div:nth-child(4) > label ~ #recipient-name {
+    background-color: #00cc00;
+    padding-top: 4%;
+    font-size: 100%;
+    font-weight: bolder;
+}
 
 #nav-menu a {
     font-family: 'Baloo Tammudu 2';
@@ -600,6 +605,9 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     padding-left: 5px;
 }
 
+#form-description {
+    resize: none;
+}
 
 #submit-form-button {
     font-family: 'Baloo Tammudu 2';

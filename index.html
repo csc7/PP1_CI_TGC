@@ -37,6 +37,7 @@
             Code copied on June 10th, 2021, 00:14 from
             https://getbootstrap.com/docs/4.0/components/modal/
             Changed aria-labelledby="exampleModalCenterTitle" to aria-labelledby="exampleModalCenter"
+            Modified on June 23rd, 2021, 21:23 (removed footer and put submit button in modal body)
             -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
             Request Service
@@ -53,7 +54,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <form action="https://" method="POST">
+                            <form action="https://formdump.codeinstitute.net/" method="POST">
                                 <div class="form-group">
                                     <label for="recipient-name" class="col-form-label">Full Name</label>
                                     <input type="text" class="form-control" id="recipient-name">
@@ -66,11 +67,11 @@
                                     <label for="recipient-name" class="col-form-label">Pick a Date</label>
                                     <input type="datetime-local" class="form-control" id="recipient-name">
                                 </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Pick a Date</label>
+                                    <input type="submit" class="form-control" id="recipient-name">
+                                </div>
                             </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Request Service</button>
                         </div>
                     </div>
                 </div>
