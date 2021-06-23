@@ -124,13 +124,15 @@ The name of the company along with the name of the page are included in the head
 
 The visible websites is organised in a header, a body and a footer.
 
-### Header
+Wireframes were developed at the beginning in order to have a first design of the website.
+
+- ### Header
 
 In order to achive the goals related to easiness and/or simplicity, a fixed navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
 
 This "quick" button, whose name is "Request Service", pops up a modal form (taken from Bootstrap, please see credits section below) where the user is able to contract specific services.
 
-### Body
+- ### Body
 
 The body of the pages are structured as follows for each of the pages:
 * Home: it contains an environmental-friendly background video with a slogan of the company and the services it offers.
@@ -146,14 +148,12 @@ They are structured in a 3x2 arrange for desktop and tablet presentations, and 1
 On the right, there is a map of the office (above) and contact details can be found below the map.\
 This page has a background picture of the office.
 
-### Footer
+- ### Footer
 
 The footer contains links for social media, office location and company's principal e-mail of contact.\
-<br><br><br>
 
-___
-# 4. Wireframes
-Wireframes were developed at the beginning of the project with Balsamic Wireframes software. The first design was carried out for desktop devices, assuming a screen size of 1024x768 pixels.\
+- ### Wireframes
+Wireframes were developed at the beginning of the project with Balsamic Wireframes software. The first design was carried out for desktop devices, assuming a screen size of 1024x768 pixels.
 
 Tablets...\
 
@@ -161,13 +161,13 @@ Mobile devices...\
 <br><br><br>
 
 ___
-# 5. Technologies used
+# 4. Technologies used
 * HTML
 * CSS
 <br><br><br>
 
 ___
-# 6. Features
+# 5. Features
 * The header with the navigation is responsive...
 * The body changes to adapt to different devices as follows:
     * Home: ...
@@ -178,7 +178,7 @@ ___
 <br><br><br>
 
 ___
-# 7. Validation
+# 6. Validation
 The following errors were found and solved:
 1. For HTML files:
 1. * Home Page:
@@ -206,24 +206,22 @@ https://validator.w3.org/ was used to validate the HTML file.
 <br><br><br>
 
 ___
-# 8. Testing of User Stories(Feature-Action-Expected result-Actual result)
+# 7. Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN
 <br><br><br>
 
 ___
-# 9. Bugs
+# 8. Bugs
 EXPLAIN
 # 10. Deployment
 <br><br><br>
 
 ___
 EXPLAIN
-# 11. Credits
-<br><br><br>
+# 9. Credits
 
-___
 * Code Institute: I have used the learning material in the course as a guide and reference.
-* Love Running - Essentials Project, from Code Institute, as main guide and source of design concepts and code for this project.
+* Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
 * Balsamiq Wireframes: I have used it to create all the wireframes.
 * ...
 * Font Awesome:
@@ -272,7 +270,7 @@ ___
 <br><br><br>
 
 ___
-# 12. Acknowledgements
+# 10. Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * Code Institute, for providing knowledge, guide and tools.
 * My mentor (CHECK IF I CAN PUBLISH HIS NAME), for helping with very valuable guide and support.
