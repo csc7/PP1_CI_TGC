@@ -84,53 +84,69 @@ They are organised in thre groups: users (including feedback), organisation/site
     32. To provide a map with the location of the company's office.
     33. To show in the home page a slogan about what the company is.
     34. To have a section, most likely in the footer, with links to company's e-mail address and social network links.
+    35. To show the name of the company along with the name of the page in the title of the brower tab.
 - ### Organisation/Site Expectations
-    35. To have a permanent working site.
-    36. To provide simple navigation through the website.
-    37. To have a website which is itself an advertising tool.
-    38. To have a good design, inline with company's services.
+    36. To have a permanent working site.
+    37. To provide simple navigation through the website.
+    38. To have a website which is itself an advertising tool.
+    39. To have a good design, inline with company's services.
+    40. To have the website visible in search engines.
 ### User Interface
-    39. Fixed navigation menu on top.
-    40. Fixed button, on navigation menu, to request services.
-    41. Footer with links to company's e-mail address and social network links.
-    42. Section with company's mission, values and vission.
-    43. Table with last relevant projects of the company.
-    44. Table with departments of the company.
-    45. Section with latest news of the company.
-    46. Contact form for users.
-    47. Map with office location.
+    41. Fixed navigation menu on top.
+    42. Fixed button, on navigation menu, to request services.
+    43. Footer with links to company's e-mail address and social network links.
+    44. Section with company's mission, values and vission.
+    45. Table with last relevant projects of the company.
+    46. Table with departments of the company.
+    47. Section with latest news of the company.
+    48. Contact form for users.
+    49. Map with office location.
 <br><br><br>
 
 ___
 # 3.  Design Choices
-EXPLAIN
 ## Colors
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
-The background color is azure in order to have contrast with the content of the website while keeping the green-color tendency of the design.
+
+The background color is green/grey, rgb(186, 233, 227), in order to have contrast with the content of the website while keeping the green-color tendency of the design.
 ## Fonts
-Google fonts, https://fonts.google.com/, were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.\
-Arial font is used as a back-up in case the previous fonts cannot be loaded.\
-Color #003300 (dark green) was selected for the body in order to have strong contrast with the white background of the body.\
-To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected; while #276609 is selected to highlight all headings.\
+Google fonts (please see credits section below) were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.
+Arial font is used as a back-up in case the previous fonts cannot be loaded.
+
+Color #003300 (dark green) was selected for the body in order to have strong contrast with the white background of the body.
+To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected; while #276609 is selected to highlight all headings.
+
 The name of the company in the logo uses #73ac3e to have a unique color.
 ## Structure
 Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
 
-In order to achive the goals related to easiness and/or simplicity, a navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
+The name of the company along with the name of the page are included in the head element (in the title) in order to comply with the expectations of the owner.
 
-This "quick" button, whose name is "Request Service", pops up a modal form where the user is able to contract specific services.
+The visible websites is organised in a header, a body and a footer.
+
+### Header
+
+In order to achive the goals related to easiness and/or simplicity, a fixed navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
+
+This "quick" button, whose name is "Request Service", pops up a modal form (taken from Bootstrap, please see credits section below) where the user is able to contract specific services.
+
+### Body
 
 The body of the pages are structured as follows for each of the pages:
-* Home: it contains an environmental-friendly background video with a slogan of the company and the services it offers.\
-To keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
-* About Us: it has an upper section, divided in three subsections, where a picture, title and text for the following items are allocated: Mission, Values and Vision. In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
-This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the projects of the company.\
+* Home: it contains an environmental-friendly background video with a slogan of the company and the services it offers.
+* About Us: it has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.\
+In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
+This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the last projects of the company (those in year 2021).\
 Finally, at the bottom of the body, there is another section that contains a table that shows the amount of people per department in the company.\
 The desined is carried out for a screen size of 1024x1536 pixels (double in vertical lenght than the home page).
-* Our services: it contains pictures, titles and text for each of the services being provided by the company. They are structured in a 4x4 arrange for desktop presentation, 2x8 for tablets, and 1x16 for mobile devices.\
-For the desktop case, the desined is carried out for a screen size of 1024x1536 pixels (as before, double, in vertical lenght, than the home page).
-* Contact Us: on the left, it has a picture of the office (above) and a location map (below). On the right, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
-Similar to the home page, to keep navigation simple, this page is designed to fit in a screen of 1024x768 pixels withough having to scroll with the mouse.
+* Our services: it contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
+Below, in a section, there are columns that contain the titles of the services and text for each of them.\
+They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.\
+* Contact Us: on the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
+On the right, there is a map of the office (above) and contact details can be found below the map.\
+This page has a background picture of the office.
+
+### Footer
 
 The footer contains links for social media, office location and company's principal e-mail of contact.\
 <br><br><br>
@@ -202,7 +218,7 @@ EXPLAIN
 
 ___
 EXPLAIN
-# 11. Credit
+# 11. Credits
 <br><br><br>
 
 ___
