@@ -47,60 +47,60 @@ They are organised in thre groups: users (including feedback), organisation/site
 1. A website where navigation is easy and intuitive.
 2. Rather than a long description of the services, basic information with a fast method for requesting the service.
 3. To infer the size of the company at a glance.
-    4. To know what services can be provided by the company.
-    5. To know where the main office is located.
-    6. To be able to make consultations.
+4. To know what services can be provided by the company.
+5. To know where the main office is located.
+6. To be able to make consultations.
 - ### User Requirements
-    7. A simple way of contacting the company.
-    8. An option where a user is able to give personal details while keeping the decision of opting out of marketing communications.
-    9. A navigation menu that is always visible and able to provide access to all the website.
-    10. An easy way to request services.
-    11. An easy way to obtian company's contact details.
+7. A simple way of contacting the company.
+8. An option where a user is able to give personal details while keepingthe decision of opting out of marketing communications.
+9. A navigation menu that is always visible and able to provide access toall the website.
+10. An easy way to request services.
+11. An easy way to obtian company's contact details.
 - ### User Expectations
-    12. Not to get "lost" while naviting the website.
-    13. A website that is accessible from any device and screen size.
-    14. A website that only opens new windows for external websites.
-    15. To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing phone calls.
+12. Not to get "lost" while naviting the website.
+13. A website that is accessible from any device and screen size.
+14. A website that only opens new windows for external websites.
+15. To have the option to contact the company without getting into complexprocesses, while mantaining the option to avoid unsolicited marketingphone calls.
  - ### User Feedback
-    16. "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
-    17. "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
-    18. "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
-    19. "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
+16. "Our wind energy company is small in size and benefits from flexibleprocedures for contracting services; we want a website like the one of TheGreen Company that offers them with a quick way of contracting, so that wecan address our project requests very quickly and agilely".
+17. "We are a manpower company that needs to respond to client requests asquick as possible, with as many services as possible; we see The GreenCompany's website a convenient way to select and hire different types ofgeophysical services".
+18. "I am a consultant who sometimes needs to build dedicated teams toaddress service requests for specific projects (most of them in the studyof grounds for solar projects); I see The Green Company as an excellentway to get information about available services without the need of goingthrough long processes and without the need of exchanging personal data(which many times is confidential due to the nature of the projects I workin)".
+19. "Our company deals with many energy projects (most of then in thegeothermal and eolic energy spectrum) and we find the website of The GreenCompany a quick and convenient way of having a summary of most requiredservices, with the additional benefit of contracting them directly".
 ### Organisation/Site Owner
 - ### Organisation/Site Owner Goals
-    20. To capture clients.
-    21. To sell services.
-    22. To have a simple website where users do not "get lost" when navigating.
-    23. To show all services that the company offers in a summarised way.
-    24. To provide basic information of the structure of the comapny.
-    25. To receive consultations from potential clients.
-    26. To provide a simple contact form where the client feels that privacy is respected.
-    27. To offer a quick call to action, through a button, to contract services.
-    28. In order to address clients with similar characteristics, to briefly inform users about company's mission, values and vision.
-    29. To inform about latest news of the company.
+20. To capture clients.
+21. To sell services.
+22. To have a simple website where users do not "get lost" when navigating.
+23. To show all services that the company offers in a summarised way.
+24. To provide basic information of the structure of the comapny.
+25. To receive consultations from potential clients.
+26. To provide a simple contact form where the client feels that privacyis respected.
+27. To offer a quick call to action, through a button, to contractservices.
+28. In order to address clients with similar characteristics, to brieflyinform users about company's mission, values and vision.
+29. To inform about latest news of the company.
 - ### Organisation/Site Requirements
-    30. To provide a contact form to users where they can make consultations.
-    31. To have a simple a always-accessible button to request servcies (to add value when compared to other companies and to increase chances of capturing clients not fully decided).
-    32. To provide a map with the location of the company's office.
-    33. To show in the home page a slogan about what the company is.
-    34. To have a section, most likely in the footer, with links to company's e-mail address and social network links.
-    35. To show the name of the company along with the name of the page in the title of the brower tab.
+30. To provide a contact form to users where they can make consultations.
+31. To have a simple a always-accessible button to request servcies (toadd value when compared to other companies and to increase chances ofcapturing clients not fully decided).
+32. To provide a map with the location of the company's office.
+33. To show in the home page a slogan about what the company is.
+34. To have a section, most likely in the footer, with links to company'se-mail address and social network links.
+35. To show the name of the company along with the name of the page in thetitle of the brower tab.
 - ### Organisation/Site Expectations
-    36. To have a permanent working site.
-    37. To provide simple navigation through the website.
-    38. To have a website which is itself an advertising tool.
-    39. To have a good design, inline with company's services.
-    40. To have the website visible in search engines.
+36. To have a permanent working site.
+37. To provide simple navigation through the website.
+38. To have a website which is itself an advertising tool.
+39. To have a good design, inline with company's services.
+40. To have the website visible in search engines.
 ### User Interface
-    41. Fixed navigation menu on top.
-    42. Fixed button, on navigation menu, to request services.
-    43. Footer with links to company's e-mail address and social network links.
-    44. Section with company's mission, values and vission.
-    45. Table with last relevant projects of the company.
-    46. Table with departments of the company.
-    47. Section with latest news of the company.
-    48. Contact form for users.
-    49. Map with office location.
+41. Fixed navigation menu on top.
+42. Fixed button, on navigation menu, to request services.
+43. Footer with links to company's e-mail address and social network links.
+44. Section with company's mission, values and vission.
+45. Table with last relevant projects of the company.
+46. Table with departments of the company.
+47. Section with latest news of the company.
+48. Contact form for users.
+49. Map with office location.
 <br><br><br>
 
 ___
