@@ -234,25 +234,29 @@ The following tools were used to validate the files of the website:
 - ### **HTML files**
 https://validator.w3.org/ was used to validate the HTML file. All files ended up with zero errors and warnings.
 Check the files and/or images below:
+
 <details>
     <summary>Home Page</summary>
-    https://validator.w3.org/nu/#textarea
-    ![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
+
+![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
 </details>
+
 <details>
     <summary>About Us Page</summary>
-    https://validator.w3.org/nu/#textarea
-    ![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
+
+![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
 </details>
+
 <details>
     <summary>Our Services Page</summary>
-    https://validator.w3.org/nu/#textarea
-    ![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
+
+![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
 </details>
+
 <details>
     <summary>Contact Us Page</summary>
-    https://validator.w3.org/nu/#textarea
-    ![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
+
+![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
 </details>
 
     - ## *Home Page*

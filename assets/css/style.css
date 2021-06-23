@@ -105,7 +105,7 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
 
 
 
-#exampleModalCenter > div > div > div.modal-body > form > div:nth-child(4) > label ~ #recipient-name {
+#exampleModalCenter > div > div > div.modal-body > form > div:nth-child(4) > label ~ #recipient-name-submit {
     background-color: #00cc00;
     padding-top: 4%;
     font-size: 100%;
@@ -344,7 +344,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     text-align: center;
 }
 
-#mission-values-vision, #values-list > li {
+.mission-values-vision-text, #values-list > li {
     font-family: 'Baloo Tammudu 2';
     font-size: 150%;
     color: white;
@@ -1136,7 +1136,7 @@ of consultation (commercial or technical below a width of 1750px */
         float: left;
     }
  
-    #mission-values-vision, #values-list > li {
+    .mission-values-vision-text, #values-list > li {
         font-size: 125%;
     }
     
