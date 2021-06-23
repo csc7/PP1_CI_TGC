@@ -44,9 +44,9 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 They are organised in thre groups: users (including feedback), organisation/site owner and user interface.
 ## Users
 - ### User Goals
-    1. A website where navigation is easy and intuitive.
-    2. Rather than a long description of the services, basic information with a fast method for requesting the service.
-    3. To infer the size of the company at a glance.
+1. A website where navigation is easy and intuitive.
+2. Rather than a long description of the services, basic information with a fast method for requesting the service.
+3. To infer the size of the company at a glance.
     4. To know what services can be provided by the company.
     5. To know where the main office is located.
     6. To be able to make consultations.
