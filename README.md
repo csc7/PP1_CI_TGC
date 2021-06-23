@@ -1,7 +1,9 @@
 # TGC - The Green Company
+This website is about a fictitious company. Excpet for the contect referenced in this README file, all content is invented by me, anything matching reality is jsut a coincidence.
+
 This repository belongs to my first milestone project in the Full-stack Development course at Code Institute, covering HTML and CSS along with Git version control and other design tools.
 
-The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/)
+The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/).
 <br><br><br>
 
 ___
@@ -12,6 +14,7 @@ Specifically, the goals are the following ones:
 * To show all services that the company offers.
 * To offer the company a simple way of being contacted.
 * To offer the company a simple way of selling services.
+* To offer the comapny a simple way of showing its structure.
 * To provide users a clear view of the services available.
 * To provide users a simple way of requesting services.
 * to provide users a simple way of contacting the company.
@@ -37,46 +40,65 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - SKELETON: the information is accessed through a fixed navigation menu on top of the pages, which in addition has a button to request services.
 - SURFACE: the website is based on green colors (to be in line with the company activity and name), contains images and a video related to its activity, and will summarise information in tables as much as possible.
 
-
-## Organisation/Site Owner Goals
-* To show all services that the company offers in a summarised way.
-* To offer a quick way to contract services (to add value when compared to other companies and to increase chances of capturing clients not fully decided).
-* To receive consultations from potential clients.
-* To capture clients.
-* To sell services.
-* To show in the home page an introduction and a few words about what the company is.
-* To show another page with a brief description of the company.
-* To show another page with the services that the company is able to offer.
-* To provide a simple contact form where the client feels that privacy is respected.
-* To offer a quick call to action, through a button, to contract services.
-
-## User Goals
-* A website where navigation is easy and intuitive.
-* Capability of show the same information, in the same easy and intuitive way, in different devices and screen sizes.
-* Rather than a description of the service, a fast way of requesting the service.
-* A simple way of contacting the company.
-* An option where a user is able to give personal details while keeping the decision of opting out of marketing communications. \
-
-## User Interface
-
 ## User Stories
-* "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
-* "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
-* "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
-* "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
-
-
-
-## User Requirements and Expectations
-* To find a website that summarises as many geophysical services as possible.
-* To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing communications.
-* To be able to easily contact services if needed.
-* To easily find basic information, location, contact details, and social media information of the company.
-
-
-## User Experience Processes
-
-
+They are organised in thre groups: users (including feedback), organisation/site owner and user interface.
+## Users
+- ### User Goals
+    1. A website where navigation is easy and intuitive.
+    2. Rather than a long description of the services, basic information with a fast method for requesting the service.
+    3. To infer the size of the company at a glance.
+    4. To know what services can be provided by the company.
+    5. To know where the main office is located.
+    6. To be able to make consultations.
+- ### User Requirements
+    7. A simple way of contacting the company.
+    8. An option where a user is able to give personal details while keeping the decision of opting out of marketing communications.
+    9. A navigation menu that is always visible and able to provide access to all the website.
+    10. An easy way to request services.
+    11. An easy way to obtian company's contact details.
+- ### User Expectations
+    12. Not to get "lost" while naviting the website.
+    13. A website that is accessible from any device and screen size.
+    14. A website that only opens new windows for external websites.
+    15. To have the option to contact the company without getting into complex processes, while mantaining the option to avoid unsolicited marketing phone calls.
+ - ### User Feedback
+    16. "Our wind energy company is small in size and benefits from flexible procedures for contracting services; we want a website like the one of The Green Company that offers them with a quick way of contracting, so that we can address our project requests very quickly and agilely".
+    17. "We are a manpower company that needs to respond to client requests as quick as possible, with as many services as possible; we see The Green Company's website a convenient way to select and hire different types of geophysical services".
+    18. "I am a consultant who sometimes needs to build dedicated teams to address service requests for specific projects (most of them in the study of grounds for solar projects); I see The Green Company as an excellent way to get information about available services without the need of going through long processes and without the need of exchanging personal data (which many times is confidential due to the nature of the projects I work in)".
+    19. "Our company deals with many energy projects (most of then in the geothermal and eolic energy spectrum) and we find the website of The Green Company a quick and convenient way of having a summary of most required services, with the additional benefit of contracting them directly".
+### Organisation/Site Owner
+- ### Organisation/Site Owner Goals
+    20. To capture clients.
+    21. To sell services.
+    22. To have a simple website where users do not "get lost" when navigating.
+    23. To show all services that the company offers in a summarised way.
+    24. To provide basic information of the structure of the comapny.
+    25. To receive consultations from potential clients.
+    26. To provide a simple contact form where the client feels that privacy is respected.
+    27. To offer a quick call to action, through a button, to contract services.
+    28. In order to address clients with similar characteristics, to briefly inform users about company's mission, values and vision.
+    29. To inform about latest news of the company.
+- ### Organisation/Site Requirements
+    30. To provide a contact form to users where they can make consultations.
+    31. To have a simple a always-accessible button to request servcies (to add value when compared to other companies and to increase chances of capturing clients not fully decided).
+    32. To provide a map with the location of the company's office.
+    33. To show in the home page a slogan about what the company is.
+    34. To have a section, most likely in the footer, with links to company's e-mail address and social network links.
+- ### Organisation/Site Expectations
+    35. To have a permanent working site.
+    36. To provide simple navigation through the website.
+    37. To have a website which is itself an advertising tool.
+    38. To have a good design, inline with company's services.
+### User Interface
+    39. Fixed navigation menu on top.
+    40. Fixed button, on navigation menu, to request services.
+    41. Footer with links to company's e-mail address and social network links.
+    42. Section with company's mission, values and vission.
+    43. Table with last relevant projects of the company.
+    44. Table with departments of the company.
+    45. Section with latest news of the company.
+    46. Contact form for users.
+    47. Map with office location.
 <br><br><br>
 
 ___
