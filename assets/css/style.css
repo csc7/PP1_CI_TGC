@@ -19,7 +19,7 @@ body {
 }
 
 #body-contact-us {
-    background-image: url("../images/stockvault-office-building236904.jpg");
+    background-image: url("https://csc7.github.io/PP1_CI_TGC/assets/images/stockvault-office-building236904.jpg");
     background-repeat: no-repeat;
     height: 980px;
     background-color: teal;
@@ -27,7 +27,7 @@ body {
 }
 
 #body-404 {
-    background-image: url("../images/pexels-tom-fisk-1605268.jpg");
+    background-image: url("https://csc7.github.io/PP1_CI_TGC/assets/images/pexels-tom-fisk-1605268.jpg");
     background-repeat: repeat;
     background-color: teal; /* To have contrast for exceptional very big screens, above 1920px*/
     height: 800px;
