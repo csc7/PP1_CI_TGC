@@ -293,7 +293,6 @@ Valid CSS!
 ![Evidence of warnings in the CSS file](docs/validation/validation-css_2.PNG) 
 </details>
 <br><br>
-<br>
 
 - ### Accessibility
 https://wave.webaim.org/ was used to validate accessibility. Although there are warnings, all pages contains zero errors. Please check evidence below:
@@ -317,7 +316,7 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 </details>
 
 <details>
-    <summary>Contact Us Page</summary>
+    <summary>Contact Us Page (99)</summary>
 
 ![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-accessibility.PNG) 
 </details>
@@ -329,9 +328,40 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 </details>
 <br>
 
-<br>
 
 - ### Performance
+Lighthouse from Google was used to evaluate the performance of the pages. Please check the results below:
+
+<details>
+    <summary>Home Page (98)</summary>
+
+![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance.PNG) 
+</details>
+
+<details>
+    <summary>About Us Page (95)</summary>
+
+![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance.PNG)
+</details>
+
+<details>
+    <summary>Our Services Page (96)</summary>
+
+![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance.PNG) 
+</details>
+
+<details>
+    <summary>Contact Us Page (98)</summary>
+
+![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance.PNG) 
+</details>
+
+<details>
+    <summary>404 Page</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+</details>
+<br>
 
 <br>
 
