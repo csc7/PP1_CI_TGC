@@ -356,7 +356,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     height: 80%;
     width: 80%;
     margin: 10%;
-    border: 5px solid #135f13;
+    border: 2px solid #135f13;
 }
 
 .about-us-headings {
@@ -534,7 +534,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-family: 'Roboto', Arial;
     font-size: 125%;
     color: #135f13;
-    border: 5px solid #135f13;
+    border: 2px solid #135f13;
     background-color: rgb(206, 245, 194);
     padding: 10px;
 }
@@ -642,7 +642,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     float: left;
     width: 100%;
     height: 50%;
-    border: 5px solid #135f13;
+    border: 2px solid #135f13;
 }
 
 #map {
