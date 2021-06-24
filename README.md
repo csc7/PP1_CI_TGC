@@ -261,7 +261,7 @@ Check the files and/or images below:
 <br>
 
 - ### CSS File
-https://validator.w3.org/ was used to validate the CSS file.
+https://jigsaw.w3.org/css-validator/ was used to validate the CSS file.
 http://jigsaw.w3.org/css-validator/validator$link
 or
 http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
