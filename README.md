@@ -8,16 +8,16 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 
 ___
 # 1. Project Goals
-The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the curren energy transition towards greener energies and less CO2 emissions.
+The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the current energy transition towards greener energies and less CO2 emissions.
 
-Specifically, the goals are the following ones:
-* To show all services that the company offers.
-* To offer the company a simple way of being contacted.
-* To offer the company a simple way of selling services.
-* To offer the comapny a simple way of showing its structure.
-* To provide users a clear view of the services available.
-* To provide users a simple way of requesting services.
-* to provide users a simple way of contacting the company.
+Specifically, the goals of the project are the following ones:
+- To build a website that provides users a summarised view of the company and the services it offers.
+- To provide a point of contact for offering (by the company) and requesting services (by clients).
+- To build a website where navigation is easy and intuitive.
+- To offer an easy call to action for requesting services.
+- To build a website which is itself an advertising tool.
+- To have a good design, inline with company's services.
+- To have the website visible in search engines.
 <br><br><br>
 
 ___
@@ -40,57 +40,83 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - SKELETON: the information is accessed through a fixed navigation menu on top of the pages, which in addition has a button to request services.
 - SURFACE: the website is based on green colors (to be in line with the company activity and name), contains images and a video related to its activity, and will summarise information in tables as much as possible.
 
+## User Goals
+- To know services being offered at a glance.
+- To find a website with a simple way of requesting services.
+- To easily contact the company.
+- To get basic information of the company.
+- Rather than a long description of the services, to have basic information with a fast method for requesting them.
+- To easily find company's contact details.
+- To navigate the website intuitevely, withoug issues.
+
+## Organisation/Site Owner Goals
+- To capture clients.
+- To sell services.
+- To have a simple website where users do not "get lost" when navigating.
+- To show all services that the company offers in a summarised way.
+- To provide basic information of the structure of the comapny.
+- To receive consultations from potential clients.
+- To provide a simple contact form where the client feels that privacyis respected.
+
+
 ## User Stories
-They are organised in thre groups: users (including feedback), organisation/site owner and user interface.
+User stories are divided into the following three groups:
+
+- ### *First time users*
+1. As a client, I want to know what services I can hire, so do not need to ask for more information to learn their services.
+2. As a client, I want to see a list of projects that has been carried out by the company, so I have an idea if they are able to address my own projects.
+3. As a client, I want to know the size of the company at a glance, in order to know if the company has resources to achieve my projects.
+4. As a client, I want to have an easy option to contract services, so I do not need to go through long procedures.
+5. As job-seeker, I want to know where the main office is located, to know if a move is needed in case I get a job.
+6. As an equipment seller, I want to have a way to contact the company, to know if there might be any product of interest to them.
+7. As a client, I want to have a contact form to make general consultations in case I do not find what I am looking for.
+8. As a client, I want to have a fixed navigation menu on top, so I do not get lost when looking for information.
+
+- ### *Returning users*
+9. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
+10. As a client, I want to easily contact them in order to address any issue with my requests.
+11. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the marked.
+12. As a client, I want to know the size of the company, to check its evolution through time and infere if they are growing or they are not.
+
+- ### *Organisation/Site Owner*
+13. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
+14. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
+15. As owner, I want to give a short description of my my mission, values and vision, so clients known in advance my profile before closing a deal.
+16. As owner, I want to show my lastest news, so I keep transparency and perform my own advertising.
+17. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
+18. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
+19. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
+
+
+## User Requirements and Expectations
+- A fixed and responsive navigation menu on top.
+- A call-to-action button, always present and fixed in the navigation menu, to request services.
+- A first welcome page with latest news.
+- A second page with company's mission, values, vision, latest projects, and departments with amoung of people in each of them.
+- A third page showing the services offered by the company.
+- A fourth page with a contact form and contact details.
+- A footer with links to company's social networks and e-mail address.
+- An error page to be shown in case a user does not provide a correct URL. 
+- A website that is accessible from any device and screen size.
+- A website that only opens new windows for external websites.
+- Company's slogan in the welcome page.
+- To show an icon, the name of the company, and the name of the page in the title of brower windows/tabs.
+
+
 ## Users
-- ### User Goals
-1. A website where navigation is easy and intuitive.
-2. Rather than a long description of the services, basic information with a fast method for requesting the service.
-3. To infer the size of the company at a glance.
-4. To know what services can be provided by the company.
-5. To know where the main office is located.
-6. To be able to make consultations.
-- ### User Requirements
-7. A simple way of contacting the company.
-8. An option where a user is able to give personal details while keepingthe decision of opting out of marketing communications.
-9. A navigation menu that is always visible and able to provide access toall the website.
-10. An easy way to request services.
-11. An easy way to obtian company's contact details.
-- ### User Expectations
-12. Not to get "lost" while naviting the website.
-13. A website that is accessible from any device and screen size.
-14. A website that only opens new windows for external websites.
-15. To have the option to contact the company without getting into complexprocesses, while mantaining the option to avoid unsolicited marketingphone calls.
- - ### User Feedback
-16. "Our wind energy company is small in size and benefits from flexibleprocedures for contracting services; we want a website like the one of TheGreen Company that offers them with a quick way of contracting, so that wecan address our project requests very quickly and agilely".
-17. "We are a manpower company that needs to respond to client requests asquick as possible, with as many services as possible; we see The GreenCompany's website a convenient way to select and hire different types ofgeophysical services".
-18. "I am a consultant who sometimes needs to build dedicated teams toaddress service requests for specific projects (most of them in the studyof grounds for solar projects); I see The Green Company as an excellentway to get information about available services without the need of goingthrough long processes and without the need of exchanging personal data(which many times is confidential due to the nature of the projects I workin)".
-19. "Our company deals with many energy projects (most of then in thegeothermal and eolic energy spectrum) and we find the website of The GreenCompany a quick and convenient way of having a summary of most requiredservices, with the additional benefit of contracting them directly".
+- ### First-time Users
+1. 
+2. 
+3. 
+4. 
+5. 
+
+.
 ### Organisation/Site Owner
 - ### Organisation/Site Owner Goals
-20. To capture clients.
-21. To sell services.
-22. To have a simple website where users do not "get lost" when navigating.
-23. To show all services that the company offers in a summarised way.
-24. To provide basic information of the structure of the comapny.
-25. To receive consultations from potential clients.
-26. To provide a simple contact form where the client feels that privacyis respected.
-27. To offer a quick call to action, through a button, to contractservices.
-28. In order to address clients with similar characteristics, to brieflyinform users about company's mission, values and vision.
-29. To inform about latest news of the company.
+
 - ### Organisation/Site Requirements
-30. To provide a contact form to users where they can make consultations.
-31. To have a simple a always-accessible button to request servcies (toadd value when compared to other companies and to increase chances ofcapturing clients not fully decided).
-32. To provide a map with the location of the company's office.
-33. To show in the home page a slogan about what the company is.
-34. To have a section, most likely in the footer, with links to company'se-mail address and social network links.
-35. To show the name of the company along with the name of the page in thetitle of the brower tab.
-- ### Organisation/Site Expectations
-36. To have a permanent working site.
-37. To provide simple navigation through the website.
-38. To have a website which is itself an advertising tool.
-39. To have a good design, inline with company's services.
-40. To have the website visible in search engines.
+
 ### User Interface
 41. Fixed navigation menu on top.
 42. Fixed button, on navigation menu, to request services.
