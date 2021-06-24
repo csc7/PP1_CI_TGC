@@ -233,7 +233,7 @@ ___
 The following tools were used to validate the files of the website:
 - ### HTML Files
 https://validator.w3.org/ was used to validate the HTML files. All files ended up with zero errors and warnings.
-Check the files and/or images below:
+Please check the evidence below:
 
 <details>
     <summary>Home Page</summary>
@@ -268,7 +268,7 @@ Check the files and/or images below:
 
 - ### CSS File
 https://jigsaw.w3.org/css-validator/ was used to validate the CSS file.
-Check the files and/or images below:
+Please check the evidence below:
 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -296,6 +296,38 @@ Valid CSS!
 <br>
 
 - ### Accessibility
+https://wave.webaim.org/ was used to validate accessibility. Although there are warnings, all pages contains zero errors. Please check evidence below:
+
+<details>
+    <summary>Home Page</summary>
+
+![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-accessibility.PNG) 
+</details>
+
+<details>
+    <summary>About Us Page</summary>
+
+![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-accessibility.PNG)
+</details>
+
+<details>
+    <summary>Our Services Page</summary>
+
+![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-accessibility.PNG) 
+</details>
+
+<details>
+    <summary>Contact Us Page</summary>
+
+![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-accessibility.PNG) 
+</details>
+
+<details>
+    <summary>404 Page</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-accessibility.PNG) 
+</details>
+<br>
 
 <br>
 
