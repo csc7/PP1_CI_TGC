@@ -513,7 +513,8 @@ ___
         * pexels-kelly-lacy-4320481.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/tierra-campo-verano-construccion-4320481/
     * Contact Us page:
         * Backgraound image: stockvault-office-building236904.jpg, downloaded on June 16th, 2021, 2:09, from https://www.stockvault.net/photo/236904/office-building
-        
+    * 404 Page:
+        * Background image: Tom Fisk photo, pexels-tom-fisk-1605268.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/molinos-de-viento-y-campo-de-hierba-verde-1605268/
 
 * Maps in Contact Us page:
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.

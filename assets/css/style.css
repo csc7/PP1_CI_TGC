@@ -27,7 +27,7 @@ body {
 }
 
 #body-404 {
-    background-image: url("/assets/images/pexels-tom-fisk-1605268.jpg");
+    background-image: url("assets/images/pexels-tom-fisk-1605268.jpg");
     background-repeat: repeat;
     background-color: teal; /* To have contrast for exceptional very big screens, above 1920px*/
     height: 800px;
