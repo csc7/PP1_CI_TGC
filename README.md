@@ -268,11 +268,24 @@ Check the files and/or images below:
 
 - ### CSS File
 https://jigsaw.w3.org/css-validator/ was used to validate the CSS file.
-http://jigsaw.w3.org/css-validator/validator$link
-or
-http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
 Check the files and/or images below:
 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
 <details>
     <summary>CSS Filee</summary>
 
