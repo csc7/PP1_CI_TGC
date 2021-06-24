@@ -208,11 +208,12 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     z-index: 2;
 }
 
-.content h1 {
+.content h2 {
     color: #00cc00;
+    font-size: 250%;
 }
 
-.content h2 {
+.content h3 {
     color: white;
 }
 
@@ -1031,11 +1032,11 @@ of consultation (commercial or technical below a width of 1750px */
         width: 80%;
     }
 
-    .content > h1 {
+    .content > h2 {
         font-size: 250%;
     }
 
-    .content > h2 {
+    .content > h3 {
         font-size: 150%;
     }
 
