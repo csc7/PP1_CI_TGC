@@ -21,18 +21,27 @@ body {
 #body-contact-us {
     background-image: url("/assets/images/stockvault-office-building236904.jpg");
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 980px;
     background-color: teal;
 
 }
 
 #body-404 {
-    background-image: url("assets/images/pexels-tom-fisk-1605268.jpg");
-    background-repeat: no-repeat;
-    height: 1000px;
-    background-color: teal;
+    background-image: url("/assets/images/pexels-tom-fisk-1605268.jpg");
+    background-repeat: repeat;
+    background-color: teal; /* To have contrast for exceptional very big screens, above 1920px*/
+    height: 800px;
+}
 
-}    
+#message-404 {
+    height: 980px;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 200px;
+    color: rgb(228, 245, 230);
+    font-size: 200%;
+    font-weight: bolder;
+}
 
 /* headings */
 

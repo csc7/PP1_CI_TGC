@@ -258,6 +258,12 @@ Check the files and/or images below:
 
 ![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
 </details>
+
+<details>
+    <summary>404 Page</summary>
+
+![Evidence of no errors and warnings in the 404 file](docs/validation/validation-404.PNG) 
+</details>
 <br>
 
 - ### CSS File
