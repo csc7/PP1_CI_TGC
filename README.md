@@ -229,79 +229,47 @@ Description
 
 ___
 # 6. Testing
-## Validation
+## **Validation**
 The following tools were used to validate the files of the website:
-- ### **HTML files**
+- ### HTML Files
 https://validator.w3.org/ was used to validate the HTML file. All files ended up with zero errors and warnings.
 Check the files and/or images below:
 
 <details>
     <summary>Home Page</summary>
 
-![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors and warnings in the Home HTML file](docs/validation/validation-home.PNG) 
 </details>
 
 <details>
     <summary>About Us Page</summary>
 
-![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG)
+![Evidence of no errors and warnings in the About Us HTML file](docs/validation/validation-about-us.PNG)
 </details>
 
 <details>
     <summary>Our Services Page</summary>
 
-![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors and warnings in the Our Services HTML file](docs/validation/validation-our-services.PNG) 
 </details>
 
 <details>
     <summary>Contact Us Page</summary>
 
-![Evidence of no errors and warnings in Contact Us page](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
 </details>
 
-    - ## *Home Page*
+- ### CSS File
+https://validator.w3.org/ was used to validate the HTML file. All files ended up with zero errors and warnings.
+Check the files and/or images below:
+<details>
+    <summary>CSS Filee</summary>
 
-        <br><br><br>
+![Evidence of no errors and warnings in the CSS file](docs/validation/validation-contact-us.PNG) 
+</details>
+https://jigsaw.w3.org/css-validator/validator
 
-    - ## *About Us Page*
-        | ERROR/WARNING | SOLUTION |
-        | --- | --- |    
-        | sdfsfs | asdfasdfasd |
-        <br><br><br>
-
-    - ## *Our services Page*
-        | ERROR/WARNING | SOLUTION |
-        | --- | --- |    
-        | Text not showing in carousel for mobile | Removed d-none and d-md-block classes from carousel items (accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices) | 
-        <br><br><br>
-
-    - ## *Contact Us Page*
-        | ERROR/WARNING | SOLUTION |
-        | --- | --- |    
-        | sdfsfs | asdfasdfasd |
-        <br><br><br>
-
-    - ## *Home Page*
-        | ERROR/WARNING | SOLUTION |
-        | --- | --- |
-        | stray end tag i | Deleted extra closing i tag. |
-        | aria-labelledby attribute not pointing to a local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). |
-        | Stray start tag script |  It was actually caused by the closing body tag placed before the end oF the HTML file, leaving some scripts tags outside the body tag. SoLved by moving the closing tag to the end, just before the closing html tag. |
-        | Warning: Use h1 element as a top-level heading only | Changed headings of text above background videos from h1 and h2 to h2 and h3. |
-        | Positioning errors of contact form | Solved by assigning proper margin values. |
-        | Poor performance of contact form (in Contact Us page) for different screen sizes | Inverted right and left columns in Contact Us page to have a better responsive experience. |
-         Poor performance of tables for tablet screen sizes | Multiplied height by 2 for tablet screen sizes. |
-        | carousel-item with text "jumps" when changing | Increased specificity to select proper height of carousel text elements |
-        <br><br><br>
-
-- ### **CSS file**
-    - 
-        | ERROR/WARNING | SOLUTION |
-        | --- | --- |
-        | asdfasdfs | asfsdfsd |
-        <br><br><br>
-
-## Testing of User Stories
+## **Testing of User Stories**
 The following are testing procedures applied to User Stories, referenced by numbers:
 <br><br>
 - ### **User Goals**
