@@ -232,7 +232,7 @@ ___
 ## **Validation**
 The following tools were used to validate the files of the website:
 - ### HTML Files
-https://validator.w3.org/ was used to validate the HTML file. All files ended up with zero errors and warnings.
+https://validator.w3.org/ was used to validate the HTML files. All files ended up with zero errors and warnings.
 Check the files and/or images below:
 
 <details>
@@ -258,16 +258,32 @@ Check the files and/or images below:
 
 ![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
 </details>
+<br>
 
 - ### CSS File
-https://validator.w3.org/ was used to validate the HTML file. All files ended up with zero errors and warnings.
+https://validator.w3.org/ was used to validate the CSS file.
+http://jigsaw.w3.org/css-validator/validator$link
+or
+http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
 Check the files and/or images below:
+
 <details>
     <summary>CSS Filee</summary>
 
-![Evidence of no errors and warnings in the CSS file](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors in the CSS file](docs/validation/validation-css.PNG) 
+![Evidence of warnings in the CSS file](docs/validation/validation-css_2.PNG) 
 </details>
-https://jigsaw.w3.org/css-validator/validator
+<br><br>
+<br>
+
+- ### Accessibility
+
+<br>
+
+- ### Performance
+
+<br>
+
 
 ## **Testing of User Stories**
 The following are testing procedures applied to User Stories, referenced by numbers:
