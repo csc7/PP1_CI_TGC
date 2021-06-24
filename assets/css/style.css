@@ -24,6 +24,14 @@ body {
     height: 1000px;
     background-color: teal;
 
+}
+
+#body-404 {
+    background-image: url("assets/images/pexels-tom-fisk-1605268.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-color: teal;
+
 }    
 
 /* headings */
