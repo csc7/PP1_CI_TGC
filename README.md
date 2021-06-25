@@ -144,16 +144,20 @@ This "quick" button, whose name is "Request Service", pops up a modal form (take
 - ### **Body**
 
 The body of the pages are structured as follows for each of the pages:
-- #### *Home*: it contains an environmental-friendly background video with a slogan of the company and the services it offers.
-- #### *About Us*: it has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.
+- #### *Home:*
+    It contains an environmental-friendly background video with a slogan of the company and the services it offers.
+- #### *About Us:*
+    It has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.
     In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
     This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the last projects of the company (those in year 2021).\
     Finally, at the bottom of the body, there is another section that contains a table that shows the amount of people per department in the company.\
     The desined is carried out for a screen size of 1024x1536 pixels (double in vertical lenght than the home page).
-- #### *Our services*: it contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
+- #### *Our services:*
+    It contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
     Below, in a section, there are columns that contain the titles of the services and text for each of them.\
     They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.\
-- #### *Contact Us*: on the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users\
+- #### *Contact Us:*
+    On the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users\
     On the right, there is a map of the office (above) and contact details can be found below the map.\
     This page has a background picture of the office.
 
@@ -177,10 +181,10 @@ Please check the PDFs files for each case in the following links:
 
 ___
 # **5. Technologies used**
-- ### **HTML**
-- ### **CSS**
-- ### **GitHub**
-- ### **Gitpod**
+- #### **HTML**
+- #### **CSS**
+- #### **GitHub**
+- #### **Gitpod**
 <br><br><br>
 
 ___
@@ -200,8 +204,7 @@ It is located in all pages, fixed, top-left, and always visible.
 ![Company Logo Image](docs/features/00-company-logo.PNG)
 
 </details>
-<br><br>
-
+<br>
 
 
 - ### **Fixed navigation menu**
@@ -217,7 +220,7 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 ![Fixed Navigation Menu for Tablets Image](docs/features/01-fixed-menu-tablets.PNG)
 ![Fixed Navigation Menu for Mobiles Image](docs/features/01-fixed-menu-mobiles.PNG)
 </details>
-<br><br>
+<br>
 
 
 - ### **Fixed "Request Button"**
@@ -232,8 +235,7 @@ It is located on top, in the navigation menu, to the right, fixed and present at
 ![Fixed "Request Button" Image](docs/features/02-request-button.PNG)
 
 </details>
-<br><br>
-
+<br>
 
 
 - ### **Welcome video**
@@ -248,8 +250,7 @@ It is located in the home page, in the upper part of the body section. It contai
 ![Welcome Video Image](docs/features/03-home-video.PNG)
 
 </details>
-<br><br>
-
+<br>
 
 
 - ### **Latest News**
