@@ -902,32 +902,98 @@ ___
 # 10. Credits
 
 * Code Institute: I have used the learning material in the course as a guide and reference.
+
 * Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
+
 * Balsamiq Wireframes: I have used it to create all the wireframes.
-* ...
+
 * Font Awesome:
-    * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i>
-    * Icos for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2
-    * ...
+    * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i> .
+    * Icos for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2 .
+
 * Bootstrap:
-    * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/ .
     * "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
-    * Carousel in our-services page: copied on June 17th, 2021, at 5:50, from https://getbootstrap.com/docs/4.0/components/carousel/
+    * Carousel in our-services page: copied on June 17th, 2021, at 5:50, from https://getbootstrap.com/docs/4.0/components/carousel/ .
+    * Carousel set up: https://getbootstrap.com/docs/4.0/components/carousel/ .
 * Google:
     * Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
-    * Google maps: accessed on June 15th, 2021, at 16:18, at https://developers.google.com/maps/documentation/embed/get-started
+    * Google maps: accessed on June 15th, 2021, at 16:18, at https://developers.google.com/maps/documentation/embed/get-started .
+
 * W3Schools:
     * References for coding.
-    * Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp
-    * CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
-    * Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
-    * Center a table with CSS: accessed on June 15th, 2021, at 1:50, at https://www.w3schools.com/howto/howto_css_table_center.asp
-    * Borders: accessed on June 16th, 2021, 2:33, from https://www.w3schools.com/css/css_border_rounded.asp.
+    * Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp .
+    * CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp .
+    * Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp .
+    * Center a table with CSS: accessed on June 15th, 2021, at 1:50, at https://www.w3schools.com/howto/howto_css_table_center.asp .
+    * Borders: accessed on June 16th, 2021, 2:33, from https://www.w3schools.com/css/css_border_rounded.asp .
     * Form styling: accessed on June 16th, 2021, 3:33, from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive .
+    * Set up of "mailto" option: https://www.w3schools.com/tags/tag_address.asp ,accessed on June 23rd, 2021, 21:04.
+    * Many other consultations, opened and kept for permanent reference, which can be accessed here below:
+        <details>
+        <summary>Other W3Schools References</summary>
+        https://www.w3schools.com/html/html_form_elements.asp
+        https://www.w3schools.com/html/html_filepaths.asp
+        https://www.w3schools.com/css/css_align.asp
+        https://www.w3schools.com/css/css_border_rounded.asp
+        https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+        https://www.w3schools.com/css/css_table_align.      asp#:~:text=The%20vertical%2Dalign%20property%20sets,and%20elements).
+        https://www.w3schools.com/css/css_form.asp
+        https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive
+        https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive
+        https://www.w3schools.com/bootstrap/tryit.asp?      filename=trybs_form_checkbox_inline&stacked=h
+        https://www.w3schools.com/howto/howto_css_center_button.asp
+        https://www.w3schools.com/howto/howto_css_center_button.asp
+        https://www.w3schools.com/css/css_form.asp
+        https://www.w3schools.com/css/tryit.asp?filename=trycss_form_color
+        https://www.w3schools.com/css/tryit.asp?filename=trycss_form_width
+        https://www.w3schools.com/cssref/sel_focus.asp
+        https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+        https://www.w3schools.com/css/css_align.asp
+        https://www.w3schools.com/css/css_link.asp
+        https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+        https://www.w3schools.com/css/css_inline-block.asp
+        https://www.w3schools.com/tags/tag_br.asp
+        https://www.w3schools.com/cssref/pr_font_weight.asp
+        https://www.w3schools.com/tags/tag_tr.asp
+        https://www.w3schools.com/howto/howto_css_center-vertical.asp
+        https://www.w3schools.com/cssref/css3_pr_background-size.asp
+        https://www.w3schools.com/html/html_images.asp
+        https://www.w3schools.com/cssref/pr_background-image.asp
+        https://www.w3schools.com/css/css_dimension.asp
+        https://www.w3schools.com/css/css_attribute_selectors.asp
+        https://www.w3schools.com/cssref/tryit.asp?filename=trycss_position_bottom
+        https://www.w3schools.com/cssref/pr_pos_bottom.asp
+        https://www.w3schools.com/cssref/pr_class_position.asp
+        https://www.w3schools.com/cssref/pr_background-image.asp
+        </details>
+
 * Stackoverflow:
-    * Borders of input fields in forms: accessed on June 17th, 2021, at 3:15, at https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome
-    * Solution to show modal window above page elements: copied on June 19th, 2021, at 3:17, from https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background
-    * Alignment on anchor element on top: accessed on June 20th, 2021, at 0:48, at https://stackoverflow.com/questions/924282/why-is-vertical-aligntext-top-not-working-in-css
+    * Borders of input fields in forms: accessed on June 17th, 2021, at 3:15, at https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome .
+    * Solution to show modal window above page elements: copied on June 19th, 2021, at 3:17, from https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background .
+    * Alignment on anchor element on top: accessed on June 20th, 2021, at 0:48, at https://stackoverflow.com/questions/924282/why-is-vertical-aligntext-top-not-working-in-css .
+    * Alignment of radio buttons: https://stackoverflow.com/questions/33360047/trying-to-get-radio-buttons-to-align-properly-in-html-css .
+    * Centering LI items in navigation DIV: https://stackoverflow.com/questions/5755945/css-want-to-center-li-items-in-my-navbar-div/5756037 .
+    * Element positioning: https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another/40676705 .
+    * Alignment of radio button: https://stackoverflow.com/questions/6632340/place-a-button-right-aligned .
+    * Disabling resize option in text areas: https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea, accessed on June 23rd, 2021, 21:14.
+
+* CSS Tricks:
+    * Background clip: https://css-tricks.com/almanac/properties/b/background-clip/ .
+
+* W3C:
+    * Adding the Favicon to the website: https://www.w3.org/2005/10/howto-favicon .
+
+* Markdown Guide (© 2021. A Matt Cone project. CC BY-SA 4.0.):
+    * Basic Syntax: https://www.markdownguide.org/basic-syntax/ .
+    * Extended Syntax: https://www.markdownguide.org/extended-syntax/ .
+
+* markdown-guide’s documentation! (© Copyright 2012, Daniel Greenfeld. Revision ac516c88.):
+    * Markdown Basics: https://markdown-guide.readthedocs.io/en/latest/basics.html .
+
+* GitHub Guides:
+    * Mastering Markdown: https://guides.github.com/features/mastering-markdown/ .
+
 * Home page video: "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
 * Videos:
     * Home page: invisiblepower, Wind Turbine on a Field at Sunrise, downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
@@ -948,13 +1014,13 @@ ___
 
 * Maps in Contact Us page:
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
-    * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/
+    * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/ .
 <br><br><br>
 
 ___
 # 10. Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
-* To my wife, for always supporting and helping.
+* To my wife and family, for always supporting and helping.
 * Code Institute, for providing knowledge, guide, content and tools.
 * My mentor, Mo, for helping with very valuable guide and support.
 * Of course, all the valuable information provided by the sources mentioned above in the credits.
