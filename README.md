@@ -834,12 +834,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Office map / Contact details | Open Contact Us page | Find location and contact information | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Office Map Image](docs/features/11-office-map.PNG) 
+![Contact Details Image](docs/features/12-contact-details.PNG) 
 </details>
 <br><br>
 
