@@ -579,7 +579,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/09-our-services.PNG) 
+![Our Services Image](docs/features/09-our-services.PNG) 
 </details>
 <br><br>
 
@@ -592,7 +592,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -605,7 +605,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -618,7 +618,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/02-request-button-modal-form.PNG) 
+![Request Button Image](docs/features/02-request-button-modal-form.PNG) 
 </details>
 <br><br>
 
@@ -631,8 +631,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/11-office-map.PNG) 
-![Evidence of no accessibility errors in the 404 file](docs/features/12-contact-details.PNG) 
+![Office Map Image](docs/features/11-office-map.PNG) 
+![Contact Details Image](docs/features/12-contact-details.PNG) 
 </details>
 <br><br>
 
@@ -645,8 +645,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
-![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features/10-contact-form.PNG) 
+![Footer Image](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -659,8 +659,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
-![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features/10-contact-form.PNG) 
+![Footer Image](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -673,7 +673,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/01-fixed-menu.PNG) 
+![Fixed Menu Image](docs/features/01-fixed-menu.PNG) 
 </details>
 <br><br>
 
@@ -686,7 +686,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/03-home-video.PNG) 
+![Home Video Image](docs/features/03-home-video.PNG) 
 </details>
 <br><br>
 
@@ -699,7 +699,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/04-latest-news.PNG) 
+![Latest News Image](docs/features/04-latest-news.PNG) 
 </details>
 <br><br>
 
@@ -712,8 +712,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
-![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features/10-contact-form.PNG) 
+![Footer Image](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -726,7 +726,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -739,7 +739,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -752,7 +752,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/09-our-services.PNG) 
+![Our Services Image](docs/features/09-our-services.PNG) 
 </details>
 <br><br>
 
@@ -765,7 +765,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/02-request-button-modal-form.PNG) 
+![Request Button Image](docs/features/02-request-button-modal-form.PNG) 
 </details>
 <br><br>
 
@@ -778,7 +778,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/05-mission-values-vision.PNG) 
+![Mission-Values-Vision Image](docs/features/05-mission-values-vision.PNG) 
 </details>
 <br><br>
 
@@ -791,7 +791,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/04-latest-news.PNG) 
+![Latest News Image](docs/features/04-latest-news.PNG) 
 </details>
 <br><br>
 
@@ -804,7 +804,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -817,7 +817,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -830,8 +830,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
-![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features/10-contact-form.PNG) 
+![Footer Image](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -845,7 +845,12 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Company Logo Image](docs/features/00-company-logo.PNG) 
+![LinkedIn Page Image](docs/features/15-footer-linkedin.PNG)
+![Facebook Page Image](docs/features/15-footer-facebook.PNG) 
+![Twitter Page Image](docs/features/15-footer-twitter.PNG) 
+![Instagram Page Image](docs/features/15-footer-instagram.PNG) 
+![E-mail Application Image](docs/features/15-footer-email.PNG) 
 </details>
 <br><br>
 
