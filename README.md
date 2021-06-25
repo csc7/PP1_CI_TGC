@@ -78,21 +78,23 @@ User stories are divided into the following three groups:
 6. As an equipment seller, I want to have a way to contact the company, to know if there might be any product of interest to them.
 7. As a client, I want to have a contact form to make general consultations in case I do not find what I am looking for.
 8. As a client, I want to have a fixed navigation menu on top, so I do not get lost when looking for information.
+9. As a client, I want to see a phrase that summarizes the activity of the company, so I know from the beginning if I am in the correct website.
 
 - ### **Returning users**
-9. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
-10. As a client, I want to easily contact them in order to address any issue with my requests.
-11. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the marked.
-12. As a client, I want to know the size of the company, to check its evolution through time and infere if they are growing or they are not.
+10. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
+11. As a client, I want to easily contact them in order to address any issue with my requests.
+12. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the marked.
+13. As a client, I want to know the size of the company, to check its evolution through time and infere if they are growing or they are not.
 
 - ### **Organisation/Site Owner**
-13. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
-14. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
-15. As owner, I want to give a short description of my my mission, values and vision, so clients known in advance my profile before closing a deal.
-16. As owner, I want to show my lastest news, so I keep transparency and perform my own advertising.
-17. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
-18. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
-19. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
+14. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
+15. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
+16. As owner, I want to give a short description of my my mission, values and vision, so clients known in advance my profile before closing a deal.
+17. As owner, I want to show my lastest news, so I keep transparency and perform my own advertising.
+18. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
+19. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
+20. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
+21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company.
 
 
 ## **User Requirements and Expectations**
@@ -142,29 +144,35 @@ This "quick" button, whose name is "Request Service", pops up a modal form (take
 - ### **Body**
 
 The body of the pages are structured as follows for each of the pages:
-* Home: it contains an environmental-friendly background video with a slogan of the company and the services it offers.
-* About Us: it has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.\
-In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
-This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the last projects of the company (those in year 2021).\
-Finally, at the bottom of the body, there is another section that contains a table that shows the amount of people per department in the company.\
-The desined is carried out for a screen size of 1024x1536 pixels (double in vertical lenght than the home page).
-* Our services: it contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
-Below, in a section, there are columns that contain the titles of the services and text for each of them.\
-They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.\
-* Contact Us: on the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
-On the right, there is a map of the office (above) and contact details can be found below the map.\
-This page has a background picture of the office.
+- #### *Home*: it contains an environmental-friendly background video with a slogan of the company and the services it offers.
+- #### *About Us*: it has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.
+    In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
+    This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the last projects of the company (those in year 2021).\
+    Finally, at the bottom of the body, there is another section that contains a table that shows the amount of people per department in the company.\
+    The desined is carried out for a screen size of 1024x1536 pixels (double in vertical lenght than the home page).
+- #### *Our services*: it contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
+    Below, in a section, there are columns that contain the titles of the services and text for each of them.\
+    They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.\
+- #### *Contact Us*: on the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users\
+    On the right, there is a map of the office (above) and contact details can be found below the map.\
+    This page has a background picture of the office.
 
 - ### **Footer**
 
 The footer contains links for social media, office location and company's principal e-mail of contact.\
+<br><br><br>
 
+___
 # **4. Wireframes**
-Wireframes were developed at the beginning of the project with Balsamic Wireframes software. The first design was carried out for desktop devices, assuming a screen size of 1024x768 pixels.
+Wireframes were developed in order to gather all goals, user stories, requirements and expectations, and have the design references for desktop, tablet and mobile devices.
+Please check the PDFs files for each case in the following links:
 
-Tablets...\
+[PDF File for Desktop Wireframe](docs/wireframes/wireframe-desktop.pdf)
 
-Mobile devices...\ 
+[PDF File for Tablet Wireframe](docs/wireframes/wireframe-desktop.pdf)
+
+[PDF File for Mobile Wireframe](docs/wireframes/wireframe-desktop.pdf)
+
 <br><br><br>
 
 ___
@@ -180,56 +188,242 @@ ___
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
 <br><br>
 
+- ### **Company logo**
+
+It is located in all pages, fixed, top-left, and always visible.
+*User Stories Addressed by this Feature:* 8; 9 and 21.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Company Logo Image](docs/features/00-company-logo.PNG)
+
+</details>
+<br><br>
+
+
+
 - ### **Fixed navigation menu**
 
 It is located in the header, fixed on all pages to facilitate navigation, and responsive.
-![Fixed Menu for Desktop Image](docs/features/01_fixed_menu.PNG)
-![Fixed Menu for Tablets Image](docs/features/01_fixed_menu_tablets.PNG)
-![Fixed Menu for Mobiles Image](docs/features/01_fixed_menu_mobiles.PNG)
+*User Stories Addressed by this Feature:* 4; 8; 15 and 21.
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12; 27; 41
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Fixed Navigation Menu for Desktop Image](docs/features/01-fixed-menu.PNG)
+![Fixed Navigation Menu for Tablets Image](docs/features/01-fixed-menu-tablets.PNG)
+![Fixed Navigation Menu for Mobiles Image](docs/features/01-fixed-menu-mobiles.PNG)
+</details>
 <br><br>
 
-- ### **Fixed Button to Request Services**
-It is also located in the header, fixed to the right of the navigation menu, to keep it very accessible.
-![Fixed Request Button](docs/features/02_request_button.PNG)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+- ### **Fixed "Request Button"**
+It is located on top, in the navigation menu, to the right, fixed and present at all times, in all sizes. It allows to request any service from any page, in a simple way provided by a modal form.
+
+*User Stories Addressed by this Feature:* 4 and 15.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Fixed "Request Button" Image](docs/features/02-request-button.PNG)
+
+</details>
 <br><br>
 
-- ### **Feature**
-Description
-![Image](docs/features/)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+
+- ### **Welcome video**
+
+It is located in the home page, in the upper part of the body section. It contains the slogan of the company (*"We are part of the energy transition, we provide the solutions that will be copied tomorrow"*) and behaves as a background video.
+*User Stories Addressed by this Feature:* 1; 9 and 21.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Welcome Video Image](docs/features/03-home-video.PNG)
+
+</details>
 <br><br>
 
-- ### **Feature**
-Description
-![Image](docs/features/)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+
+- ### **Latest News**
+
+It is located in the lower part of the body, in the home page, and shows current and relevant news of the company.
+*User Stories Addressed by this Feature:* 10 and 17.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Latest News Image](docs/features/04-latest-news.PNG)
+
+</details>
 <br><br>
 
-- ### **Feature**
-Description
-![Image](docs/features/)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+
+- ### **Mission, Values, Vision**
+
+It is located in the About Us page, in the upper part of the body, showing the mission, values and vision of the company.
+*User Stories Addressed by this Feature:* 16.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Mission-Values-Vision Image](docs/features/05-mission-values-vision.PNG)
+
+</details>
 <br><br>
 
-- ### **Feature**
-Description
-![Image](docs/features/)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+
+- ### **Projects table**
+
+It is located in the middle part of the body in the About Us page, showing latest projects (those in the curren year).
+*User Stories Addressed by this Feature:* 2; 12 and 19.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Projects Table Image](docs/features/06-projects-table.PNG)
+
+</details>
 <br><br>
 
-- ### **Feature**
-Description
-![Image](docs/features/)
 
-**User Stories Addressed by this Feature:** 1; 9; 10; 12;
+
+- ### **People Table**
+
+It is located in the lower part of the body in the About Us page, showing the amount of people in each department of the company.
+*User Stories Addressed by this Feature:* 3; 13 and 18.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![People Table Image](docs/features/07-people-table.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Carousel for services**
+
+It is located in the Our Services page, upper part, with controls and messages to advertise the company.
+*User Stories Addressed by this Feature:* 21.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Carousel for Services Image](docs/features/08-carrousel-for-our-services.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Services**
+
+It is located in the Our Services page, lower part, showing the services that can be contracted.
+*User Stories Addressed by this Feature:* 1 and 14.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Services Image](docs/features/09-our-services.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Contact form**
+
+It can be found in the Contact Us page, on the left, and allows users to send consultations of any type.
+*User Stories Addressed by this Feature:* 6; 7; 11 and 20.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Contact Form Image](docs/features/10-contact-form.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Office map**
+
+It can be found in the Contact Us page, on the right, and show users where the office is located.
+*User Stories Addressed by this Feature:* 5 and 22.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Office Map Image](docs/features/11-office-map.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Contact details**
+
+It can be found in the Contact Us page, on the right, below the map. It contains the address and telephone of the company.
+*User Stories Addressed by this Feature: 6; 7 and 11.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Contact Details Image](docs/features/12-contact-details.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **Footer**
+
+It is located at the bottom of all pages, containing icons with links to social networks and e-mail applications (to automatically load company's e-mail address in the addressee field).
+*User Stories Addressed by this Feature:* 6; 7; 10; 11; 15; 17, 20 and 21.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Footer Image](docs/features/13-footer.PNG)
+
+</details>
+<br><br>
+
+
+
+- ### **404 page**
+
+It is a different page that appears in case there is any issue loading the page, like a similar incorrect URL. It contains a background image related to the activity of the company, that repeats itself, and contains the message *"Sorry, something went wrong."*.
+*User Stories Addressed by this Feature:* 8 and 9.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![404-page Image](docs/features/14-404-page.PNG)
+
+</details>
 <br><br>
 
 
