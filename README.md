@@ -399,7 +399,7 @@ It can be found in the Contact Us page, on the right, below the map. It contains
 - ### **Footer**
 
 It is located at the bottom of all pages, containing icons with links to social networks and e-mail applications (to automatically load company's e-mail address in the addressee field).
-*User Stories Addressed by this Feature:* 6; 7; 10; 11; 15; 17, 20 and 21.
+*User Stories Addressed by this Feature:* 6; 7; 11; 20 and 21.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -574,12 +574,12 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Services | Scroll down in Our Services page | Find information about projects | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/09-our-services.PNG) 
 </details>
 <br><br>
 
@@ -587,12 +587,12 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -600,12 +600,12 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -613,12 +613,12 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Fixed "Request Button" | Click a button | A pop-up form to request a service | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/02-request-button-modal-form.PNG) 
 </details>
 <br><br>
 
@@ -626,12 +626,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Office map / Contact details | Open Contact Us page | Find location and contact information | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/11-office-map.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/12-contact-details.PNG) 
 </details>
 <br><br>
 
@@ -639,12 +640,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Contact form or Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -652,12 +654,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Contact form or Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -665,7 +668,179 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
+| Fixed navigation menu | Have navigation bar visible | Find navigation menu very easily | Works as expected, always visible and fixed |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/01-fixed-menu.PNG) 
+</details>
+<br><br>
+
+9. As a client, I want to see a phrase or image or video that summarizes the activity of the company, so I know from the beginning if I am in the correct website.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Welcome video | Show company's slogan and image/video with related activity | Find this information in the home page | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/03-home-video.PNG) 
+</details>
+<br><br>
+
+10. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Latest news | Scroll down in home page | Find this information in the home page | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/04-latest-news.PNG) 
+</details>
+<br><br>
+
+11. As a client, I want to easily contact them in order to address any issue with my requests.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Contact form / Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+</details>
+<br><br>
+
+12. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the market.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
+</details>
+<br><br>
+
+13. As a client, I want to know the size of the company, to check its evolution through time and infere if they are growing or they are not.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
+</details>
+<br><br>
+
+14. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Services | Scroll down in Our Services page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/09-our-services.PNG) 
+</details>
+<br><br>
+
+15. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Fixed "Request Button" | Click a button | A pop-up form to request a service | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/02-request-button-modal-form.PNG) 
+</details>
+<br><br>
+
+16. As owner, I want to give a short description of my my mission, values and vision, so clients known in advance my profile before closing a deal.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Mission, Values, Vision | Open About Us page | Find mission, values and vision statements of the company | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/05-mission-values-vision.PNG) 
+</details>
+<br><br>
+
+17. As owner, I want to show my lastest news, so I keep transparency and perform my own advertising.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Latest news | Scroll down in home page | Find this information in the home page | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/04-latest-news.PNG) 
+</details>
+<br><br>
+
+18. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/07-people-table.PNG) 
+</details>
+<br><br>
+
+19. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/06-projects-table.PNG) 
+</details>
+<br><br>
+
+20. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Contact form / Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/features/10-contact-form.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/features/13-footer.PNG) 
+</details>
+<br><br>
+
+
+21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company..
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Company logo / Footer | Find company logo/brand (click it for home page) and/or click social network icons to get information | Have the company logo always visible and/or be redirected (through new windows or tabs) to social network websites or open e-mail application with e-mail contact address | Works as expected |
 
 <details>
     <summary>Screenshot</summary>
@@ -674,7 +849,8 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
-9. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
+
+22. As owner, I want to show where my office is, so users know where to contact and find me..
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -686,138 +862,6 @@ The following are testing of User Stories previously described above:
 ![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
 </details>
 <br><br>
-
-10. As a client, I want to easily contact them in order to address any issue with my requests.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-11. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the marked.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-12. As a client, I want to know the size of the company, to check its evolution through time and infere if they are growing or they are not.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-13. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-14. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-15. As owner, I want to give a short description of my my mission, values and vision, so clients known in advance my profile before closing a deal.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-16. As owner, I want to show my lastest news, so I keep transparency and perform my own advertising.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-17. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-18. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-19. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| sdfsadf as f | sdfasdf | sdfssdfaASDFSDFSDFSD\ FSDFSDFSDFSDFSDFSDFSD SDFSFs |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
-</details>
-<br><br>
-
-
 
 
 
