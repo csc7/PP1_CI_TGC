@@ -1,5 +1,4 @@
 # **TGC - The Green Company**
-# **TGC - The Green Company**
 
 This website is about a fictitious company. Excpet for the contect referenced in this README file, all content is invented by me, anything matching reality is jsut a coincidence.
 
@@ -14,18 +13,18 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 
 # **Index**
 
-# [1. Project Goals](#1--project-goals)
-# [2. User Experience](#2--user-experience)
-# [3. Design Choices](#3--design-choices)
-# [4. Wireframes](#4--wireframes)
-# [5. Technologies used](#5--technologies-used)
-# [6. Features](#6--features)
-# [7. Validation](#7--validation)
-# [8. Testing of User Stories](#8--testing-of-user-stories)
-# [9. Bugs](#9--bugs)
-# [10. Deployment](#10--deployment)
-# [11. Credits](#11--credits)
-# [12. Acknowledgements](#12--acknowledgements)
+### [1. Project Goals](#1--project-goals)
+### [2. User Experience](#2--user-experience)
+### [3. Design Choices](#3--design-choices)
+### [4. Wireframes](#4--wireframes)
+### [5. Technologies used](#5--technologies-used)
+### [6. Features](#6--features)
+### [7. Validation](#7--validation)
+### [8. Testing of User Stories](#8--testing-of-user-stories)
+### [9. Bugs](#9--bugs)
+### [10. Deployment](#10--deployment)
+### [11. Credits](#11--credits)
+### [12. Acknowledgements](#12--acknowledgements)
 <br><br><br>
 
 ___
