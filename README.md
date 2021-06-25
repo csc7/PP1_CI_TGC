@@ -190,7 +190,7 @@ ___
 ___
 # **5. Features**
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
-<br><br>
+
 
 - ### **Company logo**
 
@@ -204,7 +204,6 @@ It is located in all pages, fixed, top-left, and always visible.
 ![Company Logo Image](docs/features/00-company-logo.PNG)
 
 </details>
-<br>
 
 
 - ### **Fixed navigation menu**
@@ -220,7 +219,6 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 ![Fixed Navigation Menu for Tablets Image](docs/features/01-fixed-menu-tablets.PNG)
 ![Fixed Navigation Menu for Mobiles Image](docs/features/01-fixed-menu-mobiles.PNG)
 </details>
-<br>
 
 
 - ### **Fixed "Request Button"**
@@ -235,7 +233,6 @@ It is located on top, in the navigation menu, to the right, fixed and present at
 ![Fixed "Request Button" Image](docs/features/02-request-button.PNG)
 
 </details>
-<br>
 
 
 - ### **Welcome video**
@@ -250,7 +247,6 @@ It is located in the home page, in the upper part of the body section. It contai
 ![Welcome Video Image](docs/features/03-home-video.PNG)
 
 </details>
-<br>
 
 
 - ### **Latest News**
@@ -265,8 +261,6 @@ It is located in the lower part of the body, in the home page, and shows current
 ![Latest News Image](docs/features/04-latest-news.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Mission, Values, Vision**
@@ -281,8 +275,6 @@ It is located in the About Us page, in the upper part of the body, showing the m
 ![Mission-Values-Vision Image](docs/features/05-mission-values-vision.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Projects table**
@@ -297,8 +289,6 @@ It is located in the middle part of the body in the About Us page, showing lates
 ![Projects Table Image](docs/features/06-projects-table.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **People Table**
@@ -313,8 +303,6 @@ It is located in the lower part of the body in the About Us page, showing the am
 ![People Table Image](docs/features/07-people-table.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Carousel for services**
@@ -329,8 +317,6 @@ It is located in the Our Services page, upper part, with controls and messages t
 ![Carousel for Services Image](docs/features/08-carrousel-for-our-services.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Services**
@@ -345,8 +331,6 @@ It is located in the Our Services page, lower part, showing the services that ca
 ![Services Image](docs/features/09-our-services.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Contact form**
@@ -361,8 +345,6 @@ It can be found in the Contact Us page, on the left, and allows users to send co
 ![Contact Form Image](docs/features/10-contact-form.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Office map**
@@ -377,8 +359,6 @@ It can be found in the Contact Us page, on the right, and show users where the o
 ![Office Map Image](docs/features/11-office-map.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Contact details**
@@ -393,8 +373,6 @@ It can be found in the Contact Us page, on the right, below the map. It contains
 ![Contact Details Image](docs/features/12-contact-details.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **Footer**
@@ -409,8 +387,6 @@ It is located at the bottom of all pages, containing icons with links to social 
 ![Footer Image](docs/features/13-footer.PNG)
 
 </details>
-<br><br>
-
 
 
 - ### **404 page**
@@ -425,8 +401,6 @@ It is a different page that appears in case there is any issue loading the page,
 ![404-page Image](docs/features/14-404-page.PNG)
 
 </details>
-<br><br>
-
 
 
 ___
