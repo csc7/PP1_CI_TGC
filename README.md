@@ -11,13 +11,22 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 <br><br><br>
 
 # **Index**
+## [1. Project Goals](#1--project-goals)
+## [2. User Experience](#2--user-experience)
+## [3. Design Choices](#3--design-choices)
+## [4. Wireframes](#4--wireframes)
+## [5. Technologies used](#5--technologies-used)
+## [6. Features](#6--features)
+## [7. Validation](#7--validation)
+## [8. Testing of User Stories](#8--testing-of-user-stories)
+## [9. Bugs](#9--bugs)
+## [10. Deployment](#10--deployment)
+## [11. Credits](#11--credits)
+## [12. Acknowledgements](#12--acknowledgements)
 <br><br><br>
-[Project Goals](#1)
-
-[User Experience](#2)
 
 ___
-# [**1. Project Goals**](#1)
+# **1 . Project Goals**
 The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the current energy transition towards greener energies and less CO2 emissions.
 
 Specifically, the goals of the project are the following ones:
@@ -28,10 +37,12 @@ Specifically, the goals of the project are the following ones:
 - To build a website which is itself an advertising tool.
 - To have a good design, inline with company's services.
 - To have the website visible in search engines.
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# [**2. User Experience**](#2)
+# **2 . User Experience**
 
 UX has been addressed (and remains as a constant activity) around Jesse James Garrett's process, whose five planes involves the following matters:
 - **STRATEGY**: to build a website (product) for a company who wants to sell services.
@@ -113,10 +124,12 @@ User stories are divided into the following three groups:
 - A website that only opens new windows for external websites.
 - Company's slogan in the welcome page.
 - To show an icon, the name of the company, and the name of the page in the title of brower windows/tabs.
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# **3. Design Choices**
+# **3 . Design Choices**
 
 The design was planned to cover screen sizes from 320px x 568px to 1920px x 1370px.
 
@@ -170,10 +183,13 @@ The body of the pages are structured as follows for each of the pages:
 - ### **Footer**
 
 The footer contains links for social media, office location and company's principal e-mail of contact.\
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# **4. Wireframes**
+# **4 . Wireframes**
+
 Wireframes were developed in order to gather all goals, user stories, requirements and expectations, and have the design references for desktop, tablet and mobile devices.
 Please check the PDFs files for each case in the following links:
 
@@ -182,11 +198,13 @@ Please check the PDFs files for each case in the following links:
 [PDF File for Tablet Wireframe](docs/wireframes/wireframe-desktop.pdf)
 
 [PDF File for Mobile Wireframe](docs/wireframes/wireframe-desktop.pdf)
-
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# **5. Technologies used**
+# **5 . Technologies used**
+
 The following languages, software and tools were implemented using Windows 10 Pro:
 ## **Languages**
 - #### **HTML**
@@ -203,10 +221,13 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
 - #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# **5. Features**
+# **6 . Features**
+
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
 
 
@@ -420,9 +441,13 @@ It is a different page that appears in case there is any issue loading the page,
 
 </details>
 
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# **6. Validation**
+# **7 . Validation**
+
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
 The website was tested with the development tools of Chrome (mainly), Microsoft Edge, Microsoft Explorer and Firefox.
@@ -558,12 +583,14 @@ Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to eval
 
 ![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
 </details>
+
+<br><br>
+## [Back to Index](#index)
 <br>
 
-<br>
+___
+# **8 . Testing of User Stories**
 
-
-# **7. Testing of User Stories**
 The following are testing of User Stories previously described above:
 <br><br>
 
@@ -864,11 +891,14 @@ The following are testing of User Stories previously described above:
 ![Office Map Image](docs/features/11-office-map.PNG) 
 ![Contact Details Image](docs/features/12-contact-details.PNG) 
 </details>
-<br><br>
 
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# 8. Bugs
+# 9 . Bugs
+
 The most common bugs through development were related to positioning of elements in the page. They were fixed by assigning proper values, most of them with the help of a temporaty background color for the element.
 
 Then, many minor bugs were solved just by assigning the correct property or by trial and error.
@@ -885,12 +915,14 @@ Bugs who required more time and specific solutions are the following ones:
 | carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" bahaviour. |
 | Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images. |
 | Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices .|
-<br><br><br>
 
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# 9. Deployment
-<br><br><br>
+# 10 . Deployment
+
 The website was fully written in Gitpod and periodically deployed to GigHub Pages (in a main branch).
 
 The final deployment is found [here](https://csc7.github.io/PP1_CI_TGC/).
@@ -899,10 +931,13 @@ The final deployment is found [here](https://csc7.github.io/PP1_CI_TGC/).
 
 ![Deployment on GitHub Pages Image](docs/GitHub-Pages.PNG) 
 </details>
+
 <br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# 10. Credits
+# 11 . Credits
 
 * Code Institute: I have used the learning material in the course as a guide and reference.
 
@@ -980,6 +1015,7 @@ ___
     * Element positioning: https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another/40676705 .
     * Alignment of radio button: https://stackoverflow.com/questions/6632340/place-a-button-right-aligned .
     * Disabling resize option in text areas: https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea, accessed on June 23rd, 2021, 21:14.
+    * For links in the same markdown README file: https://stackoverflow.com/questions/27981247/github-markdown-same-page-link , accessed on June 25th, 2021, at 23:18.
 
 * CSS Tricks:
     * Background clip: https://css-tricks.com/almanac/properties/b/background-clip/ .
@@ -1027,13 +1063,19 @@ ___
 * Maps in Contact Us page:
     * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
     * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/ .
-<br><br><br>
+<br><br>
+## [Back to Index](#index)
+<br>
 
 ___
-# 10. Acknowledgements
+# 12 . Acknowledgements
+
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
 * To my wife and family, for always supporting and helping.
 * Code Institute, for providing knowledge, guide, content and tools.
 * My mentor, Mo, for helping with very valuable guide and support.
 * Of course, all the valuable information provided by the sources mentioned above in the credits.
 * Code Institute community in Slack for permanently being an online reference.
+<br><br>
+## [Back to Index](#index)
+<br>
