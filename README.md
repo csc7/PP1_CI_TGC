@@ -200,7 +200,6 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
 - #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
-
 <br><br><br>
 
 ___
@@ -875,21 +874,29 @@ Bugs who required more time and specific solutions are the following ones:
 
 | Bug | Solution |
 | ---- | ---- |
-| aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ | 
-| Stray start tag script | It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ |
-| Use h1 element as a top-level heading only | Change headings  from h1 and h2 to h2 and h3. olved with https://validator.w3.org/ |
-| Modal showing below other elements, in the background | AAAA |
-|    The fist design of the contact form had it positioned on the right of the Contact Us page, which cause a poor responsive behaviour | Designed changed, contact form on the left, and map and contact details on the right |
-| carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" bahaviour |
-| Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images |
-| Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices |
+| aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ . | 
+| Stray start tag script | It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ .|
+| Use h1 element as a top-level heading only | Change headings  from h1 and h2 to h2 and h3. olved with https://validator.w3.org/ .|
+| Modal showing below other elements, in the background | The error was caused by wrong specificity when trying to style elements of the modal form. Issue solved by increasing specificity of elements in the modal form when styling them. |
+|    The fist design of the contact form had it positioned on the right of the Contact Us page, which cause a poor responsive behaviour | Designed changed, contact form on the left, and map and contact details on the right.|
+| carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" bahaviour. |
+| Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images. |
+| Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices .|
 <br><br><br>
 
 
 ___
 # 9. Deployment
 <br><br><br>
+The website was fully written in Gitpod and periodically deployed to GigHub Pages (in a main branch).
 
+The final deployment is found [here](https://csc7.github.io/PP1_CI_TGC/).
+<details>
+    <summary>GitHub Pages Screenshot</summary>
+
+![Deployment on GitHub Pages Image](docs/GitHub-Pages.PNG) 
+</details>
+<br><br>
 
 ___
 # 10. Credits
@@ -947,6 +954,7 @@ ___
 ___
 # 10. Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
+* To my wife, for always supporting and helping.
 * Code Institute, for providing knowledge, guide, content and tools.
 * My mentor, Mo, for helping with very valuable guide and support.
 * Of course, all the valuable information provided by the sources mentioned above in the credits.
