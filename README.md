@@ -12,9 +12,12 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 
 # **Index**
 <br><br><br>
+[Project Goals](#1)
+
+[User Experience](#2)
 
 ___
-# **1. Project Goals**
+# [**1. Project Goals**](#1)
 The goals of the project is to develop a website for a company that provides several geophysical services for diverse projects in the current energy transition towards greener energies and less CO2 emissions.
 
 Specifically, the goals of the project are the following ones:
@@ -28,7 +31,7 @@ Specifically, the goals of the project are the following ones:
 <br><br><br>
 
 ___
-# **2. User Experience**
+# [**2. User Experience**](#2)
 
 UX has been addressed (and remains as a constant activity) around Jesse James Garrett's process, whose five planes involves the following matters:
 - **STRATEGY**: to build a website (product) for a company who wants to sell services.
@@ -993,6 +996,15 @@ ___
 
 * GitHub Guides:
     * Mastering Markdown: https://guides.github.com/features/mastering-markdown/ .
+
+* GitHub Gist:
+    * Pierre Joubert (pierrejoubert73), reference for markdown collapsible elements:  https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab .
+
+* GitHub Support Community:
+    * Help on collapsible elements: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489 .
+
+* Atlassian: 
+    * User Stories with Examples and Template: https://www.atlassian.com/agile/project-management/user-stories .
 
 * Home page video: "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
 * Videos:
