@@ -114,6 +114,9 @@ User stories are divided into the following three groups:
 
 ___
 # **3. Design Choices**
+
+The design was planned to cover screen sizes from 320px x 568px to 1920px x 1370px.
+
 ## **Colors**
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
 
@@ -181,10 +184,23 @@ Please check the PDFs files for each case in the following links:
 
 ___
 # **5. Technologies used**
+The following languages, software and tools were implemented using Windows 10 Pro:
+## **Languages**
 - #### **HTML**
 - #### **CSS**
+## **Software and Other Tools**
 - #### **GitHub**
 - #### **Gitpod**
+- #### **FontAwesome (v5.15)**
+- #### **Bootstrap (v4.0)**
+- #### **Balsamiq Wireframes (v4.2.4, Editor Version 2.6.0)**
+- #### **Google Fonts**
+- #### **Google Maps**
+- #### **W3C Markup Validation Service**
+- #### **W3C CSS Validation Service**
+- #### **WAVE Web Accessibility Evaluation Tool**
+- #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
+
 <br><br><br>
 
 ___
@@ -405,6 +421,10 @@ It is a different page that appears in case there is any issue loading the page,
 
 ___
 # **6. Validation**
+The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
+
+The website was tested with the development tools of Chrome (mainly), Microsoft Edge, Microsoft Explorer and Firefox.
+
 The following tools were used to validate the files of the website:
 ## **HTML Files**
 https://validator.w3.org/ was used to validate the HTML files. All files ended up with zero errors and warnings.
@@ -505,7 +525,7 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 
 
 ## **Performance**
-Lighthouse from Google was used to evaluate the performance of the pages. Please check the results below:
+Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to evaluate the performance of the pages. Please check the results below:
 
 <details>
     <summary>Home Page (98)</summary>
@@ -845,16 +865,24 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-
-
-
-
-
-
-
 ___
 # 8. Bugs
-EXPLAIN
+The most common bugs through development were related to positioning of elements in the page. They were fixed by assigning proper values, most of them with the help of a temporaty background color for the element.
+
+Then, many minor bugs were solved just by assigning the correct property or by trial and error.
+
+Bugs who required more time and specific solutions are the following ones:
+
+| Bug | Solution |
+| ---- | ---- |
+| aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ | 
+| Stray start tag script | It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ |
+| Use h1 element as a top-level heading only | Change headings  from h1 and h2 to h2 and h3. olved with https://validator.w3.org/ |
+| Modal showing below other elements, in the background | AAAA |
+|    The fist design of the contact form had it positioned on the right of the Contact Us page, which cause a poor responsive behaviour | Designed changed, contact form on the left, and map and contact details on the right |
+| carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" bahaviour |
+| Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images |
+| Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices |
 <br><br><br>
 
 
@@ -919,6 +947,7 @@ ___
 ___
 # 10. Acknowledgements
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
-* Code Institute, for providing knowledge, guide and tools.
-* My mentor (CHECK IF I CAN PUBLISH HIS NAME), for helping with very valuable guide and support.
-* ...
+* Code Institute, for providing knowledge, guide, content and tools.
+* My mentor, Mo, for helping with very valuable guide and support.
+* Of course, all the valuable information provided by the sources mentioned above in the credits.
+* Code Institute community in Slack for permanently being an online reference.
