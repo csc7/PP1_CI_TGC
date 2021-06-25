@@ -514,13 +514,13 @@ Lighthouse from Google was used to evaluate the performance of the pages. Please
 </details>
 
 <details>
-    <summary>About Us Page (95)</summary>
+    <summary>About Us Page (99)</summary>
 
 ![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance.PNG)
 </details>
 
 <details>
-    <summary>Our Services Page (96)</summary>
+    <summary>Our Services Page (93)</summary>
 
 ![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance.PNG) 
 </details>
@@ -532,7 +532,7 @@ Lighthouse from Google was used to evaluate the performance of the pages. Please
 </details>
 
 <details>
-    <summary>404 Page</summary>
+    <summary>404 Page (99)</summary>
 
 ![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
 </details>
