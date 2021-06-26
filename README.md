@@ -557,33 +557,63 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to evaluate the performance of the pages. Please check the results below:
 
 <details>
-    <summary>Home Page (98)</summary>
+    <summary>Home Page for Mobile(94)</summary>
 
-![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance.PNG) 
+![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-mobile.PNG) 
 </details>
 
 <details>
-    <summary>About Us Page (99)</summary>
+    <summary>Home Page for Desktop (99)</summary>
 
-![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance.PNG)
+![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-desktop.PNG) 
 </details>
 
 <details>
-    <summary>Our Services Page (93)</summary>
+    <summary>About Us Page for Mobile (92)</summary>
 
-![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance.PNG) 
+![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-mobile.PNG)
 </details>
 
 <details>
-    <summary>Contact Us Page (98)</summary>
+    <summary>About Us Page for Desktop (99)</summary>
 
-![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance.PNG) 
+![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-desktop.PNG)
 </details>
 
 <details>
-    <summary>404 Page (99)</summary>
+    <summary>Our Services Page for Mobile (94)</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance.PNG) 
+![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-mobile.PNG) 
+</details>
+
+<details>
+    <summary>Our Services Page for Desktop (99)</summary>
+
+![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-desktop.PNG) 
+</details>
+
+<details>
+    <summary>Contact Us Page for Mobile (91)</summary>
+
+![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-mobile.PNG) 
+</details>
+
+<details>
+    <summary>Contact Us Page for Desktop (100)</summary>
+
+![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-desktop.PNG) 
+</details>
+
+<details>
+    <summary>404 Page for Mobile (84)</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance-mobile.PNG) 
+</details>
+
+<details>
+    <summary>404 Page for Desktop (99)</summary>
+
+![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance-desktop.PNG) 
 </details>
 
 <br><br>
