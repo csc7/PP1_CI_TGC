@@ -502,7 +502,6 @@ Please check the evidence below:
     </a>
 </p>
             
-Valid CSS!
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
@@ -510,6 +509,7 @@ Valid CSS!
         alt="Valid CSS!" />
     </a>
 </p>
+     
 <details>
     <summary>CSS Filee</summary>
 
