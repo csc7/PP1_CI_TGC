@@ -1,8 +1,18 @@
+/* CSS File for the website of The Green Company */
+
+/* SECTION NAMES ARE COMMENTED WITH CAPITAL LETTERS + 1 break line */
+/* Subsections are commented in lower-case + 1 break line */
+/* Specific element styles are commented on top of the element, without break line */
+
+/* FONTS */
+
 /* From Google Fonts:
 Baloo Tammudu 2 and Roboto,
 first imported on June 10th, 2021, 01:10,
 from https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Roboto&display=swap');
+
+/* GENERAL STYLES */
 
 * {
     margin: 0;
@@ -14,8 +24,6 @@ body {
     font-family: 'Roboto', Arial;
     color: #003300;
     background-color: rgb(186, 233, 227);;
-    /* for a general margin all over the website*/
-    /*padding: 20px 20px 20px 20px;*/
 }
 
 #body-contact-us {
@@ -23,8 +31,23 @@ body {
     background-repeat: no-repeat;
     height: 980px;
     background-color: teal;
-
 }
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Baloo Tammudu 2';
+    color: #276609;
+}
+
+/* Section Separator */
+.section-separator {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(160, 224, 160);
+    float: left;
+}
+
+/* ONLY FOR 404 PAGE */
 
 #body-404 {
     background-image: url("https://csc7.github.io/PP1_CI_TGC/assets/images/pexels-tom-fisk-1605268.jpg");
@@ -43,22 +66,8 @@ body {
     font-weight: bolder;
 }
 
-/* headings */
+/* HEADER */
 
-h1, h2, h3 {
-    font-family: 'Baloo Tammudu 2';
-    color: #276609;
-}
-
-/* section separator */
-.section-separator {
-    height: 10px;
-    width: 100%;
-    background-color: rgb(160, 224, 160);
-    float: left;
-}
-
-/* header */
 header {
     width: 100%;
     position: fixed;
@@ -67,7 +76,7 @@ header {
     z-index: 5;
 }
 
-
+/* Leaf Color in Company Icon */
 .fas {
     color: #00cc00;
 }
@@ -82,17 +91,13 @@ header {
 
 #company-logo{
     float: left;
-    /*width: 25%;*/
     height: 150px;
     font-size: 600%;
     font-weight: bold;
     color:  #73ac3e;
     padding: 10px 0px 0px 10px;
     background-color: rgb(206, 245, 194);
-
 }
-
-
 
 /* CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from
 https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
@@ -103,36 +108,14 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     font-size: 150%;
     padding: 10px 0px 0px 0px;
     display: flex;
-    /*flex-direction: reverse;*/
-    background-color: rgb(206, 245, 194);
-    
+    background-color: rgb(206, 245, 194);    
 }
 
-
-#nav-modal-btn {
-    float: right;
-    width: 25%;
-    height: 150px;
-    font-size: 150%;
-    padding: 10px 0px 0px 0px;
-    display: flex;
-    /*flex-direction: reverse;*/
-    background-color: rgb(206, 245, 194);
-
-}
-
-#recipient-name-submit {
-    background-color: #00cc00;
-    padding-top: 4%;
-    font-size: 100%;
-    font-weight: bolder;
-}
+/* Navigation Menu */
 
 #nav-menu a {
     font-family: 'Baloo Tammudu 2';
     color: #135f13;
-    
-
 }
 
 #nav-menu ul {
@@ -143,13 +126,11 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     float: left;
     list-style-type: none;
     margin-right: 25px;
-    margin-left: 25px;
-    
+    margin-left: 25px;    
 }
 
 #nav-menu, #company-logo {
     line-height: 100px;
-
 }
 
 #nav-menu .active-page {
@@ -157,7 +138,24 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     border-bottom: 1px solid #00cc00;
 }
 
-/* modal button */
+/* Modal Request Service Button */
+
+#nav-modal-btn {
+    float: right;
+    width: 25%;
+    height: 150px;
+    font-size: 150%;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    background-color: rgb(206, 245, 194);
+}
+
+#recipient-name-submit {
+    background-color: #00cc00;
+    padding-top: 4%;
+    font-size: 100%;
+    font-weight: bolder;
+}
 
 .btn {
     position: sticky;
@@ -168,8 +166,9 @@ https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     margin: 25px 25px 50px 25px;
     padding: 10px 10px 0px 10px;
     border: 3px solid #00cc00;
-
 }
+
+/* Modal Request Service Pop-up Window */
 
 /* Solution for modal windown appearing below elements, in the background:
 Copied on June 19th, 2021, at 3:17, from Stack Overflow:
@@ -200,11 +199,10 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     left: 15px;
 }
 
+/* HOME PAGE */
 
+/* Backround video in home page */
 
-/* Home Page */
-
-/* backround video in home page */
 #background-video {
     padding-top: 0px;
     width: 100%;
@@ -213,7 +211,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     background-color: teal;
 }
 
-/* text content in video */
+/* Text content in video */
 .content {
     text-align: left;
     position: absolute;
@@ -238,6 +236,8 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-size: 150%;
 }
 
+/* Latest News Section */
+
 #latest-news-title {
     margin-top: 5%;
     width: 100%;
@@ -256,22 +256,18 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 #latest-news {
     margin-top: 2.5%;
     height: 200px;
-
 }
-
-
 
 #latest-news > a > h2:hover {
     color: white;
     text-decoration: underline;
 }
 
-
+/* Bootstrap Carousel */
 
 #news-carousel-left-title, #news-carousel-middle-title, #news-carousel-right-title {
     color: white;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #news-carousel-left {
@@ -281,9 +277,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     float: left;
 }
 
-
-
-
 #news-carousel-middle {
     width: 34%;
     height: 175px;
@@ -291,20 +284,12 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     float: left;
 }
 
-
-
 #news-carousel-right {
     width: 33%;
     height: 175px;
     padding-left: 25px;
     float: right;
 }
-
-/*#news-carousel-left-tilte,
-#news-carousel-middle-title,
-#news-carousel-right-title {
-    padding-bottom: 0;
-}*/
 
 #news-carousel-left > div.carousel-item {
     position: relative;
@@ -329,9 +314,22 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     text-align: center;
 }
 
+/* ABOUT US PAGE */
 
+.about-us-images {
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    border: 2px solid #135f13;
+}
 
-/* About Us page */
+.about-us-headings {
+    color: #00cc00;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Mission, Values and Vision Section */
 
 #mission-values-vision-columns {
     padding-top: 160px;
@@ -369,18 +367,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     padding: 0px 25px 0px 25px;
 }
 
-.about-us-images {
-    height: 80%;
-    width: 80%;
-    margin: 10%;
-    border: 2px solid #135f13;
-}
-
-.about-us-headings {
-    color: #00cc00;
-    text-align: center;
-    margin-top: 2%;
-}
+/* Projects Table */
 
 #projects-table {
     width: 50%;
@@ -406,6 +393,8 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     color: #135f13;
     border: 1px solid #135f13;
 }
+
+/* Departments Table */
 
 #departments-table {
     width: 30%;
@@ -433,7 +422,9 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     border: 1px solid #135f13;
 }
 
-/* Our Services page */
+/* OUR SERVICES PAGE */
+
+/* Bootstrap Carousel */
 
 #our-services-carousel-background {
     background-color: rgb(157, 233, 180);
@@ -456,8 +447,9 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
 
 .carousel-item > div > h5 {
     font-size: 200%;
-
 }
+
+/* Services Section */
 
 #services-column-left {
     padding-top: 25px;
@@ -517,7 +509,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     font-size: 125%;
 }
 
-/* Contact Us page */
+/* CONTACT US PAGE */
 
 #contact-us-columns {
     padding-top: 160px;
@@ -538,8 +530,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     margin-right: 5%;
     width: 45%;
     height: 100%;
-    color: white;
-     
+    color: white;     
 }
 
 /* Contact Form */
@@ -614,7 +605,6 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     padding-left: 20px;
 }
 
-
 #name-field, #surname-field, #city-field,
 #telephone, #email-field, #department-list,
 #form-description {
@@ -642,8 +632,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     width: 100%;
     height: 10%;
     padding-top: 5%;
-    margin-top: 5%;
-    
+    margin-top: 5%;    
 }
 
 #contact-us-title > h2 {
@@ -678,10 +667,9 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     color: white;
     font-size: 125%;
     font-weight: bold;
-    /*vertical-align: auto;*/
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     height: 100px;
@@ -705,15 +693,17 @@ footer {
     background-color: rgb(206, 245, 194);
 }
 
-
-/* Media Queries */
+/* MEDIA QUERIES */
 
 /* The form requires responsive behaviour for the type
-of consultation (commercial or technical below a width of 1750px */
+of consultation (commercial or technical) below a width of 1750px */
 @media screen and (max-width: 1750px) {
 
-    #contact-us-form {
-        
+    /* CONTACT US PAGE */
+
+    /* Contact Form */
+
+    #contact-us-form {        
         height: 85%;
     }
 
@@ -749,10 +739,15 @@ of consultation (commercial or technical below a width of 1750px */
 
 }
 
+/* SCREEN SIZE BETWEEN 1250px AND 1400PX */
+
 @media screen and (max-width: 1400px) {
 
-    #contact-us-form {
-        
+    /* CONTACT US PAGE */
+
+    /* Contact Form */
+
+    #contact-us-form {        
         height: 90%;
     }
 
@@ -762,12 +757,15 @@ of consultation (commercial or technical below a width of 1750px */
 
     .form-row-input-telephone {
         width: 50%;
-
     }
 
 }
 
+/* SCREEN SIZE BETWEEN 950px AND 1250PX */
+
 @media screen and (max-width: 1250px) {
+
+    /* HEADER */
 
     header {
         height: 180px;
@@ -819,14 +817,14 @@ of consultation (commercial or technical below a width of 1750px */
         padding: 10px 10px 0px 10px;
     }
     
-    /* Home Page */
+    /* HOME PAGE */
 
-    /* backround video in home page */
+    /* Backround video in home page */
     #background-video {
         padding-top: 0px;
     }
 
-    /* text content in video */
+    /* Text content in video */
     .content {
         text-align: left;
         position: absolute;
@@ -835,7 +833,7 @@ of consultation (commercial or technical below a width of 1750px */
         width: 40%;
     }
 
-    /* About Us page */
+    /* ABOUT US PAGE */
 
     /* Padding height multiplied by 2 */
     #mission-values-vision-columns {
@@ -851,7 +849,9 @@ of consultation (commercial or technical below a width of 1750px */
         width: 50%;
     }
 
-    /* Our Services */
+    /* OUR SERVICES PAGE */
+
+    /* Bootstrap Carousel */
 
     #our-services-carousel-background {
        padding-top: 180px;
@@ -862,10 +862,11 @@ of consultation (commercial or technical below a width of 1750px */
         width: 90%;
     }
 
+    /* Services Section */
+
     #our-services-description {
         height: 825px;
     }
-
     
     #services-column-left {
         padding-bottom: 0px;
@@ -919,18 +920,19 @@ of consultation (commercial or technical below a width of 1750px */
         height: 75px;
     }
 
-
-    /* contact-us page */
+    /* CONTACT US PAGE */
 
     #contact-us-columns {
         padding-top: 180px;
-        /*height: 1060px;*/
     }
 
 }
 
+/* SCREEN SIZE BETWEEN 750px AND 950PX */
 
 @media screen and (max-width: 950px) {
+
+    /* CONTACT US PAGE */
 
     #contact-us-form {
         height: 90%;
@@ -950,24 +952,19 @@ of consultation (commercial or technical below a width of 1750px */
         padding-left: 10%;
         padding-right: 10%;
         width: 100%;
-        background-color: turquoise;
-         
+        background-color: turquoise;         
     }
 
 }
 
+/* SCREEN SIZE BETWEEN 340px AND 750PX */
 
+@media screen and (max-width: 750px) {
 
+    /* HEADER */
 
-    @media screen and (max-width: 750px) {
-
-    /* Header */
     header {
-        /*width: 100%;
-        position: fixed;*/
         height: 135px;
-        /*background-color: rgb(206, 245, 194);
-        z-index: 5;*/
     }
 
     #company-logo-box {
@@ -1025,7 +1022,7 @@ of consultation (commercial or technical below a width of 1750px */
         padding: 0;
         height: 0px;
     }
-     
+    
     #nav-menu > ul > li > a {
         margin-bottom: 0;
         padding-bottom: 0;
@@ -1034,12 +1031,14 @@ of consultation (commercial or technical below a width of 1750px */
         font-size: 70%;
     }
 
-    /* Home Page */
+    /* HOME PAGE */
+
     #background-video {
         padding-top: 0px;
     }
 
-    /* text content in video */
+    /* Text content in video */
+
     .content {
         /*text-align: left;
         position: absolute;*/
@@ -1060,9 +1059,10 @@ of consultation (commercial or technical below a width of 1750px */
         font-size: 125%;
     }
 
+    /* Latest News Section */
+
     #latest-news {
         height: 550px;
-    
     }
 
     #latest-news-title {
@@ -1072,7 +1072,9 @@ of consultation (commercial or technical below a width of 1750px */
         background-color: turquoise;
         font-size: 400%;
     }
-    
+
+    /* Bootstrap Carousel */
+
     #news-carousel-left {
         margin: 0;
         padding: 0 2.5% 0 2.5%;
@@ -1122,7 +1124,16 @@ of consultation (commercial or technical below a width of 1750px */
         width: 100%;
     }
 
-    /* About Us Page */
+    /* ABOUT US PAGE */
+
+    .about-us-images {
+        height: 50%;
+        width: 80%;
+        margin: 10% 10% 0% 10%;
+        border: 5px solid #135f13;
+    }
+
+    /* Mission, Values and Vision Section */
 
     #mission-values-vision-columns {
         padding-top: 135px;
@@ -1135,13 +1146,13 @@ of consultation (commercial or technical below a width of 1750px */
         margin: 0 auto;
         height: 30%;
     }
-    
+
     #values-column {
         width: 100%;
         float: left;
         height: 40%;
     }
-    
+
     #vision-column {
         width: 100%;
         float: left;
@@ -1152,18 +1163,11 @@ of consultation (commercial or technical below a width of 1750px */
         width: 100%;
         float: left;
     }
- 
+
     .mission-values-vision-text, #values-list > li {
         font-size: 125%;
     }
-    
-    .about-us-images {
-        height: 50%;
-        width: 80%;
-        margin: 10% 10% 0% 10%;
-        border: 5px solid #135f13;
-    }
-    
+
     #projects-table {
         font-size: 75%;
         min-width: 300px;
@@ -1174,33 +1178,34 @@ of consultation (commercial or technical below a width of 1750px */
         min-width: 300px;
     }
 
-    /* Our Services Page */
+    /* OUR SERVICES PAGE */
+
+    /* Bootstrap Carousel */
 
     .carousel-item > div > p {
         font-size: 100%;
     }
-    
+
     .carousel-item > div > h5 {
         font-size: 110%;
-    
-    }
 
-    
+    }
 
     #our-services-carousel-background {
         padding-top: 135px;
     }
-
-     
+    
     #carouselExampleIndicators {
         margin: auto;
         width: 100%;
     }
- 
+
     #our-services-description {
         height: 100%;
-     }
- 
+    }
+
+    /* Services Section */
+
     #our-services-description {
         height: 100%;
     }
@@ -1212,7 +1217,6 @@ of consultation (commercial or technical below a width of 1750px */
         height: 33%;
         float: left;
         background-color: rgb(171, 238, 213);
-
     }
 
     #services-column-middle {
@@ -1238,24 +1242,20 @@ of consultation (commercial or technical below a width of 1750px */
         height: 16%;
         margin-bottom: 0;
         text-align: center;
-        
-    }
 
+    }
     .services-column-middle-box {
-
         height: 16%;
         margin-bottom: 0;
         text-align: center;
     }
-    
+
     .services-column-right-box {
-
         height: 16%;
         margin-bottom: 0;
         text-align: center;
     }
-    
-    
+
     .services-column-left-box > h2,
     .services-column-middle-box > h2,
     .services-column-right-box > h2 {
@@ -1272,21 +1272,18 @@ of consultation (commercial or technical below a width of 1750px */
     }
 
     /* Contact Us Page */
-
     #contact-us-left-column {
         padding: 0;
         margin-left: 1%;
         margin-right: 1%;
         width: 98%;
-
     }
-    
+
     #contact-us-right-column {
         padding: 0;
         margin: 0%;
         width: 100%;
 
-         
     }
 
     #contact-us-form {
@@ -1303,34 +1300,35 @@ of consultation (commercial or technical below a width of 1750px */
         width: 98%;
     }
 
+}
 
-    /* Bigger font size is required for screen sizes between 500px and 750px */
+/* Bigger font size in Bootstrap carousels is required for screen sizes between 500px and 750px */
 
-    @media screen and (min-width: 500px) and (max-width: 750px) {
+@media screen and (min-width: 500px) and (max-width: 750px) {
 
-        .carousel-item > div > p {
-            color:  #00cc00;
-            font-size: 125%;
-        }
-
-        .carousel-item > div > h5 {
-            font-size: 150%;
-        
-        }
-
-
+    /* Bootstrap Carousel */
+    
+    .carousel-item > div > p {
+        color:  #00cc00;
+        font-size: 125%;
     }
 
-
-    @media screen and (max-width: 340px) {
-        #nav-menu li {
-            margin: 0 2px 0 2px;
-            padding: 0;
-            height: 40px;
-        }
+    .carousel-item > div > h5 {
+        font-size: 150%;    
     }
 
+}
 
+/* Smaller separation on items in navigation menu is required for screen sizes between 320px and 340px */
 
+@media screen and (max-width: 340px) {
+
+    /* Navigation Menu */
+
+    #nav-menu li {
+        margin: 0 2px 0 2px;
+        padding: 0;
+        height: 40px;
+    }
 
 }

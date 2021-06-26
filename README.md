@@ -133,7 +133,7 @@ User stories are divided into the following three groups:
 ___
 # **3 . Design Choices**
 
-The design was planned to cover screen sizes from 320px x 568px to 1920px x 1370px.
+The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 
 ## **Colors**
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
@@ -912,7 +912,7 @@ Bugs who required more time and specific solutions are the following ones:
 | aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ . | 
 | Stray start tag script | It was actually caused by the closing body tag placed before the end ot the HTML file, leaving some scripts tags outside the body tag. Soved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ .|
 | Use h1 element as a top-level heading only | Change headings  from h1 and h2 to h2 and h3. olved with https://validator.w3.org/ .|
-| Modal showing below other elements, in the background | The error was caused by wrong specificity when trying to style elements of the modal form. Issue solved by increasing specificity of elements in the modal form when styling them. |
+| Modal showing below other elements, in the background | Assigned z-index values to affected elements, being -1 for the modal pop-up window. |
 |    The fist design of the contact form had it positioned on the right of the Contact Us page, which cause a poor responsive behaviour | Designed changed, contact form on the left, and map and contact details on the right.|
 | carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" bahaviour. |
 | Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images. |
@@ -1076,8 +1076,9 @@ I would like to acknowledge and thank the following people for being part of thi
 * To my wife and family, for always supporting and helping.
 * Code Institute, for providing knowledge, guide, content and tools.
 * My mentor, Mo, for helping with very valuable guide and support.
-* Of course, all the valuable information provided by the sources mentioned above in the credits.
 * Code Institute community in Slack for permanently being an online reference.
+* All the valuable information provided by the sources mentioned above in the credits.
+
 <br><br>
 ## [Back to Index](#index)
 <br>
