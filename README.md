@@ -605,7 +605,7 @@ Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to eval
 </details>
 
 <details>
-    <summary>404 Page for Mobile (84)</summary>
+    <summary>404 Page for Mobile (95, although it has been observed values from 84 to 99)</summary>
 
 ![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance-mobile.PNG) 
 </details>
