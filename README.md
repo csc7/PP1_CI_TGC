@@ -977,8 +977,12 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Office Map Image](docs/features/11-office-map.PNG) 
-![Contact Details Image](docs/features/12-contact-details.PNG) 
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Latest News Our Services Link](docs/features-and-evidence/16-latest-news-link-our-services.png) 
+![CLatest News Our Services Link Opening Page](docs/features-and-evidence/16-latest-news-link-our-services-page.PNG) 
+![Latest News Contact Us Link](docs/features-and-evidence/16-latest-news-link-contact-us.png) 
+![CLatest News Contact Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-contact-us-page.PNG) 
 </details>
 
 <br><br>
