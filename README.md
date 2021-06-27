@@ -452,7 +452,9 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-The website was tested with the development tools of Chrome (mainly), Microsoft Edge, Microsoft Explorer and Firefox.
+The website was tested with the development tools of Google Chrome (mainly), Microsoft Edge, Microsoft Explorer and Firefox.
+
+Development tools of Google Chrome, Microsoft Edge and Firefox were uses to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
 The following tools were used to validate the files of the website:
 ## **HTML Files**
