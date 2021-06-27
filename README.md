@@ -1009,6 +1009,7 @@ Bugs who required more time and specific solutions are the following ones:
 | carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" behaviour. |
 | Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images. |
 | Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices .|
+| Underline on Latest News titles showing blue when hovering on them, which should be white, as the colour of the title | Selected element in CSS file (after inspecting it with Chrome DevTools) and put properties color to white and text-decoration to underline.|
 
 <br><br>
 ## [Back to Index](#index)
