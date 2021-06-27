@@ -251,10 +251,10 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
 - #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
-- #### **Google Chrome (and its development tool)**
-- #### **Microsoft Edge (and its development tool)**
-- #### **Firefox (and its development tool)**
-- #### **Microsoft Internet Explorer**
+- #### **Google Chrome, version 91.0.4472.114, Official Build, 64-bit (and its development tool)**
+- #### **Microsoft Edge, version 91.0.864.59, Official build, 64-bit (and its development tool)**
+- #### **Firefox, 89.0.2, 64-bit (and its development tool)**
+- #### **Microsoft Internet Explorer, version 2004, OS Build 19041.1052**
 <br><br>
 ## [Back to Index](#index)
 <br>
