@@ -15,7 +15,15 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
+
+
+- #### [Organisation/Site Owner Goals](#organisationsite-owner-goals)
+
+- #### [User Goals](#user-goals)
 ### [3. Design Choices](#3--design-choices)
+
+- #### [Colors](#colors)
+
 ### [4. Wireframes](#4--wireframes)
 ### [5. Technologies used](#5--technologies-used)
 ### [6. Features](#6--features)
