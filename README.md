@@ -15,19 +15,24 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
-
-
-- #### [Organisation/Site Owner Goals](#organisationsite-owner-goals)
-
-- #### [User Goals](#user-goals)
+- #### [User Goals](#user-goals-1)
+- #### [Organisation/Site Owner Goals](#organisationsite-owner-goals-1)
+- #### [User Stories](#user-stories-1)
+- #### [User Requirements and Expectations](#user-requirements-and-expectations-1)
 ### [3. Design Choices](#3--design-choices)
-
-- #### [Colors](#colors)
-
+- #### [Colors](#colors-1)
+- #### [Fonts](#fonts-1)
+- #### [Structure](#structure-1)
 ### [4. Wireframes](#4--wireframes)
 ### [5. Technologies used](#5--technologies-used)
+- #### [Languages](#languages-1)
+- #### [Software and Other Tools](#software-and-other-tools-1)
 ### [6. Features](#6--features)
 ### [7. Validation](#7--validation)
+- #### [HTML Files](#html-files-1)
+- #### [CSS File](#css-file-1)
+- #### [Accessibility](#accessibility-1)
+- #### [Performance](#performance-1)
 ### [8. Testing of User Stories](#8--testing-of-user-stories)
 ### [9. Bugs](#9--bugs)
 ### [10. Deployment](#10--deployment)
