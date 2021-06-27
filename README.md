@@ -979,7 +979,13 @@ ___
 
 * Font Awesome:
     * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i> .
-    * Icos for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2 .
+    * Icons for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2 .
+    * Icons for Values (in About Us page):
+        * Engagement: downloaded on June 27th, 2021, 1:55 from
+        https://fontawesome.com/v5.15/icons/hands-helping?style=solid .
+        * Solution Orientation: downloaded on June 27th, 2021, 2:03 from https://fontawesome.com/v5.15/icons/check-square?style=solid .
+        * Respect: downloaded on June 27th, 2021, 2:01 from https://fontawesome.com/v5.15/icons/link?style=solid .
+        * Responsibility: downloaded on June 27th, 2021, 2:12 from https://fontawesome.com/v5.15/icons/users?style=solid .
 
 * Bootstrap:
     * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/ .
