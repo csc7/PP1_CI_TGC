@@ -995,14 +995,25 @@ Bugs who required more time and specific solutions are the following ones:
 ___
 # 10 . Deployment
 
-The website was fully written in Gitpod and periodically deployed to GigHub Pages (in a main branch).
+The website was fully written in Gitpod, permanently tested with Gitpod preview, and periodically deployed to GigHub Pages (in a main branch).
 
-The final deployment is found [here](https://csc7.github.io/PP1_CI_TGC/).
+The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/PP1_CI_TGC/), whose URL is https://csc7.github.io/PP1_CI_TGC/ .
+
+Based on the Code Institute's Love Running project content, the following steps has been applied to have the front-end final version deployed:
+1. Select website repository in Github account.
+2. Go to "Settings" (up in the menu, to the right).
+3. Select "Pages" in the menu on the left.
+4. At the beginning, in "Source", select "Branch: main", and click "Save".
+5. The URL address of the deployed website will appear on top of the page, as can be observed in the screenshot below in the drop-down item.
+
 <details>
     <summary>GitHub Pages Screenshot</summary>
 
 ![Deployment on GitHub Pages Image](docs/GitHub-Pages.PNG) 
 </details>
+
+\
+After first deployment, several updates have been carried out before the final version. These updates were implemented in the deployed website from Gitpod, just by using the "push" command for every commit (change) in the ongoing development.
 
 <br><br>
 ## [Back to Index](#index)
