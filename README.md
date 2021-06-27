@@ -220,7 +220,7 @@ Please check the PDFs files for each case in the following links:
 
 [PDF File for Desktop Wireframe](docs/wireframes/wireframe-desktop.pdf)
 
-[PDF File for Tablet Wireframe](docs/wireframes/wireframe-table.pdf)
+[PDF File for Tablet Wireframe](docs/wireframes/wireframe-tablet.pdf)
 
 [PDF File for Mobile Wireframe](docs/wireframes/wireframe-mobile.pdf)
 <br><br>
