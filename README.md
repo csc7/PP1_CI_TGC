@@ -12,7 +12,7 @@ The live link for this projects is [this one](https://csc7.github.io/PP1_CI_TGC/
 <br><br><br>
 
 # **Index**
-
+### [***Website Live Link***](https://csc7.github.io/PP1_CI_TGC/)
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
 - #### [User Goals](#user-goals-1)
