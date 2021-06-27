@@ -569,7 +569,7 @@ Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to eval
 </details>
 
 <details>
-    <summary>About Us Page for Mobile (92)</summary>
+    <summary>About Us Page for Mobile (98)</summary>
 
 ![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-mobile.PNG)
 </details>
