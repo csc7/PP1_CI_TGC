@@ -20,7 +20,7 @@ The live link for this project is [this one](https://csc7.github.io/PP1_CI_TGC/)
 - #### [User Stories](#user-stories-1)
 - #### [User Requirements and Expectations](#user-requirements-and-expectations-1)
 ### [3. Design Choices](#3--design-choices)
-- #### [Colors](#colors-1)
+- #### [Colours](#colors-1)
 - #### [Fonts](#fonts-1)
 - #### [Structure](#structure-1)
 ### [4. Wireframes](#4--wireframes)
@@ -251,6 +251,10 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
 - #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
+- #### **Google Chrome (and its development tool)**
+- #### **Microsoft Edge (and its development tool)**
+- #### **Firefox (and its development tool)**
+- #### **Microsoft Internet Explorer**
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -480,9 +484,9 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-The website was tested with the development tools of Google Chrome (mainly), Microsoft Edge, Microsoft Explorer and Firefox.
+Development tools of Google Chrome (Version 91.0.4472.114, Official Build, 64-bit), Microsoft Edge (Version 91.0.864.59, Official build, 64-bit) and Firefox (89.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
-Development tools of Google Chrome, Microsoft Edge and Firefox were uses to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
+The website was tested using these browsers and also Microsoft Internet Explorer (Version 2004, OS Build 19041.1052).
 
 The following tools were used to validate the files of the website:
 
