@@ -85,6 +85,8 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - To easily find company's contact details.
 - To navigate the website intuitevely, withoug issues.
 
+#### [Back to Index](#index)
+
 ## **Organisation/Site Owner Goals**
 - To capture clients.
 - To sell services.
@@ -94,6 +96,7 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - To receive consultations from potential clients.
 - To provide a simple contact form where the client feels that privacyis respected.
 
+#### [Back to Index](#index)
 
 ## **User Stories**
 User stories are divided into the following three groups:
@@ -125,6 +128,7 @@ User stories are divided into the following three groups:
 20. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
 21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company.
 
+#### [Back to Index](#index)
 
 ## **User Requirements and Expectations**
 - A fixed and responsive navigation menu on top.
@@ -152,6 +156,9 @@ The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 Green is the main color of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
 
 The background color is green/grey, rgb(186, 233, 227), in order to have contrast with the content of the website while keeping the green-color tendency of the design.
+
+#### [Back to Index](#index)
+
 ## **Fonts**
 Google fonts (please see credits section below) were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.
 Arial font is used as a back-up in case the previous fonts cannot be loaded.
@@ -160,6 +167,9 @@ Color #003300 (dark green) was selected for the body in order to have strong con
 To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected; while #276609 is selected to highlight all headings.
 
 The name of the company in the logo uses #73ac3e to have a unique color.
+
+#### [Back to Index](#index)
+
 ## **Structure**
 Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
 
@@ -224,6 +234,9 @@ The following languages, software and tools were implemented using Windows 10 Pr
 ## **Languages**
 - #### **HTML**
 - #### **CSS**
+
+#### [Back to Index](#index)
+
 ## **Software and Other Tools**
 - #### **GitHub**
 - #### **Gitpod**
@@ -470,6 +483,7 @@ The website was tested with the development tools of Google Chrome (mainly), Mic
 Development tools of Google Chrome, Microsoft Edge and Firefox were uses to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
 The following tools were used to validate the files of the website:
+
 ## **HTML Files**
 https://validator.w3.org/ was used to validate the HTML files. All files ended up with zero errors and warnings.
 Please check the evidence below:
@@ -503,7 +517,11 @@ Please check the evidence below:
 
 ![Evidence of no errors and warnings in the 404 file](docs/validation/validation-404.PNG) 
 </details>
+
+#### [Back to Index](#index)
+
 <br>
+
 
 ## **CSS File**
 https://jigsaw.w3.org/css-validator/ was used to validate the CSS file.
@@ -531,7 +549,11 @@ Please check the evidence below:
 ![Evidence of no errors in the CSS file](docs/validation/validation-css.PNG) 
 ![Evidence of warnings in the CSS file](docs/validation/validation-css_2.PNG) 
 </details>
+
+#### [Back to Index](#index)
+
 <br><br>
+
 
 ## **Accessibility**
 https://wave.webaim.org/ was used to validate accessibility. Although there are warnings, all pages contains zero errors. Please check evidence below:
@@ -565,6 +587,9 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 
 ![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-accessibility.PNG) 
 </details>
+
+#### [Back to Index](#index)
+
 <br>
 
 
