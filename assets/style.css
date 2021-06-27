@@ -257,24 +257,7 @@ https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-bac
     height: 200px;
 }
 
-#latest-news > a > h2:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-/* Change underline to white when hovering over the latest news titles */
-
-#news-carousel-left-title:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-#news-carousel-middle-title:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-#news-carousel-right-title:hover {
+#latest-news > a > h2:latest {
     color: white;
     text-decoration: underline;
 }

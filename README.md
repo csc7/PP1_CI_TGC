@@ -94,7 +94,7 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - To show all services that the company offers in a summarised way.
 - To provide basic information of the structure of the company.
 - To receive consultations from potential clients.
-- To provide a simple contact form where the client feels that privacy is respected.
+- To provide a simple contact form where clients feel that privacy is respected.
 
 #### [Back to Index](#index)
 
