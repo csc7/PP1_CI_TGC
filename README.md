@@ -127,6 +127,8 @@ User stories are divided into the following three groups:
 19. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
 20. As owner, I want an easy way to be contacted, so clients can consult their matters and do not see my company as a complicated option to get information or to request services.
 21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company.
+22. As owner, I want to show where my office is, so users know where to contact and find me.
+23. As owner, I want users to have a direct link in the latest news (to the corresponding sections), so they immediately relate the news with the corresponding part of the company without "getting lost" in other areas.
 
 #### [Back to Index](#index)
 
@@ -951,7 +953,7 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-22. As owner, I want to show where my office is, so users know where to contact and find me..
+22. As owner, I want to show where my office is, so users know where to contact and find me.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -965,6 +967,22 @@ The following are testing of User Stories previously described above:
 </details>
 
 <br><br>
+
+23. As owner, I want users to have a direct link in the latest news (to the corresponding sections), so they immediately relate the news with the corresponding part of the company without "getting lost" in other areas.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Latest news | Click on Latest News section title | Open selected page from Latest News section (About Us, Our Services and/or Contact Us pages) | Works as expected |
+
+<details>
+    <summary>Screenshot</summary>
+
+![Office Map Image](docs/features/11-office-map.PNG) 
+![Contact Details Image](docs/features/12-contact-details.PNG) 
+</details>
+
+<br><br>
+
 ## [Back to Index](#index)
 <br>
 
