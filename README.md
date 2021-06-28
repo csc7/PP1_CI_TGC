@@ -583,7 +583,7 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 </details>
 
 <details>
-    <summary>Contact Us Page (99)</summary>
+    <summary>Contact Us Page</summary>
 
 ![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-accessibility.PNG) 
 </details>
