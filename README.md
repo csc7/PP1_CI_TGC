@@ -1158,9 +1158,8 @@ ___
 * Atlassian: 
     * User Stories with Examples and Template: https://www.atlassian.com/agile/project-management/user-stories .
 
-* Home page video: "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
 * Videos:
-    * Home page: invisiblepower (Pexels user), Wind Turbine on a Field at Sunrise, downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
+    * Home page: invisiblepower (Pexels user), "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
 * Images:
     * About Us page:
         * Mission: target-3535310_640.jpg, downloaded on June 15th, 2021, at 2:37, from https://pixabay.com/photos/target-business-idea-growth-3535310/
