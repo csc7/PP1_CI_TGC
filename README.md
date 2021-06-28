@@ -46,7 +46,7 @@ The goal of the project is to develop a website for a company that provides seve
 
 Specifically, the goals of the project are the following ones:
 - To build a website that provides users a summarised view of the company and the services it offers.
-- To provide a point of contact for offering (by the company) and requesting services (by clients).
+- To provide a point of contact for offering (by the company) and for requesting (by clients) services.
 - To build a website where navigation is easy and intuitive.
 - To offer an easy call to action for requesting services.
 - To build a website which is itself an advertising tool.
@@ -155,7 +155,7 @@ ___
 The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 
 ## **Colours**
-Green is the main colour of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current transition energy) and with the name of the company: The Green Company.
+Green is the main colour of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current energy transition) and with the name of the company: The Green Company.
 
 The background colour is green/grey, rgb(186, 233, 227), in order to have contrast with the content of the website while keeping the green-colour tendency of the design.
 
@@ -201,15 +201,15 @@ The body of the pages are structured as follows for each of the pages:
 - #### *Our services:*
     It contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
     Below, in a section, there are columns that contain the titles of the services and text for each of them.\
-    They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.\
+    They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.
 - #### *Contact Us:*
-    On the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users\
+    On the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
     On the right, there is a map of the office (above) and contact details can be found below the map.\
     This page has a background picture of the office.
 
 - ### **Footer**
 
-The footer contains links for social media, office location and company's principal e-mail of contact.\
+The footer contains links for social media and company's principal e-mail of contact.\
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -1049,41 +1049,43 @@ After first deployment, several updates have been carried out before the final v
 ___
 # 11 . Credits
 
-* Code Institute: I have used the learning material in the course as a guide and reference.
+- Code Institute: I have used the learning material in the course as a guide and reference.
 
-* Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
+- Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
 
-* Balsamiq Wireframes: I have used it to create all the wireframes.
+- Balsamiq Wireframes: I have used it to create all the wireframes.
 
-* Font Awesome:
-    * Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i> .
-    * Icons for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2 .
-    * Icons for Values (in About Us page):
-        * Engagement: downloaded on June 27th, 2021, 1:55 from
+- Jesse James Garrett's process for user experience.
+
+- Font Awesome:
+    - Logo of "The Green Company": downloaded on June 9th, 2021, 23:54 from https://fontawesome.com/v5.15/icons/leaf?style=solid <i class="fas fa-leaf"></i> .
+    - Icons for LinkedIn, Facebook, Twitter, Instagram, map locator and e-mail/envelope: downloaded on June 10th, 2021, 10:05 from https://fontawesome.com/v5.15/icons?d=gallery&p=2 .
+    - Icons for Values (in About Us page):
+        - Engagement: downloaded on June 27th, 2021, 1:55 from
         https://fontawesome.com/v5.15/icons/hands-helping?style=solid .
-        * Solution Orientation: downloaded on June 27th, 2021, 2:03 from https://fontawesome.com/v5.15/icons/check-square?style=solid .
-        * Respect: downloaded on June 27th, 2021, 2:01 from https://fontawesome.com/v5.15/icons/link?style=solid .
-        * Responsibility: downloaded on June 27th, 2021, 2:12 from https://fontawesome.com/v5.15/icons/users?style=solid .
+        - Solution Orientation: downloaded on June 27th, 2021, 2:03 from https://fontawesome.com/v5.15/icons/check-square?style=solid .
+        - Respect: downloaded on June 27th, 2021, 2:01 from https://fontawesome.com/v5.15/icons/link?style=solid .
+        - Responsibility: downloaded on June 27th, 2021, 2:12 from https://fontawesome.com/v5.15/icons/users?style=solid .
 
-* Bootstrap:
-    * To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/ .
-    * "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
-    * Carousel in our-services page: copied on June 17th, 2021, at 5:50, from https://getbootstrap.com/docs/4.0/components/carousel/ .
-    * Carousel set up: https://getbootstrap.com/docs/4.0/components/carousel/ .
-* Google:
-    * Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
-    * Google maps: accessed on June 15th, 2021, at 16:18, at https://developers.google.com/maps/documentation/embed/get-started .
+- Bootstrap:
+    - To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/ .
+    - "Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
+    - Carousel in our-services page: copied on June 17th, 2021, at 5:50, from https://getbootstrap.com/docs/4.0/components/carousel/ .
+    - Carousel set up: https://getbootstrap.com/docs/4.0/components/carousel/ .
+- Google:
+    - Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
+    - Google maps: accessed on June 15th, 2021, at 16:18, at https://developers.google.com/maps/documentation/embed/get-started .
 
-* W3Schools:
-    * References for coding.
-    * Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp .
-    * CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp .
-    * Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp .
-    * Centre a table with CSS: accessed on June 15th, 2021, at 1:50, at https://www.w3schools.com/howto/howto_css_table_center.asp .
-    * Borders: accessed on June 16th, 2021, 2:33, from https://www.w3schools.com/css/css_border_rounded.asp .
-    * Form styling: accessed on June 16th, 2021, 3:33, from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive .
-    * Set up of "mailto" option: https://www.w3schools.com/tags/tag_address.asp ,accessed on June 23rd, 2021, 21:04.
-    * Many other consultations, opened and kept for permanent reference, which can be accessed here below:
+- W3Schools:
+    - References for coding.
+    - Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp .
+    - CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp .
+    - Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp .
+    - Centre a table with CSS: accessed on June 15th, 2021, at 1:50, at https://www.w3schools.com/howto/howto_css_table_center.asp .
+    - Borders: accessed on June 16th, 2021, 2:33, from https://www.w3schools.com/css/css_border_rounded.asp .
+    - Form styling: accessed on June 16th, 2021, 3:33, from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive .
+    - Set up of "mailto" option: https://www.w3schools.com/tags/tag_address.asp ,accessed on June 23rd, 2021, 21:04.
+    - Many other consultations, opened and kept for permanent reference, which can be accessed here below:
         <details>
         <summary>Other W3Schools References</summary>
         https://www.w3schools.com/html/html_form_elements.asp
@@ -1122,62 +1124,62 @@ ___
         https://www.w3schools.com/cssref/pr_background-image.asp
         </details>
 
-* Stack Overflow:
-    * Borders of input fields in forms: accessed on June 17th, 2021, at 3:15, at https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome .
-    * Solution to show modal window above page elements: copied on June 19th, 2021, at 3:17, from https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background .
-    * Alignment on anchor element on top: accessed on June 20th, 2021, at 0:48, at https://stackoverflow.com/questions/924282/why-is-vertical-aligntext-top-not-working-in-css .
-    * Alignment of radio buttons: https://stackoverflow.com/questions/33360047/trying-to-get-radio-buttons-to-align-properly-in-html-css .
-    * Centring LI items in navigation DIV: https://stackoverflow.com/questions/5755945/css-want-to-center-li-items-in-my-navbar-div/5756037 .
-    * Element positioning: https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another/40676705 .
-    * Alignment of radio button: https://stackoverflow.com/questions/6632340/place-a-button-right-aligned .
-    * Disabling resize option in text areas: https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea, accessed on June 23rd, 2021, 21:14.
-    * For links in the same markdown README file: https://stackoverflow.com/questions/27981247/github-markdown-same-page-link , accessed on June 25th, 2021, at 23:18.
+- Stack Overflow:
+    - Borders of input fields in forms: accessed on June 17th, 2021, at 3:15, at https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome .
+    - Solution to show modal window above page elements: copied on June 19th, 2021, at 3:17, from https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background .
+    - Alignment on anchor element on top: accessed on June 20th, 2021, at 0:48, at https://stackoverflow.com/questions/924282/why-is-vertical-aligntext-top-not-working-in-css .
+    - Alignment of radio buttons: https://stackoverflow.com/questions/33360047/trying-to-get-radio-buttons-to-align-properly-in-html-css .
+    - Centring LI items in navigation DIV: https://stackoverflow.com/questions/5755945/css-want-to-center-li-items-in-my-navbar-div/5756037 .
+    - Element positioning: https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another/40676705 .
+    - Alignment of radio button: https://stackoverflow.com/questions/6632340/place-a-button-right-aligned .
+    - Disabling resize option in text areas: https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea, accessed on June 23rd, 2021, 21:14.
+    - For links in the same markdown README file: https://stackoverflow.com/questions/27981247/github-markdown-same-page-link , accessed on June 25th, 2021, at 23:18.
 
-* CSS Tricks:
-    * Background clip: https://css-tricks.com/almanac/properties/b/background-clip/ .
+- CSS Tricks:
+    - Background clip: https://css-tricks.com/almanac/properties/b/background-clip/ .
 
-* W3C:
-    * Adding the Favicon to the website: https://www.w3.org/2005/10/howto-favicon .
+- W3C:
+    - Adding the Favicon to the website: https://www.w3.org/2005/10/howto-favicon .
 
-* Markdown Guide (© 2021. A Matt Cone project. CC BY-SA 4.0.):
-    * Basic Syntax: https://www.markdownguide.org/basic-syntax/ .
-    * Extended Syntax: https://www.markdownguide.org/extended-syntax/ .
+- Markdown Guide (© 2021. A Matt Cone project. CC BY-SA 4.0.):
+    - Basic Syntax: https://www.markdownguide.org/basic-syntax/ .
+    - Extended Syntax: https://www.markdownguide.org/extended-syntax/ .
 
-* markdown-guide’s documentation! (© Copyright 2012, Daniel Greenfeld. Revision ac516c88.):
-    * Markdown Basics: https://markdown-guide.readthedocs.io/en/latest/basics.html .
+- markdown-guide’s documentation! (© Copyright 2012, Daniel Greenfeld. Revision ac516c88.):
+    - Markdown Basics: https://markdown-guide.readthedocs.io/en/latest/basics.html .
 
-* GitHub Guides:
-    * Mastering Markdown: https://guides.github.com/features/mastering-markdown/ .
+- GitHub Guides:
+    - Mastering Markdown: https://guides.github.com/features/mastering-markdown/ .
 
-* GitHub Gist:
-    * Pierre Joubert (pierrejoubert73), reference for markdown collapsible elements:  https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab .
+- GitHub Gist:
+    - Pierre Joubert (pierrejoubert73), reference for markdown collapsible elements:  https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab .
 
-* GitHub Support Community:
-    * Help on collapsible elements: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489 .
+- GitHub Support Community:
+    - Help on collapsible elements: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489 .
 
-* Atlassian: 
-    * User Stories with Examples and Template: https://www.atlassian.com/agile/project-management/user-stories .
+- Atlassian: 
+    - User Stories with Examples and Template: https://www.atlassian.com/agile/project-management/user-stories .
 
-* Videos:
-    * Home page: invisiblepower (Pexels user), "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
-* Images:
-    * About Us page:
-        * Mission: target-3535310_640.jpg, downloaded on June 15th, 2021, at 2:37, from https://pixabay.com/photos/target-business-idea-growth-3535310/
-        * Values: paper-3213924_640.jpg, downloaded on June 15th, 2021, at 2:51, from https://pixabay.com/photos/paper-business-finance-document-3213924/
-        * Vision: vision-2372177_640.jpg, downloaded on June 15th, 2021, at 2:19, from https://pixabay.com/photos/vision-mission-goal-target-2372177/
-    * Our Services page:
-        * pexels-kalina-ost-2865025.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-del-paisaje-del-molino-de-viento-blanco-2865025/
-        * pexels-kelly-lacy-2800832.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-de-vista-superior-de-paneles-solares-2800832/
-        * pexels-kelly-lacy-4320473.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/naturaleza-campo-construccion-industria-4320473/
-        * pexels-kelly-lacy-4320481.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/tierra-campo-verano-construccion-4320481/
-    * Contact Us page:
-        * Background image: stockvault-office-building236904.jpg, downloaded on June 16th, 2021, 2:09, from https://www.stockvault.net/photo/236904/office-building
-    * 404 Page:
-        * Background image: Tom Fisk photo, pexels-tom-fisk-1605268.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/molinos-de-viento-y-campo-de-hierba-verde-1605268/
+- Videos:
+    - Home page: invisiblepower (Pexels user), "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
+- Images:
+    - About Us page:
+        - Mission: target-3535310_640.jpg, downloaded on June 15th, 2021, at 2:37, from https://pixabay.com/photos/target-business-idea-growth-3535310/
+        - Values: paper-3213924_640.jpg, downloaded on June 15th, 2021, at 2:51, from https://pixabay.com/photos/paper-business-finance-document-3213924/
+        - Vision: vision-2372177_640.jpg, downloaded on June 15th, 2021, at 2:19, from https://pixabay.com/photos/vision-mission-goal-target-2372177/
+    - Our Services page:
+        - pexels-kalina-ost-2865025.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-del-paisaje-del-molino-de-viento-blanco-2865025/
+        - pexels-kelly-lacy-2800832.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-de-vista-superior-de-paneles-solares-2800832/
+        - pexels-kelly-lacy-4320473.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/naturaleza-campo-construccion-industria-4320473/
+        - pexels-kelly-lacy-4320481.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/tierra-campo-verano-construccion-4320481/
+    - Contact Us page:
+        - Background image: stockvault-office-building236904.jpg, downloaded on June 16th, 2021, 2:09, from https://www.stockvault.net/photo/236904/office-building
+    - 404 Page:
+        - Background image: Tom Fisk photo, pexels-tom-fisk-1605268.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/molinos-de-viento-y-campo-de-hierba-verde-1605268/
 
-* Maps in Contact Us page:
-    * Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
-    * Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/ .
+- Maps in Contact Us page:
+    - Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
+    - Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/ .
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -1186,11 +1188,11 @@ ___
 # 12 . Acknowledgements
 
 I would like to acknowledge and thank the following people for being part of this project and for helping me in the development of it:
-* To my wife and family, for always supporting and helping.
-* Code Institute, for providing knowledge, guide, content and tools.
-* My mentor, Mo, for helping with very valuable guide and support.
-* Code Institute community in Slack for permanently being an online reference.
-* All the valuable information provided by the sources mentioned above in the credits.
+- To my wife and family, for always supporting and helping.
+- Code Institute, for providing knowledge, guide, content and tools.
+- My mentor, Mo, for helping with very valuable guide and support.
+- Code Institute community in Slack for permanently being an online reference.
+- All the valuable information provided by the sources mentioned above in the credits.
 
 <br><br>
 ## [Back to Index](#index)
