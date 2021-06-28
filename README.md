@@ -274,7 +274,7 @@ It is located in all pages, fixed, top-left, and always visible.
 <details>
     <summary>Check Image</summary>
 
-![Company Logo Image](docs/features/00-company-logo.PNG)
+![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG)
 
 </details>
 
@@ -288,9 +288,9 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 <details>
     <summary>Check Image</summary>
 
-![Fixed Navigation Menu for Desktop Image](docs/features/01-fixed-menu.PNG)
-![Fixed Navigation Menu for Tablets Image](docs/features/01-fixed-menu-tablets.PNG)
-![Fixed Navigation Menu for Mobiles Image](docs/features/01-fixed-menu-mobiles.PNG)
+![Fixed Navigation Menu for Desktop Image](docs/features-and-evidence/01-fixed-menu.PNG)
+![Fixed Navigation Menu for Tablets Image](docs/features-and-evidence/01-fixed-menu-tablets.PNG)
+![Fixed Navigation Menu for Mobiles Image](docs/features-and-evidence/01-fixed-menu-mobiles.PNG)
 </details>
 
 
@@ -303,7 +303,7 @@ It is located on top, in the navigation menu, to the right, fixed and present at
 <details>
     <summary>Check Image</summary>
 
-![Fixed "Request Button" Image](docs/features/02-request-button.PNG)
+![Fixed "Request Button" Image](docs/features-and-evidence/02-request-button.PNG)
 
 </details>
 
@@ -317,7 +317,7 @@ It is located in the home page, in the upper part of the body section. It contai
 <details>
     <summary>Check Image</summary>
 
-![Welcome Video Image](docs/features/03-home-video.PNG)
+![Welcome Video Image](docs/features-and-evidence/03-home-video.PNG)
 
 </details>
 
@@ -331,7 +331,7 @@ It is located in the lower part of the body, in the home page, and shows current
 <details>
     <summary>Check Image</summary>
 
-![Latest News Image](docs/features/04-latest-news.PNG)
+![Latest News Image](docs/features-and-evidence/04-latest-news.PNG)
 
 </details>
 
@@ -345,7 +345,7 @@ It is located in the About Us page, in the upper part of the body, showing the m
 <details>
     <summary>Check Image</summary>
 
-![Mission-Values-Vision Image](docs/features/05-mission-values-vision.PNG)
+![Mission-Values-Vision Image](docs/features-and-evidence/05-mission-values-vision.PNG)
 
 </details>
 
@@ -359,7 +359,7 @@ It is located in the middle part of the body in the About Us page, showing lates
 <details>
     <summary>Check Image</summary>
 
-![Projects Table Image](docs/features/06-projects-table.PNG)
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
 
 </details>
 
@@ -373,7 +373,7 @@ It is located in the lower part of the body in the About Us page, showing the am
 <details>
     <summary>Check Image</summary>
 
-![People Table Image](docs/features/07-people-table.PNG)
+![People Table Image](docs/features-and-evidence/07-people-table.PNG)
 
 </details>
 
@@ -387,7 +387,7 @@ It is located in the Our Services page, upper part, with controls and messages t
 <details>
     <summary>Check Image</summary>
 
-![Carousel for Services Image](docs/features/08-carrousel-for-our-services.PNG)
+![Carousel for Services Image](docs/features-and-evidence/08-carrousel-for-our-services.PNG)
 
 </details>
 
@@ -401,7 +401,7 @@ It is located in the Our Services page, lower part, showing the services that ca
 <details>
     <summary>Check Image</summary>
 
-![Services Image](docs/features/09-our-services.PNG)
+![Services Image](docs/features-and-evidence/09-our-services.PNG)
 
 </details>
 
@@ -415,7 +415,7 @@ It can be found in the Contact Us page, on the left, and allows users to send co
 <details>
     <summary>Check Image</summary>
 
-![Contact Form Image](docs/features/10-contact-form.PNG)
+![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG)
 
 </details>
 
@@ -429,7 +429,7 @@ It can be found in the Contact Us page, on the right, and show users where the o
 <details>
     <summary>Check Image</summary>
 
-![Office Map Image](docs/features/11-office-map.PNG)
+![Office Map Image](docs/features-and-evidence/11-office-map.PNG)
 
 </details>
 
@@ -443,7 +443,7 @@ It can be found in the Contact Us page, on the right, below the map. It contains
 <details>
     <summary>Check Image</summary>
 
-![Contact Details Image](docs/features/12-contact-details.PNG)
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
 
 </details>
 
@@ -457,7 +457,7 @@ It is located at the bottom of all pages, containing icons with links to social 
 <details>
     <summary>Check Image</summary>
 
-![Footer Image](docs/features/13-footer.PNG)
+![Footer Image](docs/features-and-evidence/13-footer.PNG)
 
 </details>
 
@@ -471,7 +471,7 @@ It is a different page that appears in case there is any issue loading the page,
 <details>
     <summary>Check Image</summary>
 
-![404-page Image](docs/features/14-404-page.PNG)
+![404-page Image](docs/features-and-evidence/14-404-page.PNG)
 
 </details>
 
