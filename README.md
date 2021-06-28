@@ -681,7 +681,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Our Services Image](docs/features/09-our-services.PNG) 
+![Our Services Image](docs/features-and-evidence/09-our-services.PNG) 
 </details>
 <br><br>
 
@@ -694,7 +694,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -707,7 +707,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![People Table Image](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -720,7 +720,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Request Button Image](docs/features/02-request-button-modal-form.PNG) 
+![Request Button Image](docs/features-and-evidence/02-request-button-modal-form.PNG) 
 </details>
 <br><br>
 
@@ -733,8 +733,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Office Map Image](docs/features/11-office-map.PNG) 
-![Contact Details Image](docs/features/12-contact-details.PNG) 
+![Office Map Image](docs/features-and-evidence/11-office-map.PNG) 
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG) 
 </details>
 <br><br>
 
@@ -747,8 +747,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Contact Form Image](docs/features/10-contact-form.PNG) 
-![Footer Image](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
+![Footer Image](docs/features-and-evidence/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -761,8 +761,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Contact Form Image](docs/features/10-contact-form.PNG) 
-![Footer Image](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
+![Footer Image](docs/features-and-evidence/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -775,7 +775,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Fixed Menu Image](docs/features/01-fixed-menu.PNG) 
+![Fixed Menu Image](docs/features-and-evidence/01-fixed-menu.PNG) 
 </details>
 <br><br>
 
@@ -788,7 +788,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Home Video Image](docs/features/03-home-video.PNG) 
+![Home Video Image](docs/features-and-evidence/03-home-video.PNG) 
 </details>
 <br><br>
 
@@ -801,7 +801,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Latest News Image](docs/features/04-latest-news.PNG) 
+![Latest News Image](docs/features-and-evidence/04-latest-news.PNG) 
 </details>
 <br><br>
 
@@ -814,8 +814,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Contact Form Image](docs/features/10-contact-form.PNG) 
-![Footer Image](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
+![Footer Image](docs/features-and-evidence/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -828,7 +828,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -841,7 +841,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![People Table Image](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -854,7 +854,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Our Services Image](docs/features/09-our-services.PNG) 
+![Our Services Image](docs/features-and-evidence/09-our-services.PNG) 
 </details>
 <br><br>
 
@@ -867,7 +867,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Request Button Image](docs/features/02-request-button-modal-form.PNG) 
+![Request Button Image](docs/features-and-evidence/02-request-button-modal-form.PNG) 
 </details>
 <br><br>
 
@@ -880,7 +880,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Mission-Values-Vision Image](docs/features/05-mission-values-vision.PNG) 
+![Mission-Values-Vision Image](docs/features-and-evidence/05-mission-values-vision.PNG) 
 </details>
 <br><br>
 
@@ -893,7 +893,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Latest News Image](docs/features/04-latest-news.PNG) 
+![Latest News Image](docs/features-and-evidence/04-latest-news.PNG) 
 </details>
 <br><br>
 
@@ -906,7 +906,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![People Table Image](docs/features/07-people-table.PNG) 
+![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
 </details>
 <br><br>
 
@@ -919,7 +919,7 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features/06-projects-table.PNG) 
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
 </details>
 <br><br>
 
@@ -932,8 +932,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Contact Form Image](docs/features/10-contact-form.PNG) 
-![Footer Image](docs/features/13-footer.PNG) 
+![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
+![Footer Image](docs/features-and-evidence/13-footer.PNG) 
 </details>
 <br><br>
 
@@ -947,12 +947,12 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Company Logo Image](docs/features/00-company-logo.PNG) 
-![LinkedIn Page Image](docs/features/15-footer-linkedin.PNG)
-![Facebook Page Image](docs/features/15-footer-facebook.PNG) 
-![Twitter Page Image](docs/features/15-footer-twitter.PNG) 
-![Instagram Page Image](docs/features/15-footer-instagram.PNG) 
-![E-mail Application Image](docs/features/15-footer-email.PNG) 
+![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG) 
+![LinkedIn Page Image](docs/features-and-evidence/15-footer-linkedin.PNG)
+![Facebook Page Image](docs/features-and-evidence/15-footer-facebook.PNG) 
+![Twitter Page Image](docs/features-and-evidence/15-footer-twitter.PNG) 
+![Instagram Page Image](docs/features-and-evidence/15-footer-instagram.PNG) 
+![E-mail Application Image](docs/features-and-evidence/15-footer-email.PNG) 
 </details>
 <br><br>
 
@@ -966,8 +966,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshot</summary>
 
-![Office Map Image](docs/features/11-office-map.PNG) 
-![Contact Details Image](docs/features/12-contact-details.PNG) 
+![Office Map Image](docs/features-and-evidence/11-office-map.PNG) 
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG) 
 </details>
 
 <br><br>
